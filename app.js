@@ -10,7 +10,7 @@ let events = [];
 
 const now = new Date();
 const localToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', query: '' };
+const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', metroOnly: true, query: '' };
 const $ = (selector) => document.querySelector(selector);
 const pad = (n) => String(n).padStart(2, '0');
 const iso = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
@@ -24,7 +24,14 @@ function renderSources() {
 
 function matchingEvents(date) {
   const term = state.query.trim().toLocaleLowerCase('ja');
-  return events.filter((event) => event.date === iso(date) && (state.source === 'all' || state.source === event.sourceId) && `${event.title} ${event.artist} ${event.venue}`.toLocaleLowerCase('ja').includes(term));
+  return events.filter((event) => event.date === iso(date) && (!state.metroOnly || isMetroEvent(event)) && (state.source === 'all' || state.source === event.sourceId) && `${event.title} ${event.artist} ${event.venue}`.toLocaleLowerCase('ja').includes(term));
+}
+
+function isMetroEvent(event) {
+  const venue = event.venue || '';
+  const metroVenue = /渋谷|下北沢|有明|豊洲|池袋|大宮|新宿|吉祥寺|錦糸町|亀有|立川|舞浜|イクスピアリ|TOKYO-BAY|東京ベイ|蘇我|津田沼|川口|越谷|レイクタウン|横浜|川崎|橋本|海老名|ららぽーとTOKYO-BAY|HMV&BOOKS SHIBUYA/i;
+  if (metroVenue.test(venue)) return true;
+  return /vv-all/.test(event.sourceId) && /(?:@|＠)\s*川崎/.test(event.title || '');
 }
 
 function renderCalendar() {
@@ -75,6 +82,7 @@ function moveSelectedDay(amount) {
 $('#prev-day').addEventListener('click', () => moveSelectedDay(-1));
 $('#next-day').addEventListener('click', () => moveSelectedDay(1));
 $('#today-button').addEventListener('click', () => { state.selected = new Date(localToday); state.month = new Date(localToday.getFullYear(), localToday.getMonth(), 1); render(); });
+$('#metro-only').addEventListener('change', (event) => { state.metroOnly = event.target.checked; render(); });
 $('#search').addEventListener('input', (event) => { state.query = event.target.value; render(); });
 
 function loadEvents() {
