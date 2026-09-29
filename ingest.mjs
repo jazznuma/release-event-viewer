@@ -5,11 +5,11 @@ const headers = {
 const timeoutMs = 15_000;
 
 export const sourceCatalog = [
-  { id: 'tower-shibuya', name: 'タワーレコード 渋谷店', url: 'https://towershibuya.jp/' },
+  { id: 'tower-shibuya', name: 'タワーレコード 渋谷店', url: 'https://towershibuya.jp/events' },
   { id: 'tower-all', name: 'タワーレコード 全店', url: 'https://tower.jp/STORE/EVENT' },
-  { id: 'hmv-shibuya', name: 'HMV 渋谷', url: 'https://www.hmv.co.jp/store/event/sitemap/' },
-  { id: 'hmv-other', name: 'HMV その他の店舗', url: 'https://www.hmv.co.jp/store/event/sitemap/' },
-  { id: 'vv-shibuya', name: 'ヴィレッジヴァンガード 渋谷本店', url: 'https://www.village-v.co.jp/event/' },
+  { id: 'hmv-shibuya', name: 'HMV 渋谷', url: 'https://www.hmv.co.jp/store/event/' },
+  { id: 'hmv-other', name: 'HMV その他の店舗', url: 'https://www.hmv.co.jp/store/event/' },
+  { id: 'vv-all', name: 'ヴィレッジヴァンガード 全店', url: 'https://www.village-v.co.jp/event/' },
 ];
 
 const decodeEntities = (value = '') => value
@@ -44,7 +44,7 @@ function extractTime(text) {
 
 function sourceForVenue(venue, fallback) {
   if (fallback !== 'hmv') return fallback;
-  return /渋谷/.test(venue) ? 'hmv-shibuya' : 'hmv-other';
+  return /渋谷|shibuya/i.test(venue) ? 'hmv-shibuya' : 'hmv-other';
 }
 
 function fromJsonLd(html, sourceId, pageUrl) {
@@ -117,40 +117,107 @@ function fromEventAnchors(html, sourceId, pageUrl) {
   return results;
 }
 
-function fromTowerShibuyaAnchors(html, pageUrl) {
+function fromTowerEventsPage(html, pageUrl) {
   const results = [];
-  for (const anchor of html.matchAll(/<a\b[^>]*href=["']([^"']*\/20\d{2}\/\d{2}\/\d{2}\/\d+[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
-    const title = textOf(anchor[2]);
-    if (!title || /このイベント|詳細|今月のイベント/.test(title)) continue;
-    results.push({ title, artist: '', venue: 'タワーレコード渋谷店', date: '', time: '', url: new URL(anchor[1], pageUrl).href, sourceId: 'tower-shibuya', kind: '' });
+  const cards = html.matchAll(/<div\b[^>]*class=["'][^"']*\barchive-listitem-info\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/gi);
+  for (const card of cards) {
+    const markup = card[1];
+    const anchor = markup.match(/<a\b[^>]*href=["']([^"']*\/20\d{2}\/\d{2}\/\d{2}\/\d+[^"']*)["'][^>]*>/i);
+    if (!anchor) continue;
+    const title = textOf(markup.match(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/i)?.[1] || '');
+    const meta = textOf(markup.match(/<li\b[^>]*class=["'][^"']*\bcal-ym-load\b[^"']*["'][^>]*>([\s\S]*?)<\/li>/i)?.[1] || markup);
+    const date = extractDate(meta);
+    if (!title || !date) continue;
+    const tagMarkup = markup.match(/<li\b[^>]*class=["'][^"']*\btag\b[^"']*["'][^>]*>([\s\S]*?)<\/li>/i)?.[1] || '';
+    const artist = [...tagMarkup.matchAll(/<span\b[^>]*>([\s\S]*?)<\/span>/gi)].map((tag) => textOf(tag[1])).filter(Boolean).join(' / ');
+    results.push({ title, artist, venue: 'タワーレコード渋谷店', date, time: extractTime(meta), url: new URL(anchor[1], pageUrl).href, sourceId: 'tower-shibuya', kind: '' });
   }
   return results;
+}
+
+function fromHmvEvents(html, pageUrl) {
+  const events = [];
+  for (const anchor of html.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/event\/\d+\/?(?:\?[^"']*)?)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const anchorIndex = anchor.index || 0;
+    const dlIndex = html.lastIndexOf('<dl', anchorIndex);
+    const openDlEnd = html.indexOf('>', dlIndex);
+    const closeDl = html.indexOf('</dl>', (anchor.index || 0) + anchor[0].length);
+    if (dlIndex < 0 || openDlEnd < 0 || openDlEnd > anchorIndex || closeDl < 0) continue;
+    const markup = html.slice(dlIndex, closeDl + 5);
+    const text = textOf(markup);
+    const date = extractDate(text);
+    const title = textOf(anchor[2]);
+    if (!date || !title) continue;
+    const venueAnchor = [...markup.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/(?!event\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+      .map((match) => ({ href: match[1], text: textOf(match[2]) }))
+      .find((match) => match.text && /HMV|店|渋谷|Namba|NAMBA|HAKATA|Hakata/i.test(match.text));
+    const venue = venueAnchor?.text || text.match(/(?:HMV(?:&BOOKS|\s+record shop)?\s*[^。|]{2,60})/i)?.[0]?.trim() || 'HMV店舗';
+    const url = new URL(anchor[1], pageUrl).href;
+    events.push({ title, artist: '', venue, date, time: extractTime(text), url, sourceId: sourceForVenue(venue, 'hmv'), kind: '' });
+  }
+  return events;
+}
+
+function shopNameFromCode(value) {
+  const code = Number.parseInt(value, 10);
+  return new Map([
+    [560, '渋谷本店'], [13, '下北沢店'], [479, '名古屋パルコ'],
+    [587, 'さっぽろ東急'], [246, 'レイクタウンPLUS+'],
+  ]).get(code) || '';
+}
+
+function locationFromVvEvent(item) {
+  const shop = shopNameFromCode(item['eligible-shops']);
+  const namedLocation = item.name?.match(/(?:in\s*VV|inVV|@|＠)\s*([^@＠]+)$/i)?.[1]?.trim();
+  const venue = item.venue?.trim();
+  const location = shop || venue || namedLocation || 'その他店舗';
+  return shop && venue && !location.includes(venue) && !venue.includes(location) ? `${location}・${venue}` : location;
+}
+
+async function scrapeVvAll() {
+  const endpoint = 'https://www.village-v.co.jp/common/js/topics.json';
+  const items = JSON.parse(await fetchPage(endpoint));
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo' }).format(new Date());
+  return items.filter((item) => item.type === 'リリイベ' && item['event-date'] !== '2070-01-01' && /^20\d{2}-\d{2}-\d{2}$/.test(item['event-date'] || '') && item['event-date'] >= today)
+    .map((item) => {
+      const date = item['event-date'];
+      const time = String(item['event-time'] || item['event-time:'] || '').match(/[0-2]\d:[0-5]\d/)?.[0] || '';
+      const url = new URL(item.link, 'https://www.village-v.co.jp/').href;
+      return {
+        id: `vv-all:${date}:${time || 'time-unknown'}:${url}`,
+        title: textOf(item.name || ''), artist: '', venue: locationFromVvEvent(item), date, time,
+        url, sourceId: 'vv-all', kind: '', fetchedAt: new Date().toISOString(),
+      };
+    });
 }
 
 async function fetchPage(url) {
   const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs), redirect: 'follow' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.text();
+  const bytes = new Uint8Array(await response.arrayBuffer());
+  const prefix = new TextDecoder('windows-1252').decode(bytes.subarray(0, 4096));
+  const headerCharset = response.headers.get('content-type')?.match(/charset\s*=\s*["']?([^;"'\s]+)/i)?.[1];
+  const metaCharset = prefix.match(/<meta\b[^>]*(?:charset\s*=\s*["']?([^\s"'/>;]+)|content\s*=\s*["'][^"']*charset\s*=\s*([^\s"'/>;]+))/i);
+  const charset = headerCharset || metaCharset?.[1] || metaCharset?.[2] || 'utf-8';
+  try { return new TextDecoder(charset).decode(bytes); }
+  catch { return new TextDecoder('utf-8').decode(bytes); }
 }
 
 async function scrapeSource(sourceId, url, hmv = false) {
   const html = await fetchPage(url);
+  if (hmv) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return fromHmvEvents(html, url).filter((event) => new Date(`${event.date}T00:00:00`) >= today).map((event) => ({
+      ...event,
+      id: `${event.sourceId}:${event.date}:${event.time || 'time-unknown'}:${event.url}`,
+      fetchedAt: new Date().toISOString(),
+    }));
+  }
   let events = fromJsonLd(html, hmv ? 'hmv' : sourceId, url);
   if (events.length === 0) events = fromCards(html, hmv ? 'hmv' : sourceId, url);
   events = [...events, ...fromEventAnchors(html, hmv ? 'hmv' : sourceId, url)];
-  if (sourceId === 'tower-shibuya') {
-    const linkedEvents = fromTowerShibuyaAnchors(html, url);
-    for (const linked of linkedEvents.slice(0, 12)) {
-      try {
-        const detail = await fetchPage(linked.url);
-        const structured = fromJsonLd(detail, sourceId, linked.url)[0];
-        const body = textOf(detail);
-        const date = structured?.date || extractDate(body);
-        if (date) events.push({ ...linked, ...structured, title: structured?.title || linked.title, date, time: structured?.time || extractTime(body), venue: structured?.venue || linked.venue });
-      } catch { /* one unavailable detail page should not block the other events */ }
-    }
-  }
-  if (sourceId === 'vv-shibuya') events = events.filter((event) => /渋谷/.test(`${event.venue} ${event.title}`));
+  if (sourceId === 'tower-shibuya') events = fromTowerEventsPage(html, url);
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return events.filter((event) => event.date && event.title && new Date(`${event.date}T00:00:00`) >= today).map((event) => ({
@@ -166,9 +233,28 @@ export async function refreshSources(previousEvents = []) {
   const bySource = new Map();
   for (const source of sourceCatalog) bySource.set(source.id, previousEvents.filter((event) => event.sourceId === source.id));
   const tasks = [
-    ['tower-shibuya', () => scrapeSource('tower-shibuya', 'https://towershibuya.jp/')],
+    ['tower-shibuya', async () => {
+      const base = 'https://towershibuya.jp/events';
+      const firstPage = await fetchPage(base);
+      const pages = new Set([base]);
+      for (const pageLink of firstPage.matchAll(/href=["']([^"']*\?page_num=\d+[^"']*)["']/gi)) pages.add(new URL(pageLink[1], base).href);
+      const all = [...fromTowerEventsPage(firstPage, base)];
+      let pageCount = 1;
+      for (const pageUrl of [...pages].slice(1, 10)) {
+        const html = await fetchPage(pageUrl);
+        all.push(...fromTowerEventsPage(html, pageUrl));
+        pageCount++;
+      }
+      const unique = new Map(all.map((event) => [`${event.url}|${event.date}|${event.time}`, event]));
+      const today = new Date(); today.setHours(0, 0, 0, 0);
+      return [...unique.values()].filter((event) => new Date(`${event.date}T00:00:00`) >= today).map((event) => ({
+        ...event,
+        id: `${event.sourceId}:${event.date}:${event.time || 'time-unknown'}:${event.url}`,
+        fetchedAt: new Date().toISOString(),
+      }));
+    }],
     ['tower-all', () => scrapeSource('tower-all', 'https://tower.jp/STORE/EVENT')],
-    ['vv-shibuya', () => scrapeSource('vv-shibuya', 'https://www.village-v.co.jp/event/')],
+    ['vv-all', () => scrapeVvAll()],
   ];
   for (const [sourceId, scrape] of tasks) {
     try {

@@ -3,7 +3,7 @@ const sources = [
   { id: 'tower-all', label: 'タワーレコード 全店', shortLabel: 'タワレコ全店', short: 'T', tone: 'tower', url: 'https://tower.jp/STORE/EVENT' },
   { id: 'hmv-shibuya', label: 'HMV 渋谷', shortLabel: 'HMV渋谷', short: 'H', tone: 'hmv', url: 'https://www.hmv.co.jp/store/event/sitemap/' },
   { id: 'hmv-other', label: 'HMV その他の店舗', shortLabel: 'HMVその他', short: 'H', tone: 'hmv', url: 'https://www.hmv.co.jp/store/event/sitemap/' },
-  { id: 'vv-shibuya', label: 'ヴィレッジヴァンガード 渋谷本店', shortLabel: 'ヴィレヴァン渋谷', short: 'V', tone: 'vv', url: 'https://www.village-v.co.jp/event/' },
+  { id: 'vv-all', label: 'ヴィレッジヴァンガード 全店', shortLabel: 'ヴィレヴァン', short: 'V', tone: 'vv', url: 'https://www.village-v.co.jp/event/' },
 ];
 
 let events = [];
@@ -58,7 +58,8 @@ function renderAgenda() {
   $('#agenda-count').textContent = `${items.length}件`;
   $('#agenda-list').innerHTML = items.length ? items.map((event) => {
     const source = sources.find((item) => item.id === event.sourceId);
-    return `<article class="event-row"><time class="event-time" datetime="${event.date}T${event.time}">${event.time}</time><div class="event-main"><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><p class="event-details">${event.artist}<span>・</span>${event.venue}</p><span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i>${source.shortLabel}</span></div></article>`;
+    const details = [event.artist, event.venue].filter(Boolean).join(' ・ ');
+    return `<article class="event-row"><time class="event-time" datetime="${event.date}T${event.time}">${event.time || '時間未定'}</time><div class="event-main"><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a>${details ? `<p class="event-details">${details}</p>` : ''}<span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i>${source.shortLabel}</span></div></article>`;
   }).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
 }
 

@@ -38,9 +38,9 @@ npm start
 | `tower-all` | タワーレコード全店 | https://tower.jp/STORE/EVENT |
 | `hmv-shibuya` | HMV渋谷 | https://www.hmv.co.jp/store/event/sitemap/ |
 | `hmv-other` | HMVその他の店舗 | https://www.hmv.co.jp/store/event/sitemap/ |
-| `vv-shibuya` | ヴィレッジヴァンガード渋谷本店 | https://www.village-v.co.jp/event/ |
+| `vv-all` | ヴィレッジヴァンガード全店 | https://www.village-v.co.jp/event/ |
 
-HMVは同じ公式イベント一覧を取得し、店舗名から「HMV 渋谷」と「HMV その他の店舗」に振り分けます。
+HMVは同じ公式イベント一覧を取得し、店舗名から「HMV 渋谷」と「HMV その他の店舗」に振り分けます。ヴィレッジヴァンガードは公式のイベントデータから全店分を取得し、店舗名を各予定に表示します。
 
 ## 次に実装する部分
 
