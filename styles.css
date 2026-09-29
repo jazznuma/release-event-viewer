@@ -57,3 +57,7 @@
 .metro-filter input{width:15px;height:15px;margin:0;accent-color:#41664b;cursor:pointer}
 .metro-filter small{color:#898e85;font-size:9px}
 @media(max-width:600px){.metro-filter{gap:6px;margin:8px 0 1px;font-size:10px}.metro-filter small{font-size:8px}}
+
+.event-time{font-size:15px}
+.event-highlight dd,.event-location dd{font-size:16px;line-height:1.55}
+@media(max-width:600px){.event-time{font-size:13px}.event-highlight dd,.event-location dd{font-size:14px}}
