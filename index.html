@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <title>リリースイベント</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div class="layout" data-event-data="__INITIAL_EVENT_DATA__">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-mark">音</span><span>リリースイベント</span></a>
+      <div class="side-heading">表示するお店</div>
+      <div id="source-list" class="source-list"></div>
+      <div class="sidebar-note">イベントの詳細は各店の公式ページでご確認ください。</div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><span>イベント一覧</span><div class="topbar-actions"><span id="update-status" aria-live="polite">取得日時を確認中</span><form action="/refresh" method="post"><button class="refresh-button" type="submit">今すぐ更新</button></form><button id="today-button" class="today-button">今日へ</button></div></header>
+      <div class="content">
+        <div class="title-row"><div><p class="kicker">RELEASE EVENTS</p><h1 id="selected-heading">今日のイベント</h1><p class="subtitle">開催日を選ぶと、その日のイベントを表示します。</p></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="出演者・イベント名で検索"></label></div>
+        <div class="planner-grid">
+          <section class="calendar-panel" aria-label="イベントカレンダー">
+            <div class="month-bar"><button id="prev-month" aria-label="前の月">‹</button><h2 id="month-heading"></h2><button id="next-month" aria-label="次の月">›</button></div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+            <div class="calendar-legend"><span><i class="legend-dot"></i>イベントあり</span><span>日付を押して予定を確認</span></div>
+          </section>
+          <section class="agenda-section"><div class="agenda-heading"><div><p class="kicker">SCHEDULE</p><h2 id="agenda-title"></h2></div><span id="agenda-count" class="agenda-count"></span></div><div id="agenda-list" class="agenda-list"></div></section>
+        </div>
+        <p class="footnote">掲載内容は変更になることがあります。リンク先の公式情報もあわせてご確認ください。</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
