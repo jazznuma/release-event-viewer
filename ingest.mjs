@@ -135,6 +135,32 @@ function fromTowerEventsPage(html, pageUrl) {
   return results;
 }
 
+function fromTowerAllEvents(html, pageUrl) {
+  const results = [];
+  for (const cardMatch of html.matchAll(/<dl\b[^>]*class=["'][^"']*\bdateBox\b[^"']*["'][^>]*>([\s\S]*?)<\/dl>/gi)) {
+    const markup = cardMatch[1];
+    const titleMarkup = markup.match(/<dd\b[^>]*class=["'][^"']*\bevent-title\b[^"']*["'][^>]*>([\s\S]*?)<\/dd>/i)?.[1] || '';
+    const title = textOf(titleMarkup);
+    const date = extractDate(textOf(markup));
+    if (!title || !date) continue;
+    const eventAnchor = titleMarkup.match(/<a\b[^>]*href=["']([^"']+)["']/i);
+    if (!eventAnchor) continue;
+    const venueLink = [...markup.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/(?!event\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+      .map((match) => ({ url: match[1], name: textOf(match[2]) }))
+      .find((link) => link.name);
+    const descriptions = [...markup.matchAll(/<dd\b([^>]*)>([\s\S]*?)<\/dd>/gi)];
+    const eventTitleIndex = descriptions.findIndex((match) => /\bclass=["'][^"']*\bevent-title\b/i.test(match[1]));
+    const artist = eventTitleIndex >= 0 ? textOf(descriptions[eventTitleIndex + 1]?.[2] || '') : '';
+    const titleVenue = title.match(/(?:@|＠)\s*([^@＠]+)$/)?.[1]?.trim();
+    results.push({
+      title, artist, venue: venueLink?.name || titleVenue || '店舗情報は公式ページを確認',
+      date, time: extractTime(textOf(markup)), url: new URL(eventAnchor[1], pageUrl).href,
+      sourceId: 'tower-all', kind: '',
+    });
+  }
+  return results;
+}
+
 function fromHmvEvents(html, pageUrl) {
   const events = [];
   for (const anchor of html.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/event\/\d+\/?(?:\?[^"']*)?)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
@@ -146,14 +172,20 @@ function fromHmvEvents(html, pageUrl) {
     const markup = html.slice(dlIndex, closeDl + 5);
     const text = textOf(markup);
     const date = extractDate(text);
-    const title = textOf(anchor[2]);
+    const linkText = textOf(anchor[2]);
+    const primaryTitle = textOf(markup.match(/<dt\b[^>]*>[\s\S]*?<a\b[^>]*href=["'][^"']*\/store\/event\/\d+\/?(?:\?[^"']*)?["'][^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/dt>/i)?.[1] || '');
+    const eventType = textOf(markup.match(/<dd\b[^>]*class=["'][^"']*\beventTitle\b[^"']*["'][^>]*>([\s\S]*?)<\/dd>/i)?.[1] || '');
+    const performer = primaryTitle && eventType && primaryTitle !== eventType ? primaryTitle : '';
+    const title = performer
+      ? (primaryTitle.includes(eventType) ? primaryTitle : `${primaryTitle} — ${eventType}`)
+      : (primaryTitle || linkText);
     if (!date || !title) continue;
     const venueAnchor = [...markup.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/(?!event\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)]
       .map((match) => ({ href: match[1], text: textOf(match[2]) }))
       .find((match) => match.text && /HMV|店|渋谷|Namba|NAMBA|HAKATA|Hakata/i.test(match.text));
     const venue = venueAnchor?.text || text.match(/(?:HMV(?:&BOOKS|\s+record shop)?\s*[^。|]{2,60})/i)?.[0]?.trim() || 'HMV店舗';
     const url = new URL(anchor[1], pageUrl).href;
-    events.push({ title, artist: '', venue, date, time: extractTime(text), url, sourceId: sourceForVenue(venue, 'hmv'), kind: '' });
+    events.push({ title, artist: performer, venue, date, time: extractTime(text), url, sourceId: sourceForVenue(venue, 'hmv'), kind: '' });
   }
   return events;
 }
@@ -214,6 +246,15 @@ async function scrapeSource(sourceId, url, hmv = false) {
       fetchedAt: new Date().toISOString(),
     }));
   }
+  if (sourceId === 'tower-all') {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return fromTowerAllEvents(html, url).filter((event) => event.date && new Date(`${event.date}T00:00:00`) >= today).map((event) => ({
+      ...event,
+      id: `${event.sourceId}:${event.date}:${event.time || 'time-unknown'}:${event.url}`,
+      fetchedAt: new Date().toISOString(),
+    }));
+  }
   let events = fromJsonLd(html, hmv ? 'hmv' : sourceId, url);
   if (events.length === 0) events = fromCards(html, hmv ? 'hmv' : sourceId, url);
   events = [...events, ...fromEventAnchors(html, hmv ? 'hmv' : sourceId, url)];
@@ -269,8 +310,17 @@ export async function refreshSources(previousEvents = []) {
   try {
     const hmvEvents = await scrapeSource('hmv-shibuya', 'https://www.hmv.co.jp/store/event/sitemap/', true);
     if (hmvEvents.length === 0 && (bySource.get('hmv-shibuya').length + bySource.get('hmv-other').length) > 0) throw new Error('イベントを抽出できず、保存済み情報を維持しました');
+    const bestByEvent = new Map();
+    for (const event of hmvEvents) {
+      const key = `${event.url}|${event.date}|${event.time}`;
+      const previous = bestByEvent.get(key);
+      const score = (event.venue && event.venue !== 'HMV店舗' ? 2 : 0) + (event.artist ? 1 : 0) + event.title.length / 1000;
+      const previousScore = previous ? (previous.venue && previous.venue !== 'HMV店舗' ? 2 : 0) + (previous.artist ? 1 : 0) + previous.title.length / 1000 : -1;
+      if (!previous || score > previousScore) bestByEvent.set(key, event);
+    }
+    const uniqueHmvEvents = [...bestByEvent.values()].map((event) => ({ ...event, sourceId: sourceForVenue(event.venue, 'hmv') }));
     for (const sourceId of ['hmv-shibuya', 'hmv-other']) {
-      const events = hmvEvents.filter((event) => event.sourceId === sourceId);
+      const events = uniqueHmvEvents.filter((event) => event.sourceId === sourceId);
       bySource.set(sourceId, events);
       statuses[sourceId] = { ok: events.length > 0, count: events.length, checkedAt: new Date().toISOString(), error: events.length ? '' : 'イベント情報を抽出できませんでした' };
     }
