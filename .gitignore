@@ -1,3 +1,4 @@
 node_modules/
 .env
-work/events-cache.json
+site/
+work/

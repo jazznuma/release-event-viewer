@@ -12,7 +12,13 @@ npm start
 
 ブラウザで `http://localhost:4173` を開きます。
 
-起動中は情報源を6時間ごとに確認します。画面右上の「今すぐ更新」から手動更新もできます。
+ローカル起動中は情報源を6時間ごとに確認します。画面右上の「今すぐ更新」から手動更新もできます。
+
+## GitHub Actionsで定期取得
+
+`.github/workflows/refresh-events.yml` が日本時間の毎日 2:17、8:17、14:17、20:17 に情報源を取得します。手動実行はGitHubの **Actions → Refresh release events → Run workflow** から行えます。結果は `data/events.json` に保存し、変更があれば `main` にコミットして、GitHub Pagesも更新します。
+
+初回はリポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定してください。設定後、Actionsの **Refresh release events** を開いて **Run workflow** を押すと、取得と公開をすぐに実行できます。
 
 ## 初期版に含まれるもの
 
@@ -22,7 +28,7 @@ npm start
 - 公式ページへのリンク
 - 起動時と定期実行での公式ページ取得、取得状況の表示
 
-初回取得前または公式サイトに接続できない場合は、2026年9月29日の公式掲載情報を使ったスナップショットを表示します。取得結果は `work/events-cache.json` に保存します。
+初回取得前または公式サイトに接続できない場合は、2026年9月29日の公式掲載情報を使ったスナップショットを表示します。取得結果は `data/events.json` に保存します。
 
 ## 取得対象
 
@@ -40,7 +46,7 @@ HMVは同じ公式イベント一覧を取得し、店舗名から「HMV 渋谷�
 
 1. 各情報源のHTML構造に合わせた解析ルールを実データで調整し、日時・会場の抽出精度を上げる。
 2. 変更・掲載終了の検出を追加する。
-3. GitHubへ接続後、Actionsなどの常時稼働できる環境へ定期取得を移す。
+3. 実際の取得結果を確認し、各情報源のHTML構造に合わせて抽出ルールを調整する。
 4. 公式ページ側の利用条件、アクセス頻度、取得許可を確認し、過剰なアクセスを避ける。
 
 初期データモデル案: `id`, `sourceId`, `title`, `artist`, `venue`, `date`, `time`, `kind`, `url`, `firstSeenAt`, `lastSeenAt`, `contentHash`, `status`。

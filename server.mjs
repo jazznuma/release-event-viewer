@@ -7,13 +7,13 @@ import { refreshSources, sourceCatalog } from './ingest.mjs';
 const root = fileURLToPath(new URL('.', import.meta.url));
 const port = Number(process.env.PORT || 4173);
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8' };
-const cachePath = join(root, 'work', 'events-cache.json');
+const eventsPath = join(root, 'data', 'events.json');
 const seedPath = join(root, 'data', 'seed-events.json');
 let stored = { events: [], statuses: {}, refreshedAt: '' };
 let refreshing = false;
 
 async function loadStoredEvents() {
-  try { stored = JSON.parse(await readFile(cachePath, 'utf8')); }
+  try { stored = JSON.parse(await readFile(eventsPath, 'utf8')); }
   catch {
     try { stored.events = JSON.parse(await readFile(seedPath, 'utf8')); }
     catch { stored.events = []; }
@@ -26,8 +26,8 @@ async function refreshAndSave() {
   try {
     const update = await refreshSources(stored.events);
     stored = update;
-    await mkdir(join(root, 'work'), { recursive: true });
-    await writeFile(cachePath, JSON.stringify(stored, null, 2), 'utf8');
+    await mkdir(join(root, 'data'), { recursive: true });
+    await writeFile(eventsPath, JSON.stringify(stored, null, 2), 'utf8');
     console.log(`Event refresh finished: ${stored.events.length} events`);
     return true;
   } catch (error) {

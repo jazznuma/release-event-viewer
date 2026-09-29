@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "refresh": "node refresh-events.mjs",
+    "build:pages": "node build-pages.mjs"
   }
 }
