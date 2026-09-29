@@ -58,8 +58,9 @@ function renderAgenda() {
   $('#agenda-count').textContent = `${items.length}件`;
   $('#agenda-list').innerHTML = items.length ? items.map((event) => {
     const source = sources.find((item) => item.id === event.sourceId);
-    const details = [event.artist && !event.title.startsWith(event.artist) ? event.artist : '', event.venue].filter(Boolean).join(' ・ ');
-    return `<article class="event-row"><time class="event-time" datetime="${event.date}T${event.time}">${event.time || '時間未定'}</time><div class="event-main"><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a>${details ? `<p class="event-details">${details}</p>` : ''}<span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i>${source.shortLabel}</span></div></article>`;
+    const performer = event.artist || 'イベント名・公式ページをご確認ください';
+    const venue = event.venue || '店舗情報は公式ページをご確認ください';
+    return `<article class="event-row"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time><div class="event-main"><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><dl class="event-meta"><div class="event-meta-item"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-meta-item"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl><span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i><span>情報源 ${source.shortLabel}</span></span></div></article>`;
   }).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
 }
 

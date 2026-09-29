@@ -176,9 +176,7 @@ function fromHmvEvents(html, pageUrl) {
     const primaryTitle = textOf(markup.match(/<dt\b[^>]*>[\s\S]*?<a\b[^>]*href=["'][^"']*\/store\/event\/\d+\/?(?:\?[^"']*)?["'][^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/dt>/i)?.[1] || '');
     const eventType = textOf(markup.match(/<dd\b[^>]*class=["'][^"']*\beventTitle\b[^"']*["'][^>]*>([\s\S]*?)<\/dd>/i)?.[1] || '');
     const performer = primaryTitle && eventType && primaryTitle !== eventType ? primaryTitle : '';
-    const title = performer
-      ? (primaryTitle.includes(eventType) ? primaryTitle : `${primaryTitle} — ${eventType}`)
-      : (primaryTitle || linkText);
+    const title = eventType || primaryTitle || linkText;
     if (!date || !title) continue;
     const venueAnchor = [...markup.matchAll(/<a\b[^>]*href=["']([^"']*\/store\/(?!event\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)]
       .map((match) => ({ href: match[1], text: textOf(match[2]) }))
