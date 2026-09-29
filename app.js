@@ -59,8 +59,8 @@ function renderCalendar() {
 
 function renderAgenda() {
   const items = matchingEvents(state.selected).sort((a, b) => a.time.localeCompare(b.time));
-  const heading = iso(state.selected) === iso(localToday) ? '今日のイベント' : `${fullDate.format(state.selected)}のイベント`;
-  $('#selected-heading').textContent = heading;
+  const selectedSource = sources.find((source) => source.id === state.source);
+  $('#selected-heading').textContent = state.source === 'all' ? 'すべてのイベント' : state.source === 'tower-shibuya' ? 'タワーレコード渋谷店' : selectedSource.label;
   $('#agenda-title').textContent = fullDate.format(state.selected);
   $('#agenda-count').textContent = `${items.length}件`;
   $('#agenda-list').innerHTML = items.length ? items.map((event) => {
