@@ -61,3 +61,14 @@
 .event-time{font-size:15px}
 .event-highlight dd,.event-location dd{font-size:16px;line-height:1.55}
 @media(max-width:600px){.event-time{font-size:13px}.event-highlight dd,.event-location dd{font-size:14px}}
+
+.weekday:nth-child(6){background:#f2f5f8;color:#587493}
+.weekday:nth-child(7){background:#faf2f0;color:#a7655c}
+.day-cell:nth-child(7n + 6){background:#f8fafc;color:#526e8c}
+.day-cell:nth-child(7n){background:#fdf8f6;color:#a7655c}
+.day-cell:nth-child(7n + 6):hover{background:#edf2f7}
+.day-cell:nth-child(7n):hover{background:#f8eeeb}
+.day-cell.selected-day{background:#edf2eb;color:#41664b}
+.day-cell.selected-day .day-number{background:#45694d;color:#fff}
+.day-cell.outside:nth-child(7n + 6){background:#f6f8fa;color:#b3bdc8}
+.day-cell.outside:nth-child(7n){background:#faf5f3;color:#c7aaa5}
