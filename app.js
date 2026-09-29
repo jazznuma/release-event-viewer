@@ -58,15 +58,22 @@ function renderAgenda() {
   $('#agenda-count').textContent = `${items.length}件`;
   $('#agenda-list').innerHTML = items.length ? items.map((event) => {
     const source = sources.find((item) => item.id === event.sourceId);
-    const performer = event.artist || 'イベント名・公式ページをご確認ください';
+    const performer = event.artist || '公式ページで確認';
     const venue = event.venue || '店舗情報は公式ページをご確認ください';
-    return `<article class="event-row"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time><div class="event-main"><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><dl class="event-meta"><div class="event-meta-item"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-meta-item"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl><span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i><span>情報源 ${source.shortLabel}</span></span></div></article>`;
+    return `<article class="event-row"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time><div class="event-main"><dl class="event-highlights"><div class="event-highlight"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-highlight event-location"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><span class="event-source"><i class="source-mark small ${source.tone}">${source.short}</i><span>情報源 ${source.shortLabel}</span></span></div></article>`;
   }).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
 }
 
 function render() { renderSources(); renderCalendar(); renderAgenda(); }
 $('#prev-month').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
 $('#next-month').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1); render(); });
+function moveSelectedDay(amount) {
+  state.selected = new Date(state.selected.getFullYear(), state.selected.getMonth(), state.selected.getDate() + amount);
+  state.month = new Date(state.selected.getFullYear(), state.selected.getMonth(), 1);
+  render();
+}
+$('#prev-day').addEventListener('click', () => moveSelectedDay(-1));
+$('#next-day').addEventListener('click', () => moveSelectedDay(1));
 $('#today-button').addEventListener('click', () => { state.selected = new Date(localToday); state.month = new Date(localToday.getFullYear(), localToday.getMonth(), 1); render(); });
 $('#search').addEventListener('input', (event) => { state.query = event.target.value; render(); });
 

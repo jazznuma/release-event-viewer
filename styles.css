@@ -16,3 +16,24 @@
 .source-mark.small{width:16px;height:16px;font-size:8px}
 @media(max-width:850px){.event-row{grid-template-columns:58px minmax(0,1fr);gap:11px}}
 @media(max-width:600px){.event-row{grid-template-columns:50px minmax(0,1fr);gap:8px;padding:13px 2px}.event-time{padding:5px 2px;font-size:11px}.event-title{font-size:12px}.event-meta{gap:4px;margin-top:8px}.event-meta-item{grid-template-columns:64px minmax(0,1fr);gap:6px}.event-meta-item dt{font-size:9px}.event-meta-item dd{font-size:10px}.event-source{margin-top:8px}}
+
+/* Make the three facts people scan first the visual anchors of each row. */
+.event-row{grid-template-columns:64px minmax(0,1fr);gap:14px;padding:17px 2px 16px}
+.event-time{padding:7px 4px;font-size:13px;font-weight:750;background:#e8efe6;color:#315b3d}
+.event-highlights{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:8px;margin:0 0 9px}
+.event-highlight{min-width:0;padding:9px 10px 10px;border-radius:5px;background:#f0f3ed;border-left:2px solid #8ca18a}
+.event-location{background:#f4f3eb;border-left-color:#c5aa62}
+.event-highlight dt{margin:0 0 4px;color:#747b70;font-size:10px;font-weight:650;letter-spacing:.03em}
+.event-highlight dd{margin:0;color:#28382c;font-size:14px;font-weight:700;line-height:1.45;overflow-wrap:anywhere}
+.event-location dd{color:#493e27}
+.event-title{display:inline-block;color:#6e746c;font-size:11px;font-weight:500;line-height:1.5;text-decoration:none}
+.event-title:hover{color:#3f6547;text-decoration:underline;text-underline-offset:3px}
+.event-title>span{padding-left:4px;font-size:9px}
+.event-source{display:flex;width:max-content;align-items:center;gap:6px;margin-top:7px;padding-top:0;color:#7b8078;font-size:9px}
+.agenda-date-nav{display:flex;align-items:center;gap:8px}
+.agenda-date-nav h2{min-width:0;margin:0;font-size:16px;font-weight:650;white-space:nowrap}
+.date-nav-button{display:grid;place-items:center;width:29px;height:29px;flex:none;border:1px solid #dce1d8;border-radius:5px;background:#fff;color:#47664c;font:20px/1 inherit;cursor:pointer}
+.date-nav-button:hover{background:#edf2eb;border-color:#bfcbbd}
+.date-nav-button:focus-visible{outline:2px solid #638168;outline-offset:2px}
+@media(max-width:850px){.event-row{grid-template-columns:60px minmax(0,1fr);gap:12px}}
+@media(max-width:600px){.event-row{grid-template-columns:50px minmax(0,1fr);gap:8px;padding:13px 2px}.event-time{padding:6px 2px;font-size:11px}.event-highlights{grid-template-columns:1fr;gap:5px;margin-bottom:7px}.event-highlight{padding:7px 8px}.event-highlight dt{font-size:9px;margin-bottom:2px}.event-highlight dd{font-size:12px}.event-title{font-size:10px}.agenda-date-nav{gap:5px}.agenda-date-nav h2{font-size:14px}.date-nav-button{width:28px;height:28px}.agenda-count{font-size:9px}}

@@ -204,6 +204,21 @@ function locationFromVvEvent(item) {
   return shop && venue && !location.includes(venue) && !venue.includes(location) ? `${location}・${venue}` : location;
 }
 
+function performerFromVvTitle(title = '') {
+  const name = title.replace(/^\s*\d{1,2}\/\d{1,2}\([^)]*\)\s*/, '').trim();
+  const jointAct = name.match(/^\s*【(.+?)\s*合同/);
+  if (jointAct) return jointAct[1].replace(/[【】]/g, '').trim();
+  const bracketNames = [...name.matchAll(/【([^】]+)】/g)].map((match) => match[1].trim());
+  if (bracketNames.length) return bracketNames.join(' / ');
+  const author = name.match(/([^「『「\s]+?先生)サイン会/);
+  if (author) return author[1].trim();
+  const venueThenArtist = name.match(/(?:@|＠)[^【】]+【([^】]+)】/);
+  if (venueThenArtist) return venueThenArtist[1].trim();
+  const quotedName = name.match(/^[「『]([^」』]+)[」』]/);
+  if (quotedName) return quotedName[1].trim();
+  return name.split(/\s+(?=\d+(?:st|nd|rd|th)\b)|(?=フリーイベント|フリーライブ|ミニライブ|発売記念|Release Event|Release\b|inVV|@|＠|サイン会|インストアイベント|[「『])/i)[0].trim();
+}
+
 async function scrapeVvAll() {
   const endpoint = 'https://www.village-v.co.jp/common/js/topics.json';
   const items = JSON.parse(await fetchPage(endpoint));
@@ -215,7 +230,7 @@ async function scrapeVvAll() {
       const url = new URL(item.link, 'https://www.village-v.co.jp/').href;
       return {
         id: `vv-all:${date}:${time || 'time-unknown'}:${url}`,
-        title: textOf(item.name || ''), artist: '', venue: locationFromVvEvent(item), date, time,
+        title: textOf(item.name || ''), artist: performerFromVvTitle(item.name || ''), venue: locationFromVvEvent(item), date, time,
         url, sourceId: 'vv-all', kind: '', fetchedAt: new Date().toISOString(),
       };
     });
