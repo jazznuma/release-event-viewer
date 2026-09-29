@@ -37,3 +37,18 @@
 .date-nav-button:focus-visible{outline:2px solid #638168;outline-offset:2px}
 @media(max-width:850px){.event-row{grid-template-columns:60px minmax(0,1fr);gap:12px}}
 @media(max-width:600px){.event-row{grid-template-columns:50px minmax(0,1fr);gap:8px;padding:13px 2px}.event-time{padding:6px 2px;font-size:11px}.event-highlights{grid-template-columns:1fr;gap:5px;margin-bottom:7px}.event-highlight{padding:7px 8px}.event-highlight dt{font-size:9px;margin-bottom:2px}.event-highlight dd{font-size:12px}.event-title{font-size:10px}.agenda-date-nav{gap:5px}.agenda-date-nav h2{font-size:14px}.date-nav-button{width:28px;height:28px}.agenda-count{font-size:9px}}
+
+/* Keep event facts flat; use only a source-colored square as the marker. */
+.event-time{padding:7px 0;background:transparent;text-align:left;color:#315b3d}
+.event-facts{display:grid;grid-template-columns:20px minmax(0,1fr);align-items:start;gap:10px}
+.event-brand-mark{display:grid;place-items:center;width:18px;height:18px;border-radius:0;color:#fff;font-size:9px;font-weight:700;line-height:1}
+.event-brand-mark.tower{background:#e9db55;color:#4a4412}
+.event-brand-mark.hmv{background:#d94949;color:#fff}
+.event-brand-mark.vv{background:#527c58;color:#fff}
+.event-highlights{gap:18px;margin:0 0 8px}
+.event-highlight,.event-location{padding:0;background:transparent;border:0;border-radius:0}
+.event-highlight dt{margin-bottom:3px;font-size:10px;color:#7e837b}
+.event-highlight dd,.event-location dd{font-size:14px;color:#2f342e;font-weight:700}
+.event-title{margin-left:30px}
+.event-source{display:block;width:auto;margin:5px 0 0 30px;padding:0;border:0;border-radius:0;color:#858a81;font-size:9px}
+@media(max-width:600px){.event-facts{grid-template-columns:16px minmax(0,1fr);gap:8px}.event-brand-mark{width:14px;height:14px;font-size:8px}.event-highlights{gap:7px;margin-bottom:6px}.event-highlight dt{font-size:9px}.event-highlight dd,.event-location dd{font-size:12px}.event-title{margin-left:24px}.event-source{margin:5px 0 0 24px}}
