@@ -40,14 +40,14 @@ function tokyoDateKey(value) {
 
 function shortEventDate(value) {
   const [year, month, day] = value.split('-').map(Number);
-  return new Intl.DateTimeFormat('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }).format(new Date(year, month - 1, day));
+  return new Intl.DateTimeFormat('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }).format(new Date(year, month - 1, day)).replace('月', '/').replace('日', '');
 }
 
 function eventCard(event, showEventDate = false) {
   const source = sources.find((item) => item.id === event.sourceId);
   const performer = event.artist || '公式ページで確認';
   const venue = event.venue || '店舗情報は公式ページをご確認ください';
-  return `<article class="event-row"><div class="event-schedule"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time>${showEventDate ? `<span class="new-event-date">開催 ${shortEventDate(event.date)}</span>` : ''}</div><div class="event-main"><div class="event-facts"><span class="event-brand-mark ${source.tone}" aria-label="${source.shortLabel}">${source.short}</span><dl class="event-highlights"><div class="event-highlight"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-highlight event-location"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl></div><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><span class="event-source">情報源 ${source.shortLabel}</span></div></article>`;
+  return `<article class="event-row ${showEventDate ? 'new-event-row' : ''}"><div class="event-schedule ${showEventDate ? 'new-event-schedule' : ''}"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time>${showEventDate ? `<span class="new-event-date">${shortEventDate(event.date)}</span>` : ''}</div><div class="event-main"><div class="event-facts"><span class="event-brand-mark ${source.tone}" aria-label="${source.shortLabel}">${source.short}</span><dl class="event-highlights"><div class="event-highlight"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-highlight event-location"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl></div><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><span class="event-source">情報源 ${source.shortLabel}</span></div></article>`;
 }
 
 function isMetroEvent(event) {
