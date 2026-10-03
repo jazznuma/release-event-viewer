@@ -98,7 +98,7 @@ function renderNewEvents() {
     groups.get(key).push(event);
   }
   $('#new-event-count').textContent = items.length ? items.length : '';
-  $('#new-events-view').innerHTML = `<p class="new-events-note">この機能を追加した後に、新しく取得したイベントを掲載します。過去分の追加日は記録されていないため表示していません。</p>${groups.size ? [...groups.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([date, dailyEvents]) => `<section class="new-event-day"><header><h2>${shortEventDate(date)}に追加</h2><span>${dailyEvents.length}件</span></header><div>${dailyEvents.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)).map((event) => eventCard(event, true)).join('')}</div></section>`).join('') : '<div class="empty-state"><p>新しく追加されたイベントはまだありません。</p><span>次回の定期取得後に、追加されたイベントがここに表示されます。</span></div>'}`;
+  $('#new-events-view').innerHTML = groups.size ? [...groups.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([date, dailyEvents]) => `<section class="new-event-day"><header><h2>${shortEventDate(date)}に追加</h2><span>${dailyEvents.length}件</span></header><div>${dailyEvents.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)).map((event) => eventCard(event, true)).join('')}</div></section>`).join('') : '<div class="empty-state"><p>新しく追加されたイベントはまだありません。</p><span>次回の定期取得後に、追加されたイベントがここに表示されます。</span></div>';
 }
 
 function renderViews() {
