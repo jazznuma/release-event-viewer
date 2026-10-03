@@ -8,15 +8,17 @@ const dataPath = join(root, 'data', 'events.json');
 const seedPath = join(root, 'data', 'seed-events.json');
 
 let previousEvents = [];
+let previousNewEvents = [];
 try {
   const saved = JSON.parse(await readFile(dataPath, 'utf8'));
   previousEvents = Array.isArray(saved.events) ? saved.events : [];
+  previousNewEvents = Array.isArray(saved.newEvents) ? saved.newEvents : [];
 } catch {
   try { previousEvents = JSON.parse(await readFile(seedPath, 'utf8')); }
   catch { previousEvents = []; }
 }
 
-const result = await refreshSources(previousEvents);
+const result = await refreshSources(previousEvents, previousNewEvents);
 await mkdir(join(root, 'data'), { recursive: true });
 await writeFile(dataPath, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
 

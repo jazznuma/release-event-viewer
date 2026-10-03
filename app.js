@@ -7,10 +7,11 @@ const sources = [
 ];
 
 let events = [];
+let newEvents = [];
 
 const now = new Date();
 const localToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', metroOnly: true, query: '' };
+const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', metroOnly: true, query: '', view: 'calendar' };
 const $ = (selector) => document.querySelector(selector);
 const pad = (n) => String(n).padStart(2, '0');
 const iso = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
@@ -23,8 +24,30 @@ function renderSources() {
 }
 
 function matchingEvents(date) {
+  return events.filter((event) => event.date === iso(date) && matchesFilters(event));
+}
+
+function matchesFilters(event) {
   const term = state.query.trim().toLocaleLowerCase('ja');
-  return events.filter((event) => event.date === iso(date) && (!state.metroOnly || isMetroEvent(event)) && (state.source === 'all' || state.source === event.sourceId) && `${event.title} ${event.artist} ${event.venue}`.toLocaleLowerCase('ja').includes(term));
+  return (!state.metroOnly || isMetroEvent(event)) && (state.source === 'all' || state.source === event.sourceId) && `${event.title} ${event.artist} ${event.venue}`.toLocaleLowerCase('ja').includes(term);
+}
+
+function tokyoDateKey(value) {
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(value));
+  const part = Object.fromEntries(parts.map(({ type, value: partValue }) => [type, partValue]));
+  return `${part.year}-${part.month}-${part.day}`;
+}
+
+function shortEventDate(value) {
+  const [year, month, day] = value.split('-').map(Number);
+  return new Intl.DateTimeFormat('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }).format(new Date(year, month - 1, day));
+}
+
+function eventCard(event, showEventDate = false) {
+  const source = sources.find((item) => item.id === event.sourceId);
+  const performer = event.artist || '公式ページで確認';
+  const venue = event.venue || '店舗情報は公式ページをご確認ください';
+  return `<article class="event-row"><div class="event-schedule"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time>${showEventDate ? `<span class="new-event-date">開催 ${shortEventDate(event.date)}</span>` : ''}</div><div class="event-main"><div class="event-facts"><span class="event-brand-mark ${source.tone}" aria-label="${source.shortLabel}">${source.short}</span><dl class="event-highlights"><div class="event-highlight"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-highlight event-location"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl></div><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><span class="event-source">情報源 ${source.shortLabel}</span></div></article>`;
 }
 
 function isMetroEvent(event) {
@@ -63,15 +86,34 @@ function renderAgenda() {
   $('#selected-heading').textContent = state.source === 'all' ? 'すべてのイベント' : state.source === 'tower-shibuya' ? 'タワーレコード渋谷店' : selectedSource.label;
   $('#agenda-title').textContent = fullDate.format(state.selected);
   $('#agenda-count').textContent = `${items.length}件`;
-  $('#agenda-list').innerHTML = items.length ? items.map((event) => {
-    const source = sources.find((item) => item.id === event.sourceId);
-    const performer = event.artist || '公式ページで確認';
-    const venue = event.venue || '店舗情報は公式ページをご確認ください';
-    return `<article class="event-row"><time class="event-time" datetime="${event.date}${event.time ? `T${event.time}` : ''}">${event.time || '時間未定'}</time><div class="event-main"><div class="event-facts"><span class="event-brand-mark ${source.tone}" aria-label="${source.shortLabel}">${source.short}</span><dl class="event-highlights"><div class="event-highlight"><dt>出演者</dt><dd>${performer}</dd></div><div class="event-highlight event-location"><dt>店舗・会場</dt><dd>${venue}</dd></div></dl></div><a href="${event.url}" target="_blank" rel="noopener noreferrer" class="event-title">${event.title}<span aria-hidden="true">↗</span></a><span class="event-source">情報源 ${source.shortLabel}</span></div></article>`;
-  }).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
+  $('#agenda-list').innerHTML = items.length ? items.map((event) => eventCard(event)).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
 }
 
-function render() { renderSources(); renderCalendar(); renderAgenda(); }
+function renderNewEvents() {
+  const items = newEvents.filter((event) => event.firstSeenAt && matchesFilters(event));
+  const groups = new Map();
+  for (const event of items) {
+    const key = tokyoDateKey(event.firstSeenAt);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(event);
+  }
+  $('#new-event-count').textContent = items.length ? items.length : '';
+  $('#new-events-view').innerHTML = `<p class="new-events-note">この機能を追加した後に、新しく取得したイベントを掲載します。過去分の追加日は記録されていないため表示していません。</p>${groups.size ? [...groups.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([date, dailyEvents]) => `<section class="new-event-day"><header><h2>${shortEventDate(date)}に追加</h2><span>${dailyEvents.length}件</span></header><div>${dailyEvents.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)).map((event) => eventCard(event, true)).join('')}</div></section>`).join('') : '<div class="empty-state"><p>新しく追加されたイベントはまだありません。</p><span>次回の定期取得後に、追加されたイベントがここに表示されます。</span></div>'}`;
+}
+
+function renderViews() {
+  const isCalendar = state.view === 'calendar';
+  $('#planner-grid').hidden = !isCalendar;
+  $('#new-events-view').hidden = isCalendar;
+  $('#page-subtitle').textContent = isCalendar ? '日付を選ぶと、その日の開催予定を確認できます。' : '取得で新たに見つかったイベントを、検出日ごとに表示します。';
+  $('#calendar-view-button').classList.toggle('selected', isCalendar);
+  $('#new-view-button').classList.toggle('selected', !isCalendar);
+  $('#calendar-view-button').setAttribute('aria-pressed', String(isCalendar));
+  $('#new-view-button').setAttribute('aria-pressed', String(!isCalendar));
+  renderNewEvents();
+}
+
+function render() { renderSources(); renderCalendar(); renderAgenda(); renderViews(); }
 $('#prev-month').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
 $('#next-month').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1); render(); });
 function moveSelectedDay(amount) {
@@ -84,11 +126,14 @@ $('#next-day').addEventListener('click', () => moveSelectedDay(1));
 $('#today-button').addEventListener('click', () => { state.selected = new Date(localToday); state.month = new Date(localToday.getFullYear(), localToday.getMonth(), 1); render(); });
 $('#metro-only').addEventListener('change', (event) => { state.metroOnly = event.target.checked; render(); });
 $('#search').addEventListener('input', (event) => { state.query = event.target.value; render(); });
+$('#calendar-view-button').addEventListener('click', () => { state.view = 'calendar'; renderViews(); });
+$('#new-view-button').addEventListener('click', () => { state.view = 'new'; renderViews(); });
 
 function loadEvents() {
   try {
     const data = JSON.parse($('.layout').dataset.eventData);
     events = Array.isArray(data.events) ? data.events : [];
+    newEvents = Array.isArray(data.newEvents) ? data.newEvents : [];
     if (data.refreshedAt) {
       const refreshed = new Intl.DateTimeFormat('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }).format(new Date(data.refreshedAt));
       const hasErrors = Object.values(data.statuses || {}).some((status) => status && !status.ok);

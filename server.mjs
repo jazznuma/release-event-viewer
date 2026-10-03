@@ -9,7 +9,7 @@ const port = Number(process.env.PORT || 4173);
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8' };
 const eventsPath = join(root, 'data', 'events.json');
 const seedPath = join(root, 'data', 'seed-events.json');
-let stored = { events: [], statuses: {}, refreshedAt: '' };
+let stored = { events: [], newEvents: [], statuses: {}, refreshedAt: '' };
 let refreshing = false;
 
 async function loadStoredEvents() {
@@ -17,6 +17,7 @@ async function loadStoredEvents() {
   catch {
     try { stored.events = JSON.parse(await readFile(seedPath, 'utf8')); }
     catch { stored.events = []; }
+    stored.newEvents = [];
   }
 }
 
@@ -24,7 +25,7 @@ async function refreshAndSave() {
   if (refreshing) return false;
   refreshing = true;
   try {
-    const update = await refreshSources(stored.events);
+    const update = await refreshSources(stored.events, stored.newEvents || []);
     stored = update;
     await mkdir(join(root, 'data'), { recursive: true });
     await writeFile(eventsPath, JSON.stringify(stored, null, 2), 'utf8');

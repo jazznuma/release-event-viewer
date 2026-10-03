@@ -19,8 +19,9 @@
     <main class="main">
       <header class="topbar"><span>イベント一覧</span><div class="topbar-actions"><span id="update-status" aria-live="polite">取得日時を確認中</span><form action="/refresh" method="post"><button class="refresh-button" type="submit">今すぐ更新</button></form><button id="today-button" class="today-button">今日へ</button></div></header>
       <div class="content">
-        <div class="title-row"><div><p class="kicker">RELEASE EVENTS</p><h1 id="selected-heading">今日のイベント</h1><p class="subtitle">日付を選ぶと、その日の開催予定を確認できます。</p></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="出演者・イベント名で検索"></label></div>
-        <div class="planner-grid">
+        <div class="title-row"><div><p class="kicker">RELEASE EVENTS</p><h1 id="selected-heading">今日のイベント</h1><p id="page-subtitle" class="subtitle">日付を選ぶと、その日の開催予定を確認できます。</p></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="出演者・イベント名で検索"></label></div>
+        <nav class="view-switch" aria-label="表示切り替え"><button id="calendar-view-button" class="view-switch-button selected" aria-pressed="true">カレンダー</button><button id="new-view-button" class="view-switch-button" aria-pressed="false">新着 <span id="new-event-count" class="new-event-count"></span></button></nav>
+        <div id="planner-grid" class="planner-grid">
           <section class="calendar-panel" aria-label="イベントカレンダー">
             <div class="month-bar"><button id="prev-month" aria-label="前の月">‹</button><h2 id="month-heading"></h2><button id="next-month" aria-label="次の月">›</button></div>
             <div class="calendar-grid" id="calendar-grid"></div>
@@ -28,6 +29,7 @@
           </section>
           <section class="agenda-section"><div class="agenda-heading"><div><p class="kicker">SCHEDULE</p><div class="agenda-date-nav"><button id="prev-day" class="date-nav-button" aria-label="前日へ" title="前日へ">‹</button><h2 id="agenda-title"></h2><button id="next-day" class="date-nav-button" aria-label="翌日へ" title="翌日へ">›</button></div></div><span id="agenda-count" class="agenda-count"></span></div><label class="metro-filter"><input id="metro-only" type="checkbox" checked><span>首都圏のみ</span><small>東京・神奈川・埼玉・千葉</small></label><div id="agenda-list" class="agenda-list"></div></section>
         </div>
+        <section id="new-events-view" class="new-events-view" aria-label="日ごとの新着イベント" hidden></section>
         <p class="footnote">掲載内容は変更になることがあります。リンク先の公式情報もあわせてご確認ください。</p>
       </div>
     </main>

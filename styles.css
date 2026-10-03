@@ -72,3 +72,17 @@
 .day-cell.selected-day .day-number{background:#45694d;color:#fff}
 .day-cell.outside:nth-child(7n + 6){background:#f6f8fa;color:#b3bdc8}
 .day-cell.outside:nth-child(7n){background:#faf5f3;color:#c7aaa5}
+
+.view-switch{display:flex;align-items:center;gap:18px;margin:0 0 15px;border-bottom:1px solid #e2e4dd}
+.view-switch-button{display:flex;align-items:center;gap:7px;padding:0 2px 9px;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;background:transparent;color:#777d73;font:inherit;font-size:12px;cursor:pointer}
+.view-switch-button.selected{border-bottom-color:#41664b;color:#35543e;font-weight:650}
+.new-event-count{min-width:17px;padding:2px 5px;border-radius:9px;background:#e9eee6;color:#46654b;text-align:center;font-size:9px;font-variant-numeric:tabular-nums}
+.new-events-view[hidden],.planner-grid[hidden]{display:none}
+.new-events-note{margin:0 0 17px;color:#7f857b;font-size:10px;line-height:1.7}
+.new-event-day{margin:0 0 19px}
+.new-event-day>header{display:flex;align-items:baseline;gap:10px;padding:0 0 8px;border-bottom:1px solid #dedfd8}
+.new-event-day>header h2{margin:0;color:#343a33;font-size:15px;font-weight:650}
+.new-event-day>header span{color:#858a81;font-size:10px}
+.event-schedule{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.new-event-date{color:#858a81;font-size:9px;white-space:nowrap}
+@media(max-width:600px){.view-switch{gap:15px;margin-bottom:12px}.view-switch-button{font-size:11px}.new-events-note{font-size:9px}.new-event-day>header h2{font-size:13px}.new-event-date{font-size:8px}}

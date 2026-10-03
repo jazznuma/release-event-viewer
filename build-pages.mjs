@@ -13,7 +13,7 @@ const escapedData = JSON.stringify(JSON.parse(eventData))
 let html = template.replace('__INITIAL_EVENT_DATA__', escapedData);
 html = html.replace(
   '<form action="/refresh" method="post"><button class="refresh-button" type="submit">今すぐ更新</button></form>',
-  '<span class="refresh-note">6時間ごとに自動更新</span>',
+  '<span class="refresh-note">毎日自動更新</span>',
 );
 
 await rm(output, { recursive: true, force: true });

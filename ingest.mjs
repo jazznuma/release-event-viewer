@@ -282,7 +282,8 @@ async function scrapeSource(sourceId, url, hmv = false) {
   }));
 }
 
-export async function refreshSources(previousEvents = []) {
+export async function refreshSources(previousEvents = [], previousNewEvents = []) {
+  const refreshedAt = new Date().toISOString();
   const statuses = {};
   const bySource = new Map();
   for (const source of sourceCatalog) bySource.set(source.id, previousEvents.filter((event) => event.sourceId === source.id));
@@ -343,5 +344,18 @@ export async function refreshSources(previousEvents = []) {
   const merged = [...bySource.values()].flat();
   const unique = new Map();
   for (const event of merged) unique.set(`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event);
-  return { events: [...unique.values()].sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)), statuses, refreshedAt: new Date().toISOString() };
+  const previousById = new Map(previousEvents.map((event) => [`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event]));
+  const tracked = [...unique.entries()].map(([id, event]) => {
+    const previous = previousById.get(id);
+    return { ...event, firstSeenAt: previous ? (previous.firstSeenAt || null) : refreshedAt };
+  });
+  const addedEvents = tracked.filter((event) => !previousById.has(`${event.sourceId}|${event.url}|${event.date}|${event.time}`) && event.firstSeenAt);
+  const newEventsById = new Map(previousNewEvents.map((event) => [`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event]));
+  for (const event of addedEvents) newEventsById.set(`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event);
+  return {
+    events: tracked.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)),
+    newEvents: [...newEventsById.values()].sort((a, b) => b.firstSeenAt.localeCompare(a.firstSeenAt)),
+    statuses,
+    refreshedAt,
+  };
 }
