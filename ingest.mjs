@@ -350,7 +350,10 @@ export async function refreshSources(previousEvents = [], previousNewEvents = []
     return { ...event, firstSeenAt: previous ? (previous.firstSeenAt || null) : refreshedAt };
   });
   const addedEvents = tracked.filter((event) => !previousById.has(`${event.sourceId}|${event.url}|${event.date}|${event.time}`) && event.firstSeenAt);
-  const newEventsById = new Map(previousNewEvents.map((event) => [`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event]));
+  const historyCutoff = Date.parse(refreshedAt) - 7 * 24 * 60 * 60 * 1000;
+  const newEventsById = new Map(previousNewEvents
+    .filter((event) => Date.parse(event.firstSeenAt) >= historyCutoff)
+    .map((event) => [`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event]));
   for (const event of addedEvents) newEventsById.set(`${event.sourceId}|${event.url}|${event.date}|${event.time}`, event);
   return {
     events: tracked.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`)),

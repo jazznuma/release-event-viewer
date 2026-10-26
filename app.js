@@ -90,7 +90,8 @@ function renderAgenda() {
 }
 
 function renderNewEvents() {
-  const items = newEvents.filter((event) => event.firstSeenAt && matchesFilters(event));
+  const historyCutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const items = newEvents.filter((event) => event.firstSeenAt && Date.parse(event.firstSeenAt) >= historyCutoff && matchesFilters(event));
   const groups = new Map();
   for (const event of items) {
     const key = tokyoDateKey(event.firstSeenAt);
