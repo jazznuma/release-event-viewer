@@ -11,7 +11,9 @@ let newEvents = [];
 
 const now = new Date();
 const localToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', metroOnly: true, query: '', view: 'calendar' };
+const requestedView = new URLSearchParams(window.location.search).get('view');
+const initialView = ['calendar', 'new', 'shibuya'].includes(requestedView) ? requestedView : 'calendar';
+const state = { selected: new Date(localToday), month: new Date(localToday.getFullYear(), localToday.getMonth(), 1), source: 'all', metroOnly: true, query: '', view: initialView };
 const $ = (selector) => document.querySelector(selector);
 const pad = (n) => String(n).padStart(2, '0');
 const iso = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
@@ -163,9 +165,17 @@ $('#next-day').addEventListener('click', () => moveSelectedDay(1));
 $('#today-button').addEventListener('click', () => { state.selected = new Date(localToday); state.month = new Date(localToday.getFullYear(), localToday.getMonth(), 1); render(); });
 $('#metro-only').addEventListener('change', (event) => { state.metroOnly = event.target.checked; render(); });
 $('#search').addEventListener('input', (event) => { state.query = event.target.value; render(); });
-$('#calendar-view-button').addEventListener('click', () => { state.view = 'calendar'; renderViews(); });
-$('#new-view-button').addEventListener('click', () => { state.view = 'new'; renderViews(); });
-$('#shibuya-view-button').addEventListener('click', () => { state.view = 'shibuya'; renderViews(); });
+function setView(view) {
+  state.view = view;
+  const url = new URL(window.location.href);
+  if (view === 'calendar') url.searchParams.delete('view');
+  else url.searchParams.set('view', view);
+  window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+  renderViews();
+}
+$('#calendar-view-button').addEventListener('click', () => setView('calendar'));
+$('#new-view-button').addEventListener('click', () => setView('new'));
+$('#shibuya-view-button').addEventListener('click', () => setView('shibuya'));
 
 function loadEvents() {
   try {
