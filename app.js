@@ -29,6 +29,10 @@ function matchingEvents(date) {
   return events.filter((event) => event.date === iso(date) && matchesFilters(event));
 }
 
+function matchingShibuyaEvents(date) {
+  return shibuyaEvents().filter((event) => event.date === iso(date));
+}
+
 function matchesFilters(event) {
   const term = state.query.trim().toLocaleLowerCase('ja');
   return (!state.metroOnly || isMetroEvent(event)) && (state.source === 'all' || state.source === event.sourceId) && `${event.title} ${event.artist} ${event.venue}`.toLocaleLowerCase('ja').includes(term);
@@ -73,7 +77,7 @@ function renderCalendar() {
     const inMonth = date.getMonth() === month;
     const selected = iso(date) === iso(state.selected);
     const isToday = iso(date) === iso(localToday);
-    const hasEvent = matchingEvents(date).length > 0;
+    const hasEvent = (state.view === 'shibuya' ? matchingShibuyaEvents(date) : matchingEvents(date)).length > 0;
     cells.push(`<button class="day-cell ${inMonth ? '' : 'outside'} ${selected ? 'selected-day' : ''} ${isToday ? 'today-day' : ''}" data-date="${iso(date)}" ${inMonth ? '' : 'tabindex="-1"'}><span class="day-number">${date.getDate()}</span>${hasEvent ? '<span class="day-dot" aria-label="イベントあり"></span>' : ''}</button>`);
     if (day >= days && (i + 1) % 7 === 0) break;
   }
@@ -83,12 +87,13 @@ function renderCalendar() {
 }
 
 function renderAgenda() {
-  const items = matchingEvents(state.selected).sort((a, b) => a.time.localeCompare(b.time));
+  const isShibuya = state.view === 'shibuya';
+  const items = (isShibuya ? matchingShibuyaEvents(state.selected) : matchingEvents(state.selected)).sort((a, b) => a.time.localeCompare(b.time));
   const selectedSource = sources.find((source) => source.id === state.source);
   $('#selected-heading').textContent = state.source === 'all' ? 'すべてのイベント' : state.source === 'tower-shibuya' ? 'タワーレコード渋谷店' : selectedSource.label;
   $('#agenda-title').textContent = fullDate.format(state.selected);
   $('#agenda-count').textContent = `${items.length}件`;
-  $('#agenda-list').innerHTML = items.length ? items.map((event) => eventCard(event)).join('') : `<div class="empty-state"><p>${state.query || state.source !== 'all' ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
+  $('#agenda-list').innerHTML = items.length ? items.map((event) => eventCard(event, false, isShibuya ? shibuyaSource(event) : null)).join('') : `<div class="empty-state"><p>${!isShibuya && (state.query || state.source !== 'all') ? '条件に合うイベントはありません。' : 'この日のイベントはありません。'}</p><span>別の日付を選ぶか、公式ページをご確認ください。</span></div>`;
 }
 
 function renderNewEvents() {
@@ -115,21 +120,14 @@ function shibuyaSource(event) {
   return sources.find((source) => source.id === 'vv-all');
 }
 
-function renderShibuyaEvents() {
+function shibuyaEvents() {
   const deduplicated = new Map();
   for (const event of events.filter((item) => isShibuyaEvent(item) && item.date >= iso(localToday) && `${item.title} ${item.artist} ${item.venue}`.toLocaleLowerCase('ja').includes(state.query.trim().toLocaleLowerCase('ja')))) {
     const key = `${event.url}|${event.date}|${event.time}`;
     const previous = deduplicated.get(key);
     if (!previous || (event.sourceId.endsWith('shibuya') && !previous.sourceId.endsWith('shibuya'))) deduplicated.set(key, event);
   }
-  const items = [...deduplicated.values()].sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
-  $('#shibuya-event-count').textContent = items.length || '';
-  const groups = new Map();
-  for (const event of items) {
-    if (!groups.has(event.date)) groups.set(event.date, []);
-    groups.get(event.date).push(event);
-  }
-  $('#shibuya-events-view').innerHTML = groups.size ? [...groups.entries()].map(([date, dailyEvents]) => `<section class="new-event-day"><header><h2>${shortEventDate(date)}開催</h2><span>${dailyEvents.length}件</span></header><div>${dailyEvents.map((event) => eventCard(event, false, shibuyaSource(event))).join('')}</div></section>`).join('') : '<div class="empty-state"><p>渋谷で開催予定のイベントはありません。</p><span>情報は毎日更新されます。</span></div>';
+  return [...deduplicated.values()].sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
 }
 
 function renderViews() {
@@ -137,10 +135,9 @@ function renderViews() {
   const isNew = state.view === 'new';
   const isShibuya = state.view === 'shibuya';
   const selectedSource = sources.find((source) => source.id === state.source);
-  $('#planner-grid').hidden = !isCalendar;
+  $('#planner-grid').hidden = !isCalendar && !isShibuya;
   $('#new-events-view').hidden = !isNew;
-  $('#shibuya-events-view').hidden = !isShibuya;
-  $('#page-subtitle').textContent = isCalendar ? '日付を選ぶと、その日の開催予定を確認できます。' : isNew ? '取得で新たに見つかったイベントを、検出日ごとに表示します。' : 'タワーレコード・HMV・ヴィレッジヴァンガードの渋谷開催分';
+  $('#page-subtitle').textContent = isCalendar ? '日付を選ぶと、その日の開催予定を確認できます。' : isNew ? '取得で新たに見つかったイベントを、検出日ごとに表示します。' : '渋谷で開催されるイベントをカレンダーから確認できます。';
   $('#selected-heading').textContent = isShibuya ? '渋谷のイベント' : state.source === 'all' ? 'すべてのイベント' : state.source === 'tower-shibuya' ? 'タワーレコード渋谷店' : selectedSource.label;
   $('#calendar-view-button').classList.toggle('selected', isCalendar);
   $('#new-view-button').classList.toggle('selected', isNew);
@@ -148,8 +145,8 @@ function renderViews() {
   $('#calendar-view-button').setAttribute('aria-pressed', String(isCalendar));
   $('#new-view-button').setAttribute('aria-pressed', String(isNew));
   $('#shibuya-view-button').setAttribute('aria-pressed', String(isShibuya));
+  $('#shibuya-event-count').textContent = shibuyaEvents().length || '';
   renderNewEvents();
-  renderShibuyaEvents();
 }
 
 function render() { renderSources(); renderCalendar(); renderAgenda(); renderViews(); }
@@ -171,7 +168,7 @@ function setView(view) {
   if (view === 'calendar') url.searchParams.delete('view');
   else url.searchParams.set('view', view);
   window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
-  renderViews();
+  render();
 }
 $('#calendar-view-button').addEventListener('click', () => setView('calendar'));
 $('#new-view-button').addEventListener('click', () => setView('new'));
