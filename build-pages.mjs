@@ -1,16 +1,22 @@
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const root = fileURLToPath(new URL('.', import.meta.url));
 const output = join(root, 'site');
-const [template, eventData] = await Promise.all([
+const [template, eventData, appScript, styleSheet] = await Promise.all([
   readFile(join(root, 'index.html'), 'utf8'),
   readFile(join(root, 'data', 'events.json'), 'utf8'),
+  readFile(join(root, 'app.js'), 'utf8'),
+  readFile(join(root, 'styles.css'), 'utf8'),
 ]);
+const assetVersion = (contents) => createHash('sha256').update(contents).digest('hex').slice(0, 12);
 const escapedData = JSON.stringify(JSON.parse(eventData))
   .replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 let html = template.replace('__INITIAL_EVENT_DATA__', escapedData);
+html = html.replace('href="styles.css"', `href="styles.css?v=${assetVersion(styleSheet)}"`);
+html = html.replace('src="app.js"', `src="app.js?v=${assetVersion(appScript)}"`);
 html = html.replace(
   '<form action="/refresh" method="post"><button class="refresh-button" type="submit">今すぐ更新</button></form>',
   '<span class="refresh-note">毎日自動更新</span>',
