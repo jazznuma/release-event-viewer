@@ -21,8 +21,9 @@ const fullDate = new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: 'lon
 const monthDate = new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: 'long' });
 
 function renderSources() {
-  $('#source-list').innerHTML = `<button class="source-button ${state.source === 'all' ? 'selected' : ''}" data-source="all"><span class="source-mark all-mark">す</span><span>すべて</span></button>` + sources.map((source) => `<button class="source-button ${state.source === source.id ? 'selected' : ''}" data-source="${source.id}"><span class="source-mark ${source.tone}">${source.short}</span><span>${source.label}</span></button>`).join('');
-  document.querySelectorAll('[data-source]').forEach((button) => button.addEventListener('click', () => { state.source = button.dataset.source; render(); }));
+  $('#source-list').innerHTML = `<button class="source-button ${state.source === 'all' && state.view !== 'shibuya' ? 'selected' : ''}" data-source="all"><span class="source-mark all-mark">す</span><span>すべて</span></button><button class="source-button ${state.view === 'shibuya' ? 'selected' : ''}" data-view="shibuya"><span class="source-mark page-mark">▦</span><span>渋谷カレンダー</span><span id="shibuya-event-count" class="source-count"></span></button>` + sources.map((source) => `<button class="source-button ${state.source === source.id && state.view !== 'shibuya' ? 'selected' : ''}" data-source="${source.id}"><span class="source-mark ${source.tone}">${source.short}</span><span>${source.label}</span></button>`).join('');
+  document.querySelectorAll('[data-source]').forEach((button) => button.addEventListener('click', () => { state.source = button.dataset.source; setView('calendar'); }));
+  document.querySelector('[data-view="shibuya"]').addEventListener('click', () => setView('shibuya'));
 }
 
 function matchingEvents(date) {
@@ -141,10 +142,8 @@ function renderViews() {
   $('#selected-heading').textContent = isShibuya ? '渋谷のイベント' : state.source === 'all' ? 'すべてのイベント' : state.source === 'tower-shibuya' ? 'タワーレコード渋谷店' : selectedSource.label;
   $('#calendar-view-button').classList.toggle('selected', isCalendar);
   $('#new-view-button').classList.toggle('selected', isNew);
-  $('#shibuya-view-button').classList.toggle('selected', isShibuya);
   $('#calendar-view-button').setAttribute('aria-pressed', String(isCalendar));
   $('#new-view-button').setAttribute('aria-pressed', String(isNew));
-  $('#shibuya-view-button').setAttribute('aria-pressed', String(isShibuya));
   $('#shibuya-event-count').textContent = shibuyaEvents().length || '';
   renderNewEvents();
 }
@@ -172,7 +171,6 @@ function setView(view) {
 }
 $('#calendar-view-button').addEventListener('click', () => setView('calendar'));
 $('#new-view-button').addEventListener('click', () => setView('new'));
-$('#shibuya-view-button').addEventListener('click', () => setView('shibuya'));
 
 function loadEvents() {
   try {
