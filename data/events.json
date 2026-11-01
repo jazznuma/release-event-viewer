@@ -14,19 +14,6 @@
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
-      "title": "【GANG PARADE】最後の特典会『THE LAST PLAYGROUND』",
-      "artist": "GANG PARADE",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-10-31",
-      "time": "12:00",
-      "url": "https://towershibuya.jp/2026/10/31/234569",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-10-31:12:00:https://towershibuya.jp/2026/10/31/234569",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
-      "firstSeenAt": null
-    },
-    {
       "title": "【XngHan&Xoul】The 1st Japan Single「HIGH BEAM」発売記念リリースイベント",
       "artist": "XngHan&Xoul",
       "venue": "ららぽーと立川立飛店",
@@ -53,32 +40,6 @@
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
-      "title": "特典会",
-      "artist": "椛島光",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-10-31",
-      "time": "12:00",
-      "url": "https://www.hmv.co.jp/store/event/55985/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-10-31:12:00:https://www.hmv.co.jp/store/event/55985/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": null
-    },
-    {
-      "id": "vv-all:2026-10-31:12:00:https://www.village-v.co.jp/event/031523/",
-      "title": "【NEOTOKYO-TRIBE & Lumi Cherie】 フリーライブ inVV渋谷本店",
-      "artist": "NEOTOKYO-TRIBE & Lumi Cherie",
-      "venue": "渋谷本店",
-      "date": "2026-10-31",
-      "time": "12:00",
-      "url": "https://www.village-v.co.jp/event/031523/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
-      "firstSeenAt": "2026-10-07T05:58:14.107Z"
-    },
-    {
       "title": "【齋藤璃佑】「2027年カレンダー発売記念イベント」 追加開催決定！",
       "artist": "齋藤璃佑",
       "venue": "梅田NU茶屋町店",
@@ -89,19 +50,6 @@
       "kind": "",
       "id": "tower-all:2026-10-31:12:30:https://tower.jp/store/event/2026/10/096017",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
-      "firstSeenAt": null
-    },
-    {
-      "title": "特典会",
-      "artist": "溝口琢矢",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-10-31",
-      "time": "12:30",
-      "url": "https://www.hmv.co.jp/store/event/56156/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-10-31:12:30:https://www.hmv.co.jp/store/event/56156/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
       "firstSeenAt": null
     },
     {
@@ -183,58 +131,6 @@
       "firstSeenAt": "2026-10-07T05:58:14.107Z"
     },
     {
-      "title": "ミニライブ&特典会",
-      "artist": "オール巨人",
-      "venue": "HMV&BOOKS NAMBA",
-      "date": "2026-10-31",
-      "time": "13:00",
-      "url": "https://www.hmv.co.jp/store/event/56523/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-10-31:13:00:https://www.hmv.co.jp/store/event/56523/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": "2026-10-21T04:45:00.310Z"
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "真・世が世なら!!!",
-      "venue": "HMV SPOT 有明ガーデン",
-      "date": "2026-10-31",
-      "time": "13:00",
-      "url": "https://www.hmv.co.jp/store/event/56629/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-10-31:13:00:https://www.hmv.co.jp/store/event/56629/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "Vybe",
-      "venue": "HMV大宮アルシェ",
-      "date": "2026-10-31",
-      "time": "13:00",
-      "url": "https://www.hmv.co.jp/store/event/56621/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-10-31:13:00:https://www.hmv.co.jp/store/event/56621/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
-      "title": "【I’mdifficult（我是機車少女）】緊急開催決定！！！来日記念サイン会",
-      "artist": "7F / アジア音楽旅KnowMusicKnowAsiaBuyersChoice",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-10-31",
-      "time": "14:00",
-      "url": "https://towershibuya.jp/2026/10/31/236593",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-10-31:14:00:https://towershibuya.jp/2026/10/31/236593",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
       "title": "亜咲花「Song of LIFE」＆「GO! GO! RAILWAY!!」発売記念イベント　ミニライブ＆特典会",
       "artist": "亜咲花",
       "venue": "大高店",
@@ -287,71 +183,6 @@
       "firstSeenAt": null
     },
     {
-      "title": "ミニライブ&特典会",
-      "artist": "スターダスト福岡女子",
-      "venue": "HMV&BOOKS HAKATA",
-      "date": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.hmv.co.jp/store/event/56372/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-10-31:14:00:https://www.hmv.co.jp/store/event/56372/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": null
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "EBiDAN OKiNAWA",
-      "venue": "HMV&BOOKS OKINAWA",
-      "date": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.hmv.co.jp/store/event/56557/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-10-31:14:00:https://www.hmv.co.jp/store/event/56557/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": "2026-10-18T04:32:02.925Z"
-    },
-    {
-      "id": "vv-all:2026-10-31:14:00:https://www.village-v.co.jp/event/031440/",
-      "title": "10/31(土)＠さっぽろ東急【SHY】SHY New Single「ラブSHY高！」リリース記念イベント",
-      "artist": "SHY",
-      "venue": "さっぽろ東急",
-      "date": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.village-v.co.jp/event/031440/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
-      "firstSeenAt": null
-    },
-    {
-      "id": "vv-all:2026-10-31:14:30:https://www.village-v.co.jp/event/031522/",
-      "title": "【あくまで天使 & MISS MY NOTES】 フリーライブ inVV渋谷本店",
-      "artist": "あくまで天使 & MISS MY NOTES",
-      "venue": "渋谷本店",
-      "date": "2026-10-31",
-      "time": "14:30",
-      "url": "https://www.village-v.co.jp/event/031522/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
-      "firstSeenAt": "2026-10-21T04:45:00.310Z"
-    },
-    {
-      "title": "【&TEAM】KR 2nd Mini Album ‘Mark on Me’発売記念「ユニットサイン会」（EJ、HARUA）",
-      "artist": "&TEAM",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "url": "https://towershibuya.jp/2026/10/31/233029",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-10-31:15:00:https://towershibuya.jp/2026/10/31/233029",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
-      "firstSeenAt": null
-    },
-    {
       "title": "【RE-GE】 2nd Single 発売記念フリーライブ",
       "artist": "RE-GE",
       "venue": "TOWER RECORDS mini 舞浜イクスピアリ店",
@@ -378,19 +209,6 @@
       "firstSeenAt": "2026-10-20T04:49:34.167Z"
     },
     {
-      "title": "【&TEAM】KR 2nd Mini Album ‘Mark on Me’発売記念「ユニットトーク&フォトカードお渡し会」（EJ・HARUA）",
-      "artist": "&TEAM",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-10-31",
-      "time": "16:15",
-      "url": "https://towershibuya.jp/2026/10/31/233035",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-10-31:16:15:https://towershibuya.jp/2026/10/31/233035",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
-      "firstSeenAt": null
-    },
-    {
       "title": "Marihiko Hara 『Flora』発売記念サイン会",
       "artist": "原 摩利彦",
       "venue": "TOWER VINYL京都店",
@@ -402,32 +220,6 @@
       "id": "tower-all:2026-10-31:17:00:https://tower.jp/store/event/2026/10/1156haramarihiko",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-09T06:07:46.067Z"
-    },
-    {
-      "title": "特典会",
-      "artist": "夢限大みゅーたいぷ",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-10-31",
-      "time": "17:30",
-      "url": "https://www.hmv.co.jp/store/event/55679/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-10-31:17:30:https://www.hmv.co.jp/store/event/55679/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": null
-    },
-    {
-      "id": "vv-all:2026-10-31:17:30:https://www.village-v.co.jp/event/031520/",
-      "title": "【ソラネルカンパニー & LOVE PANIC!×わくめる！】 フリーライブ inVV渋谷本店",
-      "artist": "ソラネルカンパニー & LOVE PANIC!×わくめる！",
-      "venue": "渋谷本店",
-      "date": "2026-10-31",
-      "time": "17:30",
-      "url": "https://www.village-v.co.jp/event/031520/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
-      "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
       "title": "【寺嶋由芙】寺嶋由芙『ここでわたしが』発売記念イベント",
@@ -456,17 +248,17 @@
       "firstSeenAt": null
     },
     {
-      "id": "vv-all:2026-10-31:20:00:https://www.village-v.co.jp/event/031519/",
-      "title": "【Kitty_z & アルテミスの翼】 フリーライブinVV渋谷本店",
-      "artist": "Kitty_z & アルテミスの翼",
-      "venue": "渋谷本店",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "url": "https://www.village-v.co.jp/event/031519/",
-      "sourceId": "vv-all",
+      "title": "【GANG PARADE】最後の特典会『THE LAST PLAYGROUND』",
+      "artist": "GANG PARADE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/01/234571",
+      "sourceId": "tower-shibuya",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
-      "firstSeenAt": "2026-10-31T05:39:01.368Z"
+      "id": "tower-shibuya:2026-11-01:12:00:https://towershibuya.jp/2026/11/01/234571",
+      "fetchedAt": "2026-11-01T06:01:58.595Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【めんこいな東北】「めんこいな青春！」発売記念イベント",
@@ -491,7 +283,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-01:12:00:https://www.hmv.co.jp/store/event/55986/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -504,7 +296,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-01:12:00:https://www.hmv.co.jp/store/event/55952/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -517,8 +309,21 @@
       "url": "https://www.village-v.co.jp/event/031590/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
+    },
+    {
+      "id": "vv-all:2026-11-01:12:00:https://www.village-v.co.jp/event/031561/",
+      "title": "【Task have Fun】フリーライブ＠有明ガーデン",
+      "artist": "Task have Fun",
+      "venue": "有明ガーデン３F　みんなのテラス",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "url": "https://www.village-v.co.jp/event/031561/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "<東京会場>齋藤璃佑「2027年カレンダー発売記念イベント」追加開催決定！【1部】13:00～【2部】15:00～【3部】17:00～",
@@ -543,7 +348,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-01:12:30:https://www.hmv.co.jp/store/event/56157/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -556,7 +361,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-01:12:30:https://www.hmv.co.jp/store/event/56570/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
@@ -660,7 +465,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-01:13:00:https://www.hmv.co.jp/store/event/56504/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -673,7 +478,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-01:13:00:https://www.hmv.co.jp/store/event/56578/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
     },
     {
@@ -686,7 +491,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-01:13:00:https://www.hmv.co.jp/store/event/56554/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-19T04:39:33.049Z"
     },
     {
@@ -699,7 +504,7 @@
       "url": "https://www.village-v.co.jp/event/031402/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": null
     },
     {
@@ -751,7 +556,7 @@
       "url": "https://www.village-v.co.jp/event/031592/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
     },
     {
@@ -764,8 +569,21 @@
       "url": "https://www.village-v.co.jp/event/031533/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-08T06:02:35.378Z"
+    },
+    {
+      "title": "【馬場桜佑×みやけん】『keep SINGING 2』発売記念イベント",
+      "artist": "みやけん / 馬場桜佑",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-01",
+      "time": "17:30",
+      "url": "https://towershibuya.jp/2026/11/01/235017",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-01:17:30:https://towershibuya.jp/2026/11/01/235017",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "id": "vv-all:2026-11-01:18:00:https://www.village-v.co.jp/event/031593/",
@@ -777,7 +595,7 @@
       "url": "https://www.village-v.co.jp/event/031593/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
     },
     {
@@ -829,7 +647,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-02:12:00:https://www.hmv.co.jp/store/event/56413/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -881,7 +699,7 @@
       "url": "https://www.village-v.co.jp/event/031582/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -898,6 +716,45 @@
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/234019",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/234019",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【宇宙人（Cosmos People）】来日記念イベント",
+      "artist": "Cosmos People / 宇宙人",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/236154",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/236154",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Kitty_z】 フリーライブ",
+      "artist": "Kitty_z",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/236385",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/236385",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "ミニライブ&特典会",
       "artist": "I$M",
       "venue": "HMV&BOOKS SHIBUYA",
@@ -907,7 +764,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-02:19:00:https://www.hmv.co.jp/store/event/56594/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
     },
     {
@@ -920,8 +777,21 @@
       "url": "https://www.village-v.co.jp/event/031567/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
+    },
+    {
+      "title": "開演時間変更【NEOTOKYO-TRIBE】シングル『音楽が好きな人はNEOTOKYOにアクセスして下ちい。』 ミニライブ＆特典会",
+      "artist": "NEOTOKYO-TRIBE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/02/236227",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:30:https://towershibuya.jp/2026/11/02/236227",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【U＆pia】フリーイベント",
@@ -946,8 +816,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-03:11:30:https://www.hmv.co.jp/store/event/56174/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【幻色シアター】シングル『ジャパニ住むSTYLE』 ミニライブ＆特典会",
+      "artist": "幻色シアター",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/03/236244",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:12:00:https://towershibuya.jp/2026/11/03/236244",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【NEOTOKYO-TRIBE】シングル『音楽が好きな人はNEOTOKYOにアクセスして下ちい。』 ミニライブ＆特典会",
@@ -972,7 +855,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-03:12:00:https://www.hmv.co.jp/store/event/56431/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
@@ -1011,8 +894,21 @@
       "url": "https://www.village-v.co.jp/event/031544/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-12T05:56:19.810Z"
+    },
+    {
+      "title": "【齋藤友紀】「Happiness」発売記念イベント",
+      "artist": "齋藤友紀",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/03/233617",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:13:00:https://towershibuya.jp/2026/11/03/233617",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "神園さやか New Album『Antique』発売記念イベント ～ミニライブ＆特典会～",
@@ -1089,8 +985,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-03:13:00:https://www.hmv.co.jp/store/event/56560/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
+    },
+    {
+      "title": "【LEE CHAEYEON】 JAPAN 1st Single Album [ボクノコエ] 発売記念スペシャルイベント",
+      "artist": "LEE CHAEYEON / イ・チェヨン",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "13:15",
+      "url": "https://towershibuya.jp/2026/11/03/236025",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:13:15:https://towershibuya.jp/2026/11/03/236025",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "「Flute Showcase vol.1」CD発売記念イベント",
@@ -1104,6 +1013,32 @@
       "id": "tower-all:2026-11-03:14:00:https://tower.jp/store/event/2026/11/135001",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-06T06:19:34.366Z"
+    },
+    {
+      "title": "Pied Piper House Presents ふたりブリッジ「Windy Afternoon / Soft Cream Whistle」発売記念トーク&ミニライブ＆サイン会～カジヒデキとイケミズマユミ、bridgeを語り演奏する～",
+      "artist": "PIED PIPER HOUSE / ふたりブリッジ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/03/236532",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236532",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【アルテミスの翼 & LunaMoon】 フリーライブ",
+      "artist": "LunaMoon / アルテミスの翼",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/03/236540",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236540",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【めんこいな東北】「めんこいな青春！」発売記念イベント",
@@ -1141,7 +1076,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-03:15:00:https://www.hmv.co.jp/store/event/56561/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-20T04:49:34.167Z"
     },
     {
@@ -1154,8 +1089,34 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-03:17:00:https://www.hmv.co.jp/store/event/56415/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【SiM】『HOOMAN AFTER ALL』リリース記念 全国サイン会ツアー開催！",
+      "artist": "SiM",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "18:00",
+      "url": "https://towershibuya.jp/2026/11/03/235490",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:18:00:https://towershibuya.jp/2026/11/03/235490",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【べるべっとセンテンス】フリーライブ",
+      "artist": "べるべっとセンテンス",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "18:00",
+      "url": "https://towershibuya.jp/2026/11/03/236410",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:18:00:https://towershibuya.jp/2026/11/03/236410",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "セントチヒロ・チッチ 2nd Album「やさしい引力」発売記念イベント開催決定！",
@@ -1219,7 +1180,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-03:19:00:https://www.hmv.co.jp/store/event/56635/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -1245,8 +1206,34 @@
       "url": "https://www.village-v.co.jp/event/031598/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "Lumi7’s",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "url": "https://www.hmv.co.jp/store/event/56648/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-11-04:18:00:https://www.hmv.co.jp/store/event/56648/",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【可憐なアイボリー 】　メジャー2ndアルバム「恋を着る季節」リリース記念イベント",
+      "artist": "可憐なアイボリー",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/04/235602",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-04:19:00:https://towershibuya.jp/2026/11/04/235602",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -1258,7 +1245,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-04:19:00:https://www.hmv.co.jp/store/event/56580/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -1271,7 +1258,7 @@
       "url": "https://www.village-v.co.jp/event/031584/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -1310,7 +1297,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-05:15:00:https://www.hmv.co.jp/store/event/56465/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-05T05:38:50.836Z"
     },
     {
@@ -1323,7 +1310,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-05:18:00:https://www.hmv.co.jp/store/event/56603/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -1401,7 +1388,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-05:19:00:https://www.hmv.co.jp/store/event/56616/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -1414,7 +1401,7 @@
       "url": "https://www.village-v.co.jp/event/031537/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -1440,7 +1427,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-06:13:00:https://www.hmv.co.jp/store/event/56326/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1479,7 +1466,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-06:17:30:https://www.hmv.co.jp/store/event/56031/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1492,8 +1479,21 @@
       "url": "https://www.village-v.co.jp/event/031599/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
+    },
+    {
+      "title": "【Michael Kaneko】　Reprise発売記念　インストアライブ+サイン会",
+      "artist": "Michael Kaneko",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/06/236683",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-06:19:00:https://towershibuya.jp/2026/11/06/236683",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【クマリデパート 5tアルバム「みらでぱ！」発売記念イベント】",
@@ -1544,7 +1544,7 @@
       "url": "https://www.village-v.co.jp/event/031538/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -1557,7 +1557,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-07:11:30:https://www.hmv.co.jp/store/event/55947/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1609,7 +1609,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-07:12:00:https://www.hmv.co.jp/store/event/56487/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-09T06:07:46.067Z"
     },
     {
@@ -1622,8 +1622,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-07:12:00:https://www.hmv.co.jp/store/event/56452/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
+    },
+    {
+      "title": "【アルスマグナ】 New Album 『アルスノオト』 発売記念イベント",
+      "artist": "アルスマグナ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/07/232923",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:13:00:https://towershibuya.jp/2026/11/07/232923",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【浜崎容子】/『マグマ』発売記念 ミニライブ＆特典会 @タワーレコード京都店",
@@ -1661,7 +1674,7 @@
       "url": "https://www.village-v.co.jp/event/031600/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -1676,6 +1689,19 @@
       "id": "tower-all:2026-11-07:13:30:https://tower.jp/store/event/2026/11/147003",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "【務川慧悟】「LIVE～Modern Piano + Fortepiano～」CD発売記念イベント",
+      "artist": "務川慧悟",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "14:00",
+      "url": "https://towershibuya.jp/2026/11/07/236586",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:14:00:https://towershibuya.jp/2026/11/07/236586",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【岡咲美保】3rdミニアルバム「MY ÉTOILE」発売記念フリーライブ開催決定！",
@@ -1752,7 +1778,7 @@
       "url": "https://www.village-v.co.jp/event/031578/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
     },
     {
@@ -1769,6 +1795,19 @@
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
+      "title": "【Luci Gang】 BiKN shibuya 2026 開催記念イベント",
+      "artist": "Luci Gang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/07/236361",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:15:00:https://towershibuya.jp/2026/11/07/236361",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "特典会",
       "artist": "澄田綾乃",
       "venue": "HMV&BOOKS NAMBA",
@@ -1778,7 +1817,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-07:15:00:https://www.hmv.co.jp/store/event/56210/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1804,7 +1843,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-07:17:00:https://www.hmv.co.jp/store/event/56416/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1882,7 +1921,7 @@
       "url": "https://www.village-v.co.jp/event/031535/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-11T05:45:40.127Z"
     },
     {
@@ -1895,7 +1934,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-08:11:30:https://www.hmv.co.jp/store/event/56335/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -1921,7 +1960,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-08:12:00:https://www.hmv.co.jp/store/event/56486/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -1934,8 +1973,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-08:12:00:https://www.hmv.co.jp/store/event/56305/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【Verde/】トーク&握手会がタワーレコード渋谷店にて開催決定！",
+      "artist": "Verde/",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "12:30",
+      "url": "https://towershibuya.jp/2026/11/08/235499",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:12:30:https://towershibuya.jp/2026/11/08/235499",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "特典会",
@@ -1947,8 +1999,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-08:12:30:https://www.hmv.co.jp/store/event/56158/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【GRIPHAGE】Digital Single「We Are GRIPHAGE」 ミニライブ＆特典会",
+      "artist": "GRIPHAGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/08/236416",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:13:00:https://towershibuya.jp/2026/11/08/236416",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【甘党男子】甘党男子 ミニライブ＆特典会",
@@ -2012,7 +2077,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-08:13:00:https://www.hmv.co.jp/store/event/56596/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -2025,7 +2090,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-08:13:00:https://www.hmv.co.jp/store/event/56568/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
@@ -2038,7 +2103,7 @@
       "url": "https://www.village-v.co.jp/event/031560/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -2077,8 +2142,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-08:14:00:https://www.hmv.co.jp/store/event/56628/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "【Zilqy】1stフルアルバム『Birth of Riot＜一般流通盤＞』発売記念リリース記念イベント",
+      "artist": "Zilqy",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "15:15",
+      "url": "https://towershibuya.jp/2026/11/08/235204",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:15:15:https://towershibuya.jp/2026/11/08/235204",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "id": "vv-all:2026-11-08:16:00:https://www.village-v.co.jp/event/031580/",
@@ -2090,7 +2168,7 @@
       "url": "https://www.village-v.co.jp/event/031580/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -2142,7 +2220,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-09:17:00:https://www.hmv.co.jp/store/event/56532/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -2159,6 +2237,19 @@
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
     },
     {
+      "title": "【さくらみこ】2ndアルバム「Blooming Cinderella」リリース記念イベント",
+      "artist": "さくらみこ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/09/233566",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:18:30:https://towershibuya.jp/2026/11/09/233566",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "【LITミニライブイベント in イオンモール東浦】",
       "artist": "LIT",
       "venue": "東浦店",
@@ -2170,6 +2261,32 @@
       "id": "tower-all:2026-11-09:18:30:https://tower.jp/store/event/2026/11/067001",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
+    },
+    {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/09/234021",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:19:00:https://towershibuya.jp/2026/11/09/234021",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Elephant Kind】【衛柏Neon】BiKN shibuya 2026 開催記念イベント第二弾！",
+      "artist": "Elephant Kind / 衛柏Neon",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/09/236398",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:19:00:https://towershibuya.jp/2026/11/09/236398",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【さくらあや】【玖麗さやか】STARDOM × TOWER RECORDS POP UP TOUR 2026",
@@ -2207,7 +2324,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-09:19:00:https://www.hmv.co.jp/store/event/56617/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -2220,7 +2337,7 @@
       "url": "https://www.village-v.co.jp/event/031587/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -2233,7 +2350,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-09:20:00:https://www.hmv.co.jp/store/event/56640/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2250,6 +2367,32 @@
       "firstSeenAt": null
     },
     {
+      "title": "【Re:IDOL】フリーライブ＠タワーレコード渋谷店5Fイベントスペース",
+      "artist": "Re:IDOL",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/10/236284",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-10:19:00:https://towershibuya.jp/2026/11/10/236284",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【佐々木李子】シングル「Still Water」リリースイベント決定！@タワーレコード渋谷店9F屋上",
+      "artist": "佐々木李子",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/10/235219",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-10:19:00:https://towershibuya.jp/2026/11/10/235219",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "ミニライブ&特典会",
       "artist": "Gran☆Ciel",
       "venue": "HMV&BOOKS SHIBUYA",
@@ -2259,7 +2402,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-10:19:00:https://www.hmv.co.jp/store/event/56606/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -2272,7 +2415,7 @@
       "url": "https://www.village-v.co.jp/event/031585/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -2311,7 +2454,7 @@
       "url": "https://www.village-v.co.jp/event/031603/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2324,7 +2467,7 @@
       "url": "https://www.village-v.co.jp/event/031609/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2339,6 +2482,19 @@
       "id": "tower-all:2026-11-11:18:30:https://tower.jp/store/event/2026/11/067002",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
+    },
+    {
+      "title": "【セントチヒロ・チッチ】2nd Album「やさしい引力」発売記念イベント”ミニライブ＆特典会”",
+      "artist": "セントチヒロ・チッチ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/11/236676",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-11:19:00:https://towershibuya.jp/2026/11/11/236676",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【Ochunism】ミニライブ＆サイン会開催決定！",
@@ -2376,8 +2532,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-11:19:00:https://www.hmv.co.jp/store/event/56524/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
+    },
+    {
+      "id": "vv-all:2026-11-11:19:00:https://www.village-v.co.jp/event/031612/",
+      "title": "【ファーストプレイリスト】フリーライブinVV渋谷本店",
+      "artist": "ファーストプレイリスト",
+      "venue": "渋谷本店",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "url": "https://www.village-v.co.jp/event/031612/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.037Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "KOIAI「KOIAI LIVE TOUR 2026「Starting Over」in TOKYO -HEAVY KAWAII FES 2026-」発売記念サイン会@タワーレコードあべのHoop店",
@@ -2415,7 +2584,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-12:14:00:https://www.hmv.co.jp/store/event/56534/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -2428,8 +2597,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-12:17:00:https://www.hmv.co.jp/store/event/56572/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
+    },
+    {
+      "title": "【CiON】　「THIS IS ME!!!!!/BRASS ON」スペシャルリリースイベント",
+      "artist": "CiON",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-12",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/12/236142",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-12:18:30:https://towershibuya.jp/2026/11/12/236142",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【甘党男子】ミニライブ＆特典会",
@@ -2506,8 +2688,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-13:18:00:https://www.hmv.co.jp/store/event/56445/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-04T05:51:42.920Z"
+    },
+    {
+      "title": "【二丁目の魁カミングアウト】 FREE インストア GAY LIVE",
+      "artist": "二丁目の魁カミングアウト",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-13",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/13/236538",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-13:18:30:https://towershibuya.jp/2026/11/13/236538",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【インナージャーニー】11/13（金）リリースイベント開催決定！",
@@ -2558,8 +2753,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-14:10:30:https://www.hmv.co.jp/store/event/56438/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-06T06:19:34.366Z"
+    },
+    {
+      "title": "【阪田知樹】「ラ・カンパネッラ～リスト・ピアノ作品集」CD発売記念イベント",
+      "artist": "阪田知樹",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/14/234284",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:12:00:https://towershibuya.jp/2026/11/14/234284",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【高嶺のなでしこ】 ニューアルバム『A World in Our Colors』 リリース記念イベント at イオンモール津田沼",
@@ -2610,7 +2818,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-14:12:00:https://www.hmv.co.jp/store/event/56472/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -2623,7 +2831,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-14:12:00:https://www.hmv.co.jp/store/event/56306/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2636,7 +2844,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-14:12:00:https://www.hmv.co.jp/store/event/56266/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2688,7 +2896,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-14:13:00:https://www.hmv.co.jp/store/event/56432/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
@@ -2701,7 +2909,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-14:13:00:https://www.hmv.co.jp/store/event/56338/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2714,7 +2922,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-14:13:00:https://www.hmv.co.jp/store/event/56535/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -2727,7 +2935,7 @@
       "url": "https://www.village-v.co.jp/event/031570/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
@@ -2818,7 +3026,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-14:14:00:https://www.hmv.co.jp/store/event/56618/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2833,6 +3041,19 @@
       "id": "tower-all:2026-11-14:14:30:https://tower.jp/store/event/2026/11/02211142",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
+    },
+    {
+      "title": "【宇宙ネコ子】4thアルバム「大人になっても、夜は暗くて」発売記念ミニライブ＆ジャケットサイン会",
+      "artist": "宇宙ネコ子",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "16:00",
+      "url": "https://towershibuya.jp/2026/11/14/236680",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:16:00:https://towershibuya.jp/2026/11/14/236680",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【森口博子】「ANISON COVERS 3」リリースイベント",
@@ -2870,8 +3091,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-14:17:00:https://www.hmv.co.jp/store/event/56473/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
+    },
+    {
+      "title": "【有村竜太朗】　3rd ALBUM 個人作品集2022-2026 「デも/demo #3」発売記念トークイベント",
+      "artist": "有村竜太朗",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/14/235437",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:19:00:https://towershibuya.jp/2026/11/14/235437",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "sugar「甘噛」 INSTORE EVENT",
@@ -2896,7 +3130,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-15:11:00:https://www.hmv.co.jp/store/event/56453/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -2909,7 +3143,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-15:11:30:https://www.hmv.co.jp/store/event/56216/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2922,7 +3156,7 @@
       "url": "https://www.village-v.co.jp/event/031605/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2948,7 +3182,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-15:12:00:https://www.hmv.co.jp/store/event/56172/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2961,7 +3195,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-15:12:00:https://www.hmv.co.jp/store/event/56470/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-08T06:02:35.378Z"
     },
     {
@@ -2974,7 +3208,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-15:12:00:https://www.hmv.co.jp/store/event/56153/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -2987,8 +3221,34 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-15:12:30:https://www.hmv.co.jp/store/event/56336/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【ソンジェ from 超新星】11/11(水)発売Mini Album「そばにいて欲しい ～ forget me not ～」発売記念プロモーションイベント",
+      "artist": "ソンジェ from 超新星",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-15",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/15/235469",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-15:13:00:https://towershibuya.jp/2026/11/15/235469",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【青春CYBER & X8EE】　合同フリーイベント",
+      "artist": "X8EE / 青春CYBER",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-15",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/15/235976",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-15:13:00:https://towershibuya.jp/2026/11/15/235976",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【佐々木李子】シングル「Still Water」リリースイベント決定！@タワーレコードアリオ亀有",
@@ -3026,7 +3286,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-15:13:00:https://www.hmv.co.jp/store/event/56315/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3091,7 +3351,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-15:14:00:https://www.hmv.co.jp/store/event/56471/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-08T06:02:35.378Z"
     },
     {
@@ -3143,7 +3403,7 @@
       "url": "https://www.village-v.co.jp/event/031597/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -3182,7 +3442,7 @@
       "url": "https://www.village-v.co.jp/event/031595/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -3212,6 +3472,19 @@
       "firstSeenAt": null
     },
     {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-16",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/16/235590",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-16:19:00:https://towershibuya.jp/2026/11/16/235590",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "id": "vv-all:2026-11-16:19:00:https://www.village-v.co.jp/event/031596/",
       "title": "【コングラッチェ！】シングル『ビビビっとビート』 ミニライブ＆特典会 inVV渋谷本店",
       "artist": "コングラッチェ！",
@@ -3221,8 +3494,21 @@
       "url": "https://www.village-v.co.jp/event/031596/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "【DDTプロレスリング】DDTプロレスリング4選手合同トークショ5shot撮影会",
+      "artist": "5F / DDTプロレスリング",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-17",
+      "time": "",
+      "url": "https://towershibuya.jp/2026/11/17/235570",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-17:time-unknown:https://towershibuya.jp/2026/11/17/235570",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "id": "vv-all:2026-11-17:15:00:https://www.village-v.co.jp/event/031610/",
@@ -3234,7 +3520,7 @@
       "url": "https://www.village-v.co.jp/event/031610/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -3247,7 +3533,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-17:18:00:https://www.hmv.co.jp/store/event/56604/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -3260,8 +3546,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-18:17:00:https://www.hmv.co.jp/store/event/56598/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
+    },
+    {
+      "title": "【CiON】　「THIS IS ME!!!!!/BRASS ON」ウルトラリリースイベント",
+      "artist": "CiON",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/18/236136",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:18:30:https://towershibuya.jp/2026/11/18/236136",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "『 VELLE.J 』 インストアLIVE",
@@ -3277,6 +3576,32 @@
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
+      "title": "【前田佳織里】4thEP「Push!!」リリース記念イベント",
+      "artist": "前田佳織里",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/18/235668",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:19:00:https://towershibuya.jp/2026/11/18/235668",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【HALLEY】「Born With Love Pt. 1」 リリース記念イベント",
+      "artist": "HALLEY",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "20:00",
+      "url": "https://towershibuya.jp/2026/11/18/235258",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:20:00:https://towershibuya.jp/2026/11/18/235258",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "ミニライブ&特典会",
       "artist": "≒JOY",
       "venue": "HMVラゾーナ川崎",
@@ -3286,7 +3611,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-19:14:00:https://www.hmv.co.jp/store/event/56623/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -3338,7 +3663,7 @@
       "url": "https://www.village-v.co.jp/event/031545/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -3368,6 +3693,19 @@
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
     },
     {
+      "title": "【ブラインド・チャンネル】「ペインストリーム」リリース記念サイン会",
+      "artist": "ブラインド・チャンネル",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-20",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/20/235588",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-20:19:00:https://towershibuya.jp/2026/11/20/235588",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "【金子隼也】2027カレンダー発売記念イベン ト開催決定！",
       "artist": "金子隼也",
       "venue": "梅田NU茶屋町店",
@@ -3390,7 +3728,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56484/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-12T05:56:19.810Z"
     },
     {
@@ -3403,7 +3741,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56339/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3416,7 +3754,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56154/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3429,7 +3767,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56542/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
     },
     {
@@ -3442,8 +3780,21 @@
       "url": "https://www.village-v.co.jp/event/031602/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "【THE JET BOY BANGERZ from EXILE TRIBE】フリーイベント『JET LOUNGE』開催決定！",
+      "artist": "THE JET BOY BANGERZ from EXILE TRIBE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/21/235651",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:13:00:https://towershibuya.jp/2026/11/21/235651",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【青山なぎさ】1st EP「Gentle Beginning」発売記念イベント",
@@ -3520,7 +3871,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56541/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -3533,7 +3884,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56390/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3546,7 +3897,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56536/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -3561,6 +3912,19 @@
       "id": "tower-all:2026-11-21:13:30:https://tower.jp/store/event/2026/11/1011141121",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-26T04:45:50.215Z"
+    },
+    {
+      "title": "【斎藤圭土】「音手紙-une lette en melodie-」CD発売記念イベント",
+      "artist": "斎藤圭土",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "14:00",
+      "url": "https://towershibuya.jp/2026/11/21/236014",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:14:00:https://towershibuya.jp/2026/11/21/236014",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【真･世が世なら!!!】1stminiAL「九死に一生を得た俺らの逆転物語」発売記念イベント",
@@ -3585,7 +3949,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:14:00:https://www.hmv.co.jp/store/event/56463/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-06T06:19:34.366Z"
     },
     {
@@ -3598,7 +3962,7 @@
       "url": "https://www.village-v.co.jp/event/031463/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": null
     },
     {
@@ -3611,7 +3975,7 @@
       "url": "https://www.village-v.co.jp/event/031546/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -3624,7 +3988,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:17:00:https://www.hmv.co.jp/store/event/56583/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -3654,6 +4018,19 @@
       "firstSeenAt": null
     },
     {
+      "title": "【Yuki】初ソロ・アルバム『Blue Rose』リリース記念イベント",
+      "artist": "YUKI",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/21/236323",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:19:30:https://towershibuya.jp/2026/11/21/236323",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "特典会",
       "artist": "FANTASTICS from EXILE TRIBE",
       "venue": "HMV&BOOKS SHIBUYA",
@@ -3663,7 +4040,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-22:11:30:https://www.hmv.co.jp/store/event/56289/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3676,7 +4053,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-22:11:30:https://www.hmv.co.jp/store/event/56110/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3689,7 +4066,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56359/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3702,7 +4079,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56070/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3715,8 +4092,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56267/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
+    },
+    {
+      "id": "vv-all:2026-11-22:12:00:https://www.village-v.co.jp/event/031562/",
+      "title": "【Task have Fun】フリーライブ＠有明ガーデン",
+      "artist": "Task have Fun",
+      "venue": "有明ガーデン３F　みんなのテラス",
+      "date": "2026-11-22",
+      "time": "12:00",
+      "url": "https://www.village-v.co.jp/event/031562/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "BEYOOOOONDS 7thシングル『笑止千万/勝利のセンタク』発売記念 ミニライブ＆お見送り会",
@@ -3730,6 +4120,19 @@
       "id": "tower-all:2026-11-22:12:15:https://tower.jp/store/event/2026/11/1011141122",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
+    },
+    {
+      "title": "【中川優芽花】「プレリュード/中川優芽花 -ゆめかのショパン」発売記念イベント",
+      "artist": "中川優芽花",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/22/236485",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:13:00:https://towershibuya.jp/2026/11/22/236485",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【前橋ウィッチーズ】 ミニアルバムリリースイベント決定！＠イオンタウン郡山イベント広場",
@@ -3780,7 +4183,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:13:00:https://www.hmv.co.jp/store/event/56582/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
     },
     {
@@ -3836,6 +4239,19 @@
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
+      "title": "【私立恵比寿中学】17th Single『スーパーブルー』発売記念お渡し会開催決定のお知らせ！",
+      "artist": "私立恵比寿中学",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "16:30",
+      "url": "https://towershibuya.jp/2026/11/22/236632",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:16:30:https://towershibuya.jp/2026/11/22/236632",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "DEZERT「DEZERT」発売記念イベント『私物サイン+秘密のQRコード付きご当地名刺お渡し会』開催決定！！",
       "artist": "DEZERT",
       "venue": "仙台パルコ店",
@@ -3847,6 +4263,19 @@
       "id": "tower-all:2026-11-22:18:00:https://tower.jp/store/event/2026/11/011003",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
+    },
+    {
+      "title": "【East Of Eden 】 11/22(日)開催 『Ghost Sequence』発売記念リリースイベント",
+      "artist": "East Of Eden",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/22/235606",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:19:00:https://towershibuya.jp/2026/11/22/235606",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "Def Class 3rd Digital EP「Mellow & Tuff」リリースイベント",
@@ -3871,7 +4300,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:11:00:https://www.hmv.co.jp/store/event/56607/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
     },
     {
@@ -3884,7 +4313,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:11:30:https://www.hmv.co.jp/store/event/56217/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3897,7 +4326,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:12:00:https://www.hmv.co.jp/store/event/56500/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -3923,7 +4352,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:13:00:https://www.hmv.co.jp/store/event/56421/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
@@ -3936,7 +4365,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:14:00:https://www.hmv.co.jp/store/event/56191/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -3949,7 +4378,7 @@
       "url": "https://www.village-v.co.jp/event/031559/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.576Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -3975,8 +4404,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:17:00:https://www.hmv.co.jp/store/event/56499/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
+    },
+    {
+      "title": "【MAX】　『Sapphire～サファイア～』&『MAX 30th LIVE CONTACT 2025 ～Ways To Go～』 リリースイベント",
+      "artist": "MAX",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-23",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/23/236319",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-23:19:00:https://towershibuya.jp/2026/11/23/236319",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【BEYOOOOONDS】7thシングル『笑止千万／勝利のセンタク』発売記念 ミニライブ＆お見送り会＠11/24 CLUB CITTA’（神奈川）",
@@ -4027,8 +4469,34 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-24:19:00:https://www.hmv.co.jp/store/event/56573/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
+    },
+    {
+      "title": "【QUEENS OF THE STONE AGE】 SPECIAL ACOUSTIC LIVE BY JOSH HOMME",
+      "artist": "QUEENS OF THE STONE AGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "url": "https://towershibuya.jp/2026/11/24/235119",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-24:20:00:https://towershibuya.jp/2026/11/24/235119",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念個別サイン会",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "12:30",
+      "url": "https://towershibuya.jp/2026/11/25/236219",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:12:30:https://towershibuya.jp/2026/11/25/236219",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -4040,8 +4508,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-25:12:30:https://www.hmv.co.jp/store/event/56555/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念メンバー全員お見送り会詳細",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "15:30",
+      "url": "https://towershibuya.jp/2026/11/25/236214",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:15:30:https://towershibuya.jp/2026/11/25/236214",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "特典会",
@@ -4053,8 +4534,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-25:18:00:https://www.hmv.co.jp/store/event/56605/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念ミニライブ＆トークショー詳細",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/25/236217",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:19:00:https://towershibuya.jp/2026/11/25/236217",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -4066,7 +4560,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-25:19:00:https://www.hmv.co.jp/store/event/56526/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -4092,7 +4586,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-26:19:00:https://www.hmv.co.jp/store/event/56284/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": null
     },
     {
@@ -4122,6 +4616,19 @@
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
+      "title": "【ILLIT】5th Mini Album ‘BREAK EVEN’発売記念 「ミニトークショー＆メンバー全員サイン会」",
+      "artist": "ILLIT",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "",
+      "url": "https://towershibuya.jp/2026/11/28/235083",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:time-unknown:https://towershibuya.jp/2026/11/28/235083",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "【Am Amp】 mini album「A/A」リリース記念 ミニライブ＆特典会 ＠吉祥寺パルコ屋上イベントスペース",
       "artist": "",
       "venue": "吉祥寺パルコ店",
@@ -4144,7 +4651,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:00:00:https://www.hmv.co.jp/store/event/56441/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4157,8 +4664,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:11:30:https://www.hmv.co.jp/store/event/55949/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【金子隼也】2027カレンダー発売記念イベント",
+      "artist": "金子隼也",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/28/234823",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:12:00:https://towershibuya.jp/2026/11/28/234823",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "特典会",
@@ -4170,7 +4690,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:12:00:https://www.hmv.co.jp/store/event/56521/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -4183,7 +4703,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:12:00:https://www.hmv.co.jp/store/event/56268/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4196,8 +4716,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56546/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "Highspec Ba【Z∞】Ka",
+      "venue": "HMV大宮アルシェ",
+      "date": "2026-11-28",
+      "time": "13:00",
+      "url": "https://www.hmv.co.jp/store/event/56636/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56636/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -4209,7 +4742,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:14:00:https://www.hmv.co.jp/store/event/56633/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4237,6 +4770,19 @@
       "id": "tower-all:2026-11-28:17:00:https://tower.jp/store/event/2026/11/012002",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "【NOA】3rd ALBUM 『CLEAN+NOISE』発売記念リリースイベント アルバムトークショー開催決定！",
+      "artist": "Noa",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/28/236191",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:18:30:https://towershibuya.jp/2026/11/28/236191",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "RealRomantic 2nd EP「恋ANTHEM」リリースイベント",
@@ -4287,7 +4833,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56584/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -4300,7 +4846,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56425/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4313,7 +4859,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56155/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4326,7 +4872,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56360/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4339,7 +4885,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56506/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -4352,7 +4898,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56202/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4365,8 +4911,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56627/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
+    },
+    {
+      "title": "【IS:SUE】IS:SUE × TOWER RECORDS SHIBUYA　タワーレコード渋谷店限定 IS:SUE“インビテーションカードお渡し会”",
+      "artist": "IS:SUE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/29/236474",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:13:00:https://towershibuya.jp/2026/11/29/236474",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【塚本恋乃葉】塚本恋乃葉2027カレンダー発売イベント",
@@ -4443,7 +5002,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:13:00:https://www.hmv.co.jp/store/event/56537/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -4460,6 +5019,19 @@
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
+      "title": "【山下愛陽】「夜想の旅」CD発売記念イベント",
+      "artist": "山下愛陽",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "17:00",
+      "url": "https://towershibuya.jp/2026/11/29/234800",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:17:00:https://towershibuya.jp/2026/11/29/234800",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "特典会",
       "artist": "北野日奈子",
       "venue": "HMV&BOOKS SHIBUYA",
@@ -4469,7 +5041,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:18:00:https://www.hmv.co.jp/store/event/56522/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -4486,6 +5058,32 @@
       "firstSeenAt": null
     },
     {
+      "title": "【HIKAGE】 human. EP [deluxe] 発売記念リリースイベント",
+      "artist": "HIKAGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/29/235384",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:19:00:https://towershibuya.jp/2026/11/29/235384",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【RealRomantic】　2nd EP「恋ANTHEM」リリースイベント",
+      "artist": "RealRomantic",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/29/236171",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:19:30:https://towershibuya.jp/2026/11/29/236171",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
       "title": "【YUHZ】 1st EP [B] リリースイベント @ ららぽーとTOKYO-BAY みどりの広場",
       "artist": "YUHZ",
       "venue": "ららぽーとTOKYO-BAY店",
@@ -4497,6 +5095,19 @@
       "id": "tower-all:2026-11-30:14:00:https://tower.jp/store/event/2026/11/113001",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
+    },
+    {
+      "title": "【森永陽実】「斬新な愛」発売記念イベント",
+      "artist": "森永陽実",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-30",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/30/236083",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-30:19:00:https://towershibuya.jp/2026/11/30/236083",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
@@ -4523,6 +5134,19 @@
       "id": "tower-all:2026-12-01:18:00:https://tower.jp/store/event/2026/12/055002",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "青春CYBER",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-01",
+      "time": "18:30",
+      "url": "https://www.hmv.co.jp/store/event/56638/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-01:18:30:https://www.hmv.co.jp/store/event/56638/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【ZANPA】ZANPA フリーライブ＆特典会",
@@ -4560,7 +5184,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-03:19:00:https://www.hmv.co.jp/store/event/56525/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -4625,7 +5249,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:12:00:https://www.hmv.co.jp/store/event/56333/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4638,7 +5262,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:12:00:https://www.hmv.co.jp/store/event/56269/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4664,7 +5288,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56566/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -4677,7 +5301,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56426/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4690,7 +5314,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-05:14:00:https://towershibuya.jp/2026/12/05/236301",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4703,7 +5327,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:14:00:https://www.hmv.co.jp/store/event/56531/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -4729,7 +5353,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:17:00:https://www.hmv.co.jp/store/event/56608/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -4742,7 +5366,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-05:17:30:https://towershibuya.jp/2026/12/05/235232",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4755,7 +5379,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:18:00:https://www.hmv.co.jp/store/event/56310/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4781,7 +5405,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:11:00:https://www.hmv.co.jp/store/event/56361/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4794,7 +5418,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56270/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4807,7 +5431,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56111/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4820,7 +5444,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56173/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -4859,7 +5483,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:13:00:https://www.hmv.co.jp/store/event/56538/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -4885,7 +5509,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-09:12:30:https://www.hmv.co.jp/store/event/56632/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4898,7 +5522,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-09:19:00:https://towershibuya.jp/2026/12/09/235672",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4911,7 +5535,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-09:19:00:https://towershibuya.jp/2026/12/09/236027",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4924,7 +5548,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-10:18:30:https://www.hmv.co.jp/store/event/56615/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -4937,8 +5561,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-10:19:00:https://www.hmv.co.jp/store/event/56590/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
+    },
+    {
+      "title": "【アジア音楽旅 KNOW MUSIC KNOW ASIA】『台湾音市 NEXT 2026』開催決定",
+      "artist": "7F / アジア音楽旅KnowMusicKnowAsiaBuyersChoice",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-12-11",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/12/11/236560",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-12-11:19:00:https://towershibuya.jp/2026/12/11/236560",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "有村竜太朗 3rd ALBUM 個人作品集2022-2026「デも/demo #3」発売記念トークイベント",
@@ -4976,7 +5613,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-11:19:00:https://www.hmv.co.jp/store/event/56485/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -4989,7 +5626,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-11:19:30:https://www.hmv.co.jp/store/event/56488/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -5015,7 +5652,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:00:00:https://www.hmv.co.jp/store/event/56442/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -5028,7 +5665,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:11:00:https://www.hmv.co.jp/store/event/56461/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-07T05:58:14.107Z"
     },
     {
@@ -5041,7 +5678,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:11:00:https://www.hmv.co.jp/store/event/56069/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5054,7 +5691,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:12:00:https://www.hmv.co.jp/store/event/56516/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-19T04:39:33.049Z"
     },
     {
@@ -5132,7 +5769,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:13:15:https://www.hmv.co.jp/store/event/56256/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5145,7 +5782,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:13:30:https://www.hmv.co.jp/store/event/56563/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5158,7 +5795,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-12:14:00:https://towershibuya.jp/2026/12/12/235578",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5171,7 +5808,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-12:14:00:https://towershibuya.jp/2026/12/12/235404",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5184,7 +5821,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:15:15:https://www.hmv.co.jp/store/event/56548/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -5197,7 +5834,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:11:30:https://www.hmv.co.jp/store/event/56231/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5210,7 +5847,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:12:00:https://www.hmv.co.jp/store/event/56071/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5249,7 +5886,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:13:00:https://www.hmv.co.jp/store/event/56401/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5262,7 +5899,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-13:13:00:https://www.hmv.co.jp/store/event/56581/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -5275,7 +5912,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-13:14:45:https://www.hmv.co.jp/store/event/56549/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -5288,7 +5925,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-13:16:00:https://towershibuya.jp/2026/12/13/236447",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5340,8 +5977,21 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-14:time-unknown:https://towershibuya.jp/2026/12/14/236250",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2026-12-14",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56644/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-14:15:00:https://www.hmv.co.jp/store/event/56644/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【終活クラブ】 Major 4th EP「現代ロックバンド化学」リリース記念インストアイベント",
@@ -5392,7 +6042,7 @@
       "url": "https://www.village-v.co.jp/event/031586/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-10-31T05:39:07.574Z",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5418,7 +6068,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-16:19:00:https://www.hmv.co.jp/store/event/56637/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5470,7 +6120,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:11:00:https://www.hmv.co.jp/store/event/56444/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-05T05:38:50.836Z"
     },
     {
@@ -5483,7 +6133,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:11:30:https://www.hmv.co.jp/store/event/56569/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5501,6 +6151,19 @@
     },
     {
       "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-19",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56645/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56645/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
       "artist": "古屋呂敏",
       "venue": "HMV&BOOKS NAMBA",
       "date": "2026-12-19",
@@ -5509,7 +6172,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56357/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5548,7 +6211,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:13:00:https://www.hmv.co.jp/store/event/56316/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5561,7 +6224,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:18:00:https://www.hmv.co.jp/store/event/56587/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-26T04:45:50.215Z"
     },
     {
@@ -5587,7 +6250,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56529/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -5600,7 +6263,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56462/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-07T05:58:14.107Z"
     },
     {
@@ -5613,7 +6276,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56317/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5652,7 +6315,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-21:17:30:https://www.hmv.co.jp/store/event/56261/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5678,7 +6341,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-23:18:30:https://towershibuya.jp/2026/12/23/234369",
-      "fetchedAt": "2026-10-31T05:39:03.536Z",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5704,7 +6367,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-26:11:00:https://www.hmv.co.jp/store/event/56358/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5730,7 +6393,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:12:00:https://www.hmv.co.jp/store/event/56072/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5743,7 +6406,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:13:30:https://www.hmv.co.jp/store/event/56257/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5756,7 +6419,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:16:30:https://www.hmv.co.jp/store/event/56447/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-09T06:07:46.067Z"
     },
     {
@@ -5771,6 +6434,19 @@
       "id": "tower-all:2026-12-27:12:00:https://tower.jp/store/event/2026/12/055007",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-26T04:45:50.215Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS HAKATA",
+      "date": "2026-12-27",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56646/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-27:15:00:https://www.hmv.co.jp/store/event/56646/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "Brown Basket　4th e.p『PULL UP!!』リリース記念　アコースティックミニライブ ＋ 特典会",
@@ -5834,7 +6510,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-11:12:30:https://www.hmv.co.jp/store/event/56562/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-20T04:49:34.167Z"
     },
     {
@@ -5847,7 +6523,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-16:12:00:https://www.hmv.co.jp/store/event/56610/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -5860,7 +6536,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-16:14:00:https://www.hmv.co.jp/store/event/56586/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
     },
     {
@@ -5873,7 +6549,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-17:13:00:https://www.hmv.co.jp/store/event/56611/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -5886,7 +6562,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-17:13:00:https://www.hmv.co.jp/store/event/56507/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
     },
     {
@@ -5899,7 +6575,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-23:12:00:https://www.hmv.co.jp/store/event/56564/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5912,7 +6588,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-23:12:00:https://www.hmv.co.jp/store/event/56232/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5938,7 +6614,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56233/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-08T06:02:35.378Z"
     },
     {
@@ -5951,7 +6627,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56565/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5964,7 +6640,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56350/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": null
     },
     {
@@ -5979,6 +6655,19 @@
       "id": "tower-all:2027-01-25:time-unknown:https://tower.jp/store/event/2027/01/028002",
       "fetchedAt": "2026-10-31T05:39:04.702Z",
       "firstSeenAt": "2026-10-05T05:38:50.836Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV札幌ステラプレイス",
+      "date": "2027-01-25",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56647/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2027-01-25:15:00:https://www.hmv.co.jp/store/event/56647/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "【HAGANE】HAGANE 「Through the Night」 発売記念インストアイベント",
@@ -6029,7 +6718,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-31:12:00:https://www.hmv.co.jp/store/event/56567/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
@@ -6042,7 +6731,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-31:13:00:https://www.hmv.co.jp/store/event/56391/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -6068,7 +6757,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-02-06:12:00:https://www.hmv.co.jp/store/event/56639/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -6107,7 +6796,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-14:12:00:https://www.hmv.co.jp/store/event/56609/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-27T05:02:58.953Z"
     },
     {
@@ -6133,7 +6822,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-27:12:00:https://www.hmv.co.jp/store/event/56622/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -6146,21 +6835,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-28:12:00:https://www.hmv.co.jp/store/event/56624/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
       "title": "特典会",
       "artist": "YU",
-      "venue": "HMVイベント注意事項※ 特典会 ご案内",
+      "venue": "HMV&BOOKS SHIBUYA",
       "date": "2027-03-07",
       "time": "12:30",
       "url": "https://www.hmv.co.jp/store/event/56574/",
-      "sourceId": "hmv-other",
+      "sourceId": "hmv-shibuya",
       "kind": "",
-      "id": "hmv-other:2027-03-07:12:30:https://www.hmv.co.jp/store/event/56574/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
+      "id": "hmv-shibuya:2027-03-07:12:30:https://www.hmv.co.jp/store/event/56574/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
       "title": "特典会",
@@ -6172,7 +6861,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-03-13:12:15:https://www.hmv.co.jp/store/event/56575/",
-      "fetchedAt": "2026-10-31T05:39:11.250Z",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -6190,6 +6879,929 @@
     }
   ],
   "newEvents": [
+    {
+      "title": "【アルテミスの翼 & LunaMoon】 フリーライブ",
+      "artist": "LunaMoon / アルテミスの翼",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/03/236540",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236540",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【私立恵比寿中学】17th Single『スーパーブルー』発売記念お渡し会開催決定のお知らせ！",
+      "artist": "私立恵比寿中学",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "16:30",
+      "url": "https://towershibuya.jp/2026/11/22/236632",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:16:30:https://towershibuya.jp/2026/11/22/236632",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【MAX】　『Sapphire～サファイア～』&『MAX 30th LIVE CONTACT 2025 ～Ways To Go～』 リリースイベント",
+      "artist": "MAX",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-23",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/23/236319",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-23:19:00:https://towershibuya.jp/2026/11/23/236319",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "YU",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2027-03-07",
+      "time": "12:30",
+      "url": "https://www.hmv.co.jp/store/event/56574/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2027-03-07:12:30:https://www.hmv.co.jp/store/event/56574/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "Pied Piper House Presents ふたりブリッジ「Windy Afternoon / Soft Cream Whistle」発売記念トーク&ミニライブ＆サイン会～カジヒデキとイケミズマユミ、bridgeを語り演奏する～",
+      "artist": "PIED PIPER HOUSE / ふたりブリッジ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/03/236532",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236532",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【二丁目の魁カミングアウト】 FREE インストア GAY LIVE",
+      "artist": "二丁目の魁カミングアウト",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-13",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/13/236538",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-13:18:30:https://towershibuya.jp/2026/11/13/236538",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Kitty_z】 フリーライブ",
+      "artist": "Kitty_z",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/236385",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/236385",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【べるべっとセンテンス】フリーライブ",
+      "artist": "べるべっとセンテンス",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "18:00",
+      "url": "https://towershibuya.jp/2026/11/03/236410",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:18:00:https://towershibuya.jp/2026/11/03/236410",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【IS:SUE】IS:SUE × TOWER RECORDS SHIBUYA　タワーレコード渋谷店限定 IS:SUE“インビテーションカードお渡し会”",
+      "artist": "IS:SUE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/29/236474",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:13:00:https://towershibuya.jp/2026/11/29/236474",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "開演時間変更【NEOTOKYO-TRIBE】シングル『音楽が好きな人はNEOTOKYOにアクセスして下ちい。』 ミニライブ＆特典会",
+      "artist": "NEOTOKYO-TRIBE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/02/236227",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:30:https://towershibuya.jp/2026/11/02/236227",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Luci Gang】 BiKN shibuya 2026 開催記念イベント",
+      "artist": "Luci Gang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/07/236361",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:15:00:https://towershibuya.jp/2026/11/07/236361",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【GRIPHAGE】Digital Single「We Are GRIPHAGE」 ミニライブ＆特典会",
+      "artist": "GRIPHAGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/08/236416",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:13:00:https://towershibuya.jp/2026/11/08/236416",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Elephant Kind】【衛柏Neon】BiKN shibuya 2026 開催記念イベント第二弾！",
+      "artist": "Elephant Kind / 衛柏Neon",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/09/236398",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:19:00:https://towershibuya.jp/2026/11/09/236398",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Yuki】初ソロ・アルバム『Blue Rose』リリース記念イベント",
+      "artist": "YUKI",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/21/236323",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:19:30:https://towershibuya.jp/2026/11/21/236323",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【NOA】3rd ALBUM 『CLEAN+NOISE』発売記念リリースイベント アルバムトークショー開催決定！",
+      "artist": "Noa",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/28/236191",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:18:30:https://towershibuya.jp/2026/11/28/236191",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【RealRomantic】　2nd EP「恋ANTHEM」リリースイベント",
+      "artist": "RealRomantic",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/11/29/236171",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:19:30:https://towershibuya.jp/2026/11/29/236171",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【GANG PARADE】最後の特典会『THE LAST PLAYGROUND』",
+      "artist": "GANG PARADE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/01/234571",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-01:12:00:https://towershibuya.jp/2026/11/01/234571",
+      "fetchedAt": "2026-11-01T06:01:58.595Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【馬場桜佑×みやけん】『keep SINGING 2』発売記念イベント",
+      "artist": "みやけん / 馬場桜佑",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-01",
+      "time": "17:30",
+      "url": "https://towershibuya.jp/2026/11/01/235017",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-01:17:30:https://towershibuya.jp/2026/11/01/235017",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/234019",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/234019",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【宇宙人（Cosmos People）】来日記念イベント",
+      "artist": "Cosmos People / 宇宙人",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/02/236154",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/236154",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【幻色シアター】シングル『ジャパニ住むSTYLE』 ミニライブ＆特典会",
+      "artist": "幻色シアター",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/03/236244",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:12:00:https://towershibuya.jp/2026/11/03/236244",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【齋藤友紀】「Happiness」発売記念イベント",
+      "artist": "齋藤友紀",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/03/233617",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:13:00:https://towershibuya.jp/2026/11/03/233617",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【LEE CHAEYEON】 JAPAN 1st Single Album [ボクノコエ] 発売記念スペシャルイベント",
+      "artist": "LEE CHAEYEON / イ・チェヨン",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "13:15",
+      "url": "https://towershibuya.jp/2026/11/03/236025",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:13:15:https://towershibuya.jp/2026/11/03/236025",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【SiM】『HOOMAN AFTER ALL』リリース記念 全国サイン会ツアー開催！",
+      "artist": "SiM",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-03",
+      "time": "18:00",
+      "url": "https://towershibuya.jp/2026/11/03/235490",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-03:18:00:https://towershibuya.jp/2026/11/03/235490",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【可憐なアイボリー 】　メジャー2ndアルバム「恋を着る季節」リリース記念イベント",
+      "artist": "可憐なアイボリー",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/04/235602",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-04:19:00:https://towershibuya.jp/2026/11/04/235602",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Michael Kaneko】　Reprise発売記念　インストアライブ+サイン会",
+      "artist": "Michael Kaneko",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/06/236683",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-06:19:00:https://towershibuya.jp/2026/11/06/236683",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【アルスマグナ】 New Album 『アルスノオト』 発売記念イベント",
+      "artist": "アルスマグナ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/07/232923",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:13:00:https://towershibuya.jp/2026/11/07/232923",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【務川慧悟】「LIVE～Modern Piano + Fortepiano～」CD発売記念イベント",
+      "artist": "務川慧悟",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-07",
+      "time": "14:00",
+      "url": "https://towershibuya.jp/2026/11/07/236586",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-07:14:00:https://towershibuya.jp/2026/11/07/236586",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Verde/】トーク&握手会がタワーレコード渋谷店にて開催決定！",
+      "artist": "Verde/",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "12:30",
+      "url": "https://towershibuya.jp/2026/11/08/235499",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:12:30:https://towershibuya.jp/2026/11/08/235499",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Zilqy】1stフルアルバム『Birth of Riot＜一般流通盤＞』発売記念リリース記念イベント",
+      "artist": "Zilqy",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-08",
+      "time": "15:15",
+      "url": "https://towershibuya.jp/2026/11/08/235204",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-08:15:15:https://towershibuya.jp/2026/11/08/235204",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【さくらみこ】2ndアルバム「Blooming Cinderella」リリース記念イベント",
+      "artist": "さくらみこ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/09/233566",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:18:30:https://towershibuya.jp/2026/11/09/233566",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/09/234021",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-09:19:00:https://towershibuya.jp/2026/11/09/234021",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Re:IDOL】フリーライブ＠タワーレコード渋谷店5Fイベントスペース",
+      "artist": "Re:IDOL",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/10/236284",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-10:19:00:https://towershibuya.jp/2026/11/10/236284",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【佐々木李子】シングル「Still Water」リリースイベント決定！@タワーレコード渋谷店9F屋上",
+      "artist": "佐々木李子",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/10/235219",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-10:19:00:https://towershibuya.jp/2026/11/10/235219",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【セントチヒロ・チッチ】2nd Album「やさしい引力」発売記念イベント”ミニライブ＆特典会”",
+      "artist": "セントチヒロ・チッチ",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/11/236676",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-11:19:00:https://towershibuya.jp/2026/11/11/236676",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CiON】　「THIS IS ME!!!!!/BRASS ON」スペシャルリリースイベント",
+      "artist": "CiON",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-12",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/12/236142",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-12:18:30:https://towershibuya.jp/2026/11/12/236142",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【阪田知樹】「ラ・カンパネッラ～リスト・ピアノ作品集」CD発売記念イベント",
+      "artist": "阪田知樹",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/14/234284",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:12:00:https://towershibuya.jp/2026/11/14/234284",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【宇宙ネコ子】4thアルバム「大人になっても、夜は暗くて」発売記念ミニライブ＆ジャケットサイン会",
+      "artist": "宇宙ネコ子",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "16:00",
+      "url": "https://towershibuya.jp/2026/11/14/236680",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:16:00:https://towershibuya.jp/2026/11/14/236680",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【有村竜太朗】　3rd ALBUM 個人作品集2022-2026 「デも/demo #3」発売記念トークイベント",
+      "artist": "有村竜太朗",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/14/235437",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-14:19:00:https://towershibuya.jp/2026/11/14/235437",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【ソンジェ from 超新星】11/11(水)発売Mini Album「そばにいて欲しい ～ forget me not ～」発売記念プロモーションイベント",
+      "artist": "ソンジェ from 超新星",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-15",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/15/235469",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-15:13:00:https://towershibuya.jp/2026/11/15/235469",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【青春CYBER & X8EE】　合同フリーイベント",
+      "artist": "X8EE / 青春CYBER",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-15",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/15/235976",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-15:13:00:https://towershibuya.jp/2026/11/15/235976",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
+      "artist": "Crimson Crat Clan",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-16",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/16/235590",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-16:19:00:https://towershibuya.jp/2026/11/16/235590",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【DDTプロレスリング】DDTプロレスリング4選手合同トークショ5shot撮影会",
+      "artist": "5F / DDTプロレスリング",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-17",
+      "time": "",
+      "url": "https://towershibuya.jp/2026/11/17/235570",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-17:time-unknown:https://towershibuya.jp/2026/11/17/235570",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CiON】　「THIS IS ME!!!!!/BRASS ON」ウルトラリリースイベント",
+      "artist": "CiON",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "18:30",
+      "url": "https://towershibuya.jp/2026/11/18/236136",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:18:30:https://towershibuya.jp/2026/11/18/236136",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【前田佳織里】4thEP「Push!!」リリース記念イベント",
+      "artist": "前田佳織里",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/18/235668",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:19:00:https://towershibuya.jp/2026/11/18/235668",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【HALLEY】「Born With Love Pt. 1」 リリース記念イベント",
+      "artist": "HALLEY",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-18",
+      "time": "20:00",
+      "url": "https://towershibuya.jp/2026/11/18/235258",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-18:20:00:https://towershibuya.jp/2026/11/18/235258",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【ブラインド・チャンネル】「ペインストリーム」リリース記念サイン会",
+      "artist": "ブラインド・チャンネル",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-20",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/20/235588",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-20:19:00:https://towershibuya.jp/2026/11/20/235588",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【斎藤圭土】「音手紙-une lette en melodie-」CD発売記念イベント",
+      "artist": "斎藤圭土",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "14:00",
+      "url": "https://towershibuya.jp/2026/11/21/236014",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:14:00:https://towershibuya.jp/2026/11/21/236014",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【THE JET BOY BANGERZ from EXILE TRIBE】フリーイベント『JET LOUNGE』開催決定！",
+      "artist": "THE JET BOY BANGERZ from EXILE TRIBE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-21",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/21/235651",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-21:13:00:https://towershibuya.jp/2026/11/21/235651",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【中川優芽花】「プレリュード/中川優芽花 -ゆめかのショパン」発売記念イベント",
+      "artist": "中川優芽花",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "13:00",
+      "url": "https://towershibuya.jp/2026/11/22/236485",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:13:00:https://towershibuya.jp/2026/11/22/236485",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【East Of Eden 】 11/22(日)開催 『Ghost Sequence』発売記念リリースイベント",
+      "artist": "East Of Eden",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-22",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/22/235606",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-22:19:00:https://towershibuya.jp/2026/11/22/235606",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【QUEENS OF THE STONE AGE】 SPECIAL ACOUSTIC LIVE BY JOSH HOMME",
+      "artist": "QUEENS OF THE STONE AGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "url": "https://towershibuya.jp/2026/11/24/235119",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-24:20:00:https://towershibuya.jp/2026/11/24/235119",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念個別サイン会",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "12:30",
+      "url": "https://towershibuya.jp/2026/11/25/236219",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:12:30:https://towershibuya.jp/2026/11/25/236219",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念メンバー全員お見送り会詳細",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "15:30",
+      "url": "https://towershibuya.jp/2026/11/25/236214",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:15:30:https://towershibuya.jp/2026/11/25/236214",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【CLOSE YOUR EYES】The 4th Mini Album ‘256th Note’ 発売記念ミニライブ＆トークショー詳細",
+      "artist": "CLOSE YOUR EYES",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-25",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/25/236217",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-25:19:00:https://towershibuya.jp/2026/11/25/236217",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【ILLIT】5th Mini Album ‘BREAK EVEN’発売記念 「ミニトークショー＆メンバー全員サイン会」",
+      "artist": "ILLIT",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "",
+      "url": "https://towershibuya.jp/2026/11/28/235083",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:time-unknown:https://towershibuya.jp/2026/11/28/235083",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【金子隼也】2027カレンダー発売記念イベント",
+      "artist": "金子隼也",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-28",
+      "time": "12:00",
+      "url": "https://towershibuya.jp/2026/11/28/234823",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-28:12:00:https://towershibuya.jp/2026/11/28/234823",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【山下愛陽】「夜想の旅」CD発売記念イベント",
+      "artist": "山下愛陽",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "17:00",
+      "url": "https://towershibuya.jp/2026/11/29/234800",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:17:00:https://towershibuya.jp/2026/11/29/234800",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【HIKAGE】 human. EP [deluxe] 発売記念リリースイベント",
+      "artist": "HIKAGE",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-29",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/29/235384",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-29:19:00:https://towershibuya.jp/2026/11/29/235384",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【森永陽実】「斬新な愛」発売記念イベント",
+      "artist": "森永陽実",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-30",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/30/236083",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-30:19:00:https://towershibuya.jp/2026/11/30/236083",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【アジア音楽旅 KNOW MUSIC KNOW ASIA】『台湾音市 NEXT 2026』開催決定",
+      "artist": "7F / アジア音楽旅KnowMusicKnowAsiaBuyersChoice",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-12-11",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/12/11/236560",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-12-11:19:00:https://towershibuya.jp/2026/12/11/236560",
+      "fetchedAt": "2026-11-01T06:01:58.596Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-19",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56645/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56645/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "青春CYBER",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-01",
+      "time": "18:30",
+      "url": "https://www.hmv.co.jp/store/event/56638/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-01:18:30:https://www.hmv.co.jp/store/event/56638/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2026-12-14",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56644/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-14:15:00:https://www.hmv.co.jp/store/event/56644/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV&BOOKS HAKATA",
+      "date": "2026-12-27",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56646/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-27:15:00:https://www.hmv.co.jp/store/event/56646/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "甲斐翔真",
+      "venue": "HMV札幌ステラプレイス",
+      "date": "2027-01-25",
+      "time": "15:00",
+      "url": "https://www.hmv.co.jp/store/event/56647/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2027-01-25:15:00:https://www.hmv.co.jp/store/event/56647/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "Highspec Ba【Z∞】Ka",
+      "venue": "HMV大宮アルシェ",
+      "date": "2026-11-28",
+      "time": "13:00",
+      "url": "https://www.hmv.co.jp/store/event/56636/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56636/",
+      "fetchedAt": "2026-11-01T06:02:18.400Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "Lumi7’s",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "url": "https://www.hmv.co.jp/store/event/56648/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-11-04:18:00:https://www.hmv.co.jp/store/event/56648/",
+      "fetchedAt": "2026-11-01T06:02:18.399Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "id": "vv-all:2026-11-11:19:00:https://www.village-v.co.jp/event/031612/",
+      "title": "【ファーストプレイリスト】フリーライブinVV渋谷本店",
+      "artist": "ファーストプレイリスト",
+      "venue": "渋谷本店",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "url": "https://www.village-v.co.jp/event/031612/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.037Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "id": "vv-all:2026-11-22:12:00:https://www.village-v.co.jp/event/031562/",
+      "title": "【Task have Fun】フリーライブ＠有明ガーデン",
+      "artist": "Task have Fun",
+      "venue": "有明ガーデン３F　みんなのテラス",
+      "date": "2026-11-22",
+      "time": "12:00",
+      "url": "https://www.village-v.co.jp/event/031562/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "id": "vv-all:2026-11-01:12:00:https://www.village-v.co.jp/event/031561/",
+      "title": "【Task have Fun】フリーライブ＠有明ガーデン",
+      "artist": "Task have Fun",
+      "venue": "有明ガーデン３F　みんなのテラス",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "url": "https://www.village-v.co.jp/event/031561/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-01T06:02:16.038Z",
+      "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
     {
       "title": "【Choi Jungyoon】「それでも、楽しく生きたい」発売記念サイン会",
       "artist": "Choi Jungyoon",
@@ -6893,45 +8505,6 @@
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
-      "title": "【アルテミスの翼 & LunaMoon】 フリーライブ",
-      "artist": "LunaMoon / アルテミスの翼",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-03",
-      "time": "15:00",
-      "url": "https://towershibuya.jp/2026/11/03/236540",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236540",
-      "fetchedAt": "2026-10-30T05:47:19.177Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
-      "title": "【私立恵比寿中学】17th Single『スーパーブルー』発売記念お渡し会開催決定のお知らせ！",
-      "artist": "私立恵比寿中学",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-22",
-      "time": "16:30",
-      "url": "https://towershibuya.jp/2026/11/22/236632",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-22:16:30:https://towershibuya.jp/2026/11/22/236632",
-      "fetchedAt": "2026-10-30T05:47:19.177Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
-      "title": "【MAX】　『Sapphire～サファイア～』&『MAX 30th LIVE CONTACT 2025 ～Ways To Go～』 リリースイベント",
-      "artist": "MAX",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-23",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/23/236319",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-23:19:00:https://towershibuya.jp/2026/11/23/236319",
-      "fetchedAt": "2026-10-30T05:47:19.177Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
       "title": "【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
       "artist": "Baby’z Breath",
       "venue": "川崎店",
@@ -7296,45 +8869,6 @@
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
-      "title": "特典会",
-      "artist": "YU",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2027-03-07",
-      "time": "12:30",
-      "url": "https://www.hmv.co.jp/store/event/56574/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2027-03-07:12:30:https://www.hmv.co.jp/store/event/56574/",
-      "fetchedAt": "2026-10-29T05:47:01.492Z",
-      "firstSeenAt": "2026-10-29T05:46:51.605Z"
-    },
-    {
-      "title": "Pied Piper House Presents ふたりブリッジ「Windy Afternoon / Soft Cream Whistle」発売記念トーク&ミニライブ＆サイン会～カジヒデキとイケミズマユミ、bridgeを語り演奏する～",
-      "artist": "PIED PIPER HOUSE / ふたりブリッジ",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-03",
-      "time": "15:00",
-      "url": "https://towershibuya.jp/2026/11/03/236532",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-03:15:00:https://towershibuya.jp/2026/11/03/236532",
-      "fetchedAt": "2026-10-29T05:46:55.231Z",
-      "firstSeenAt": "2026-10-29T05:46:51.605Z"
-    },
-    {
-      "title": "【二丁目の魁カミングアウト】 FREE インストア GAY LIVE",
-      "artist": "二丁目の魁カミングアウト",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-13",
-      "time": "18:30",
-      "url": "https://towershibuya.jp/2026/11/13/236538",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-13:18:30:https://towershibuya.jp/2026/11/13/236538",
-      "fetchedAt": "2026-10-29T05:46:55.231Z",
-      "firstSeenAt": "2026-10-29T05:46:51.605Z"
-    },
-    {
       "title": "【RE-GE】 2nd Single 発売記念フリーライブ",
       "artist": "RE-GE",
       "venue": "TOWER RECORDS mini 舞浜イクスピアリ店",
@@ -7517,45 +9051,6 @@
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
-      "title": "【Kitty_z】 フリーライブ",
-      "artist": "Kitty_z",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-02",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/02/236385",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-02:19:00:https://towershibuya.jp/2026/11/02/236385",
-      "fetchedAt": "2026-10-28T05:40:50.752Z",
-      "firstSeenAt": "2026-10-28T05:40:46.800Z"
-    },
-    {
-      "title": "【べるべっとセンテンス】フリーライブ",
-      "artist": "べるべっとセンテンス",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-03",
-      "time": "18:00",
-      "url": "https://towershibuya.jp/2026/11/03/236410",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-03:18:00:https://towershibuya.jp/2026/11/03/236410",
-      "fetchedAt": "2026-10-28T05:40:50.752Z",
-      "firstSeenAt": "2026-10-28T05:40:46.800Z"
-    },
-    {
-      "title": "【IS:SUE】IS:SUE × TOWER RECORDS SHIBUYA　タワーレコード渋谷店限定 IS:SUE“インビテーションカードお渡し会”",
-      "artist": "IS:SUE",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-29",
-      "time": "13:00",
-      "url": "https://towershibuya.jp/2026/11/29/236474",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-29:13:00:https://towershibuya.jp/2026/11/29/236474",
-      "fetchedAt": "2026-10-28T05:40:50.752Z",
-      "firstSeenAt": "2026-10-28T05:40:46.800Z"
-    },
-    {
       "title": "【二丁目の魁カミングアウト】FREEインストア GAY LIVE",
       "artist": "二丁目の魁カミングアウト",
       "venue": "新宿店",
@@ -7710,71 +9205,6 @@
       "id": "hmv-other:2027-02-14:12:00:https://www.hmv.co.jp/store/event/56609/",
       "fetchedAt": "2026-10-27T05:03:08.955Z",
       "firstSeenAt": "2026-10-27T05:02:58.953Z"
-    },
-    {
-      "title": "開演時間変更【NEOTOKYO-TRIBE】シングル『音楽が好きな人はNEOTOKYOにアクセスして下ちい。』 ミニライブ＆特典会",
-      "artist": "NEOTOKYO-TRIBE",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-02",
-      "time": "19:30",
-      "url": "https://towershibuya.jp/2026/11/02/236227",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-02:19:30:https://towershibuya.jp/2026/11/02/236227",
-      "fetchedAt": "2026-10-26T15:48:08.004Z",
-      "firstSeenAt": "2026-10-26T15:48:01.494Z"
-    },
-    {
-      "title": "【Luci Gang】 BiKN shibuya 2026 開催記念イベント",
-      "artist": "Luci Gang",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "url": "https://towershibuya.jp/2026/11/07/236361",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-07:15:00:https://towershibuya.jp/2026/11/07/236361",
-      "fetchedAt": "2026-10-26T15:48:08.004Z",
-      "firstSeenAt": "2026-10-26T15:48:01.494Z"
-    },
-    {
-      "title": "【GRIPHAGE】Digital Single「We Are GRIPHAGE」 ミニライブ＆特典会",
-      "artist": "GRIPHAGE",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-08",
-      "time": "13:00",
-      "url": "https://towershibuya.jp/2026/11/08/236416",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-08:13:00:https://towershibuya.jp/2026/11/08/236416",
-      "fetchedAt": "2026-10-26T15:48:08.004Z",
-      "firstSeenAt": "2026-10-26T15:48:01.494Z"
-    },
-    {
-      "title": "【Elephant Kind】【衛柏Neon】BiKN shibuya 2026 開催記念イベント第二弾！",
-      "artist": "Elephant Kind / 衛柏Neon",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-09",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/09/236398",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-09:19:00:https://towershibuya.jp/2026/11/09/236398",
-      "fetchedAt": "2026-10-26T15:48:08.004Z",
-      "firstSeenAt": "2026-10-26T15:48:01.494Z"
-    },
-    {
-      "title": "【Yuki】初ソロ・アルバム『Blue Rose』リリース記念イベント",
-      "artist": "YUKI",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-21",
-      "time": "19:30",
-      "url": "https://towershibuya.jp/2026/11/21/236323",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-21:19:30:https://towershibuya.jp/2026/11/21/236323",
-      "fetchedAt": "2026-10-26T15:48:08.004Z",
-      "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
       "title": "【U＆pia】フリーイベント】",
@@ -8011,32 +9441,6 @@
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
-      "title": "【NOA】3rd ALBUM 『CLEAN+NOISE』発売記念リリースイベント アルバムトークショー開催決定！",
-      "artist": "Noa",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-28",
-      "time": "18:30",
-      "url": "https://towershibuya.jp/2026/11/28/236191",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-28:18:30:https://towershibuya.jp/2026/11/28/236191",
-      "fetchedAt": "2026-10-26T04:45:53.820Z",
-      "firstSeenAt": "2026-10-26T04:45:50.215Z"
-    },
-    {
-      "title": "【RealRomantic】　2nd EP「恋ANTHEM」リリースイベント",
-      "artist": "RealRomantic",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-29",
-      "time": "19:30",
-      "url": "https://towershibuya.jp/2026/11/29/236171",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-29:19:30:https://towershibuya.jp/2026/11/29/236171",
-      "fetchedAt": "2026-10-26T04:45:53.820Z",
-      "firstSeenAt": "2026-10-26T04:45:50.215Z"
-    },
-    {
       "title": "【めんこいな東北】「たからもの」発売記念イベント",
       "artist": "",
       "venue": "仙台パルコ店",
@@ -8230,169 +9634,39 @@
       "id": "hmv-shibuya:2026-12-19:18:00:https://www.hmv.co.jp/store/event/56587/",
       "fetchedAt": "2026-10-26T04:46:01.246Z",
       "firstSeenAt": "2026-10-26T04:45:50.215Z"
-    },
-    {
-      "title": "【Peter Gallway】スペシャル・ミート＆グリート＆サイン会",
-      "artist": "Peter Gallway",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-10-27",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/10/27/236311",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-10-27:19:00:https://towershibuya.jp/2026/10/27/236311",
-      "fetchedAt": "2026-10-25T04:40:07.305Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "【幻色シアター】シングル『ジャパニ住むSTYLE』 ミニライブ＆特典会",
-      "artist": "幻色シアター",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-03",
-      "time": "12:00",
-      "url": "https://towershibuya.jp/2026/11/03/236244",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-03:12:00:https://towershibuya.jp/2026/11/03/236244",
-      "fetchedAt": "2026-10-25T04:40:07.305Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "【Re:IDOL】フリーライブ＠タワーレコード渋谷店5Fイベントスペース",
-      "artist": "Re:IDOL",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-10",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/10/236284",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-10:19:00:https://towershibuya.jp/2026/11/10/236284",
-      "fetchedAt": "2026-10-25T04:40:07.305Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "【Lumi7’s】 1st Single「或る星のLuminous」リリースイベント開催決定！",
-      "artist": "Lumi7's",
-      "venue": "梅田NU茶屋町店",
-      "date": "2026-10-29",
-      "time": "18:30",
-      "url": "https://tower.jp/store/event/2026/10/096030",
-      "sourceId": "tower-all",
-      "kind": "",
-      "id": "tower-all:2026-10-29:18:30:https://tower.jp/store/event/2026/10/096030",
-      "fetchedAt": "2026-10-25T04:40:09.387Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "【HEP BURN】2ndミニアルバム『ベイリー・ビーズ』発売記念 インストアイベント",
-      "artist": "HEP BURN",
-      "venue": "広島店",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "url": "https://tower.jp/store/event/2026/11/1013003HEPBURN",
-      "sourceId": "tower-all",
-      "kind": "",
-      "id": "tower-all:2026-11-14:14:00:https://tower.jp/store/event/2026/11/1013003HEPBURN",
-      "fetchedAt": "2026-10-25T04:40:09.387Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "BEYOOOOONDS 7thシングル『笑止千万/勝利のセンタク』発売記念 ミニライブ＆お見送り会",
-      "artist": "BEYOOOOONDS",
-      "venue": "アリオ橋本店",
-      "date": "2026-11-22",
-      "time": "12:15",
-      "url": "https://tower.jp/store/event/2026/11/1011141122",
-      "sourceId": "tower-all",
-      "kind": "",
-      "id": "tower-all:2026-11-22:12:15:https://tower.jp/store/event/2026/11/1011141122",
-      "fetchedAt": "2026-10-25T04:40:09.387Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "【終活クラブ】 Major 4th EP「現代ロックバンド化学」リリース記念インストアイベント開催決定！",
-      "artist": "終活クラブ",
-      "venue": "梅田NU茶屋町店",
-      "date": "2026-12-17",
-      "time": "19:00",
-      "url": "https://tower.jp/store/event/2026/12/096006",
-      "sourceId": "tower-all",
-      "kind": "",
-      "id": "tower-all:2026-12-17:19:00:https://tower.jp/store/event/2026/12/096006",
-      "fetchedAt": "2026-10-25T04:40:09.387Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "I$M",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-11-02",
-      "time": "19:00",
-      "url": "https://www.hmv.co.jp/store/event/56594/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-11-02:19:00:https://www.hmv.co.jp/store/event/56594/",
-      "fetchedAt": "2026-10-25T04:40:15.995Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "ヒカリトナリ",
-      "venue": "HMV大宮アルシェ",
-      "date": "2026-11-22",
-      "time": "13:00",
-      "url": "https://www.hmv.co.jp/store/event/56582/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-11-22:13:00:https://www.hmv.co.jp/store/event/56582/",
-      "fetchedAt": "2026-10-25T04:40:15.995Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
-    },
-    {
-      "title": "特典会",
-      "artist": "木村夢叶",
-      "venue": "HMVエソラ池袋",
-      "date": "2027-01-16",
-      "time": "14:00",
-      "url": "https://www.hmv.co.jp/store/event/56586/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2027-01-16:14:00:https://www.hmv.co.jp/store/event/56586/",
-      "fetchedAt": "2026-10-25T04:40:15.995Z",
-      "firstSeenAt": "2026-10-25T04:40:01.969Z"
     }
   ],
   "statuses": {
     "tower-shibuya": {
       "ok": true,
-      "count": 13,
-      "checkedAt": "2026-10-31T05:39:03.536Z",
+      "count": 69,
+      "checkedAt": "2026-11-01T06:01:58.596Z",
       "error": ""
     },
     "tower-all": {
-      "ok": true,
+      "ok": false,
       "count": 252,
-      "checkedAt": "2026-10-31T05:39:04.702Z",
-      "error": ""
+      "checkedAt": "2026-11-01T06:02:13.596Z",
+      "error": "The operation was aborted due to timeout"
     },
     "vv-all": {
       "ok": true,
-      "count": 39,
-      "checkedAt": "2026-10-31T05:39:07.576Z",
+      "count": 37,
+      "checkedAt": "2026-11-01T06:02:16.038Z",
       "error": ""
     },
     "hmv-shibuya": {
       "ok": true,
       "count": 80,
-      "checkedAt": "2026-10-31T05:39:11.251Z",
+      "checkedAt": "2026-11-01T06:02:18.400Z",
       "error": ""
     },
     "hmv-other": {
       "ok": true,
-      "count": 92,
-      "checkedAt": "2026-10-31T05:39:11.251Z",
+      "count": 91,
+      "checkedAt": "2026-11-01T06:02:18.400Z",
       "error": ""
     }
   },
-  "refreshedAt": "2026-10-31T05:39:01.368Z"
+  "refreshedAt": "2026-11-01T06:01:53.804Z"
 }
