@@ -91,3 +91,6 @@
 .new-event-schedule .event-time{grid-column:2;grid-row:1;padding:0;font-size:14px}
 .new-event-date{grid-column:1;grid-row:1;color:#424b42;font-size:12px;font-weight:650;white-space:nowrap}
 @media(max-width:600px){.view-switch{gap:15px;margin-bottom:12px}.view-switch-button{font-size:11px}.new-event-day>header h2{font-size:13px}.new-event-row{grid-template-columns:91px minmax(0,1fr);gap:9px}.new-event-schedule{gap:6px}.new-event-schedule .event-time{font-size:12px}.new-event-date{font-size:11px}}
+
+/* Hide all sidebar text in the compact rail, including the Shibuya badge. */
+@media(max-width:600px){.source-button>span:not(.source-mark){display:none}}
