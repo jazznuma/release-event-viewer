@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "ミニライブ&特典会",
-      "artist": "青木陽菜",
-      "venue": "HMV阪急西宮ガーデンズ",
-      "date": "2026-11-16",
-      "time": "13:30",
-      "url": "https://www.hmv.co.jp/store/event/56664/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-11-16:13:30:https://www.hmv.co.jp/store/event/56664/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
-      "firstSeenAt": "2026-11-06T06:42:26.139Z"
-    },
-    {
       "title": "【譜久村聖】2ndシングル発売記念 ミニライブ＆一言お話し会イベント",
       "artist": "譜久村聖",
       "venue": "TOWER RECORDS mini セブンパーク天美店",
@@ -40,19 +27,6 @@
       "firstSeenAt": null
     },
     {
-      "title": "ミニライブ&特典会",
-      "artist": "めんこいな東北",
-      "venue": "HMV仙台 E BeanS",
-      "date": "2026-11-16",
-      "time": "18:00",
-      "url": "https://www.hmv.co.jp/store/event/56737/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-11-16:18:00:https://www.hmv.co.jp/store/event/56737/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
-      "firstSeenAt": "2026-11-14T06:20:43.774Z"
-    },
-    {
       "title": "【LIT】 ミニライブイベント inイオンモール大高",
       "artist": "LIT",
       "venue": "大高店",
@@ -64,45 +38,6 @@
       "id": "tower-all:2026-11-16:18:30:https://tower.jp/store/event/2026/11/116006",
       "fetchedAt": "2026-11-16T06:27:04.934Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
-    },
-    {
-      "title": "ミニライブ&特典会",
-      "artist": "FLOP FLOW",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-11-16",
-      "time": "18:30",
-      "url": "https://www.hmv.co.jp/store/event/56731/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-11-16:18:30:https://www.hmv.co.jp/store/event/56731/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
-      "firstSeenAt": "2026-11-14T06:20:43.774Z"
-    },
-    {
-      "title": "【Crimson Crat Clan】Crimson Crat Clan×タワーレコード渋谷店 毎週渋谷計画",
-      "artist": "Crimson Crat Clan",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-16",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/16/235590",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-16:19:00:https://towershibuya.jp/2026/11/16/235590",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
-      "firstSeenAt": "2026-11-01T06:01:53.804Z"
-    },
-    {
-      "title": "【LunaMoon】フリーライブ",
-      "artist": "LunaMoon",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-16",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/16/237028",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-16:19:00:https://towershibuya.jp/2026/11/16/237028",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
     },
     {
       "title": "【iVy】 2ndアルバム「存在する理由」リリース記念 ミニライブ＆サイン会",
@@ -118,19 +53,6 @@
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
-      "id": "vv-all:2026-11-16:19:00:https://www.village-v.co.jp/event/031596/",
-      "title": "【コングラッチェ！】シングル『ビビビっとビート』 ミニライブ＆特典会 inVV渋谷本店",
-      "artist": "コングラッチェ！",
-      "venue": "渋谷本店",
-      "date": "2026-11-16",
-      "time": "19:00",
-      "url": "https://www.village-v.co.jp/event/031596/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
-      "firstSeenAt": "2026-10-30T05:47:15.380Z"
-    },
-    {
       "title": "【DDTプロレスリング】DDTプロレスリング4選手合同トークショ5shot撮影会",
       "artist": "5F / DDTプロレスリング",
       "venue": "タワーレコード渋谷店",
@@ -140,7 +62,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-17:time-unknown:https://towershibuya.jp/2026/11/17/235570",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -166,7 +88,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-17:15:00:https://www.hmv.co.jp/store/event/56673/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -179,7 +101,7 @@
       "url": "https://www.village-v.co.jp/event/031610/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.458Z",
+      "fetchedAt": "2026-11-17T07:54:02.138Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -192,7 +114,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-17:16:30:https://towershibuya.jp/2026/11/17/236938",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-08T05:58:59.437Z"
     },
     {
@@ -218,7 +140,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-17:18:00:https://www.hmv.co.jp/store/event/56604/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -231,7 +153,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-17:18:30:https://www.hmv.co.jp/store/event/56643/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -257,7 +179,7 @@
       "url": "https://www.village-v.co.jp/event/031607/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
@@ -296,7 +218,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-18:17:00:https://www.hmv.co.jp/store/event/56598/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -322,7 +244,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-18:18:00:https://www.hmv.co.jp/store/event/56742/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -335,7 +257,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-18:18:30:https://towershibuya.jp/2026/11/18/236136",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -361,7 +283,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-18:19:00:https://towershibuya.jp/2026/11/18/235668",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -374,7 +296,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-18:19:00:https://www.hmv.co.jp/store/event/56668/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -387,7 +309,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-18:19:30:https://www.hmv.co.jp/store/event/56741/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -400,7 +322,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-18:20:00:https://towershibuya.jp/2026/11/18/235258",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -413,7 +335,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-19:14:00:https://www.hmv.co.jp/store/event/56623/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -452,7 +374,7 @@
       "url": "https://www.village-v.co.jp/event/031639/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -465,7 +387,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-19:18:30:https://www.hmv.co.jp/store/event/56732/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -478,8 +400,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-19:18:30:https://www.hmv.co.jp/store/event/56691/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-10T07:16:07.454Z"
+    },
+    {
+      "title": "【LOVE PANIC!×わくめる！】ミニアルバム『Melty Panic Night!』 ミニライブ＆特典会",
+      "artist": "LOVE PANIC! / わくめる！",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-19",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/19/237312",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-19:19:00:https://towershibuya.jp/2026/11/19/237312",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "甘党男子　ミニライブ＆特典会",
@@ -530,7 +465,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-19:19:10:https://towershibuya.jp/2026/11/19/237198",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -543,7 +478,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-19:19:30:https://www.hmv.co.jp/store/event/56727/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -582,7 +517,7 @@
       "url": "https://www.village-v.co.jp/event/031634/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -595,7 +530,7 @@
       "url": "https://www.village-v.co.jp/event/031545/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -647,7 +582,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-20:19:00:https://towershibuya.jp/2026/11/20/235588",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -660,7 +595,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-20:19:00:https://towershibuya.jp/2026/11/20/237090",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -686,7 +621,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-20:19:00:https://www.hmv.co.jp/store/event/56733/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -699,7 +634,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-20:19:00:https://www.hmv.co.jp/store/event/56670/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -725,7 +660,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-20:20:00:https://towershibuya.jp/2026/11/20/236950",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
@@ -751,7 +686,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:11:30:https://www.hmv.co.jp/store/event/56749/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -777,7 +712,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56484/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-12T05:56:19.810Z"
     },
     {
@@ -790,7 +725,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56339/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -803,7 +738,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56154/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -816,7 +751,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:12:00:https://www.hmv.co.jp/store/event/56542/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
     },
     {
@@ -829,7 +764,7 @@
       "url": "https://www.village-v.co.jp/event/031629/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-10T07:16:07.454Z"
     },
     {
@@ -842,7 +777,7 @@
       "url": "https://www.village-v.co.jp/event/031602/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -855,7 +790,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-21:12:45:https://towershibuya.jp/2026/11/21/237283",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -868,7 +803,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-21:13:00:https://towershibuya.jp/2026/11/21/235651",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -972,7 +907,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56536/",
-      "fetchedAt": "2026-11-16T06:27:13.007Z",
+      "fetchedAt": "2026-11-17T07:54:04.920Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -985,7 +920,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56541/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -998,7 +933,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:13:00:https://www.hmv.co.jp/store/event/56390/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1024,7 +959,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-21:14:00:https://towershibuya.jp/2026/11/21/236014",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1050,7 +985,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:14:00:https://www.hmv.co.jp/store/event/56463/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-06T06:19:34.366Z"
     },
     {
@@ -1063,7 +998,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-21:14:00:https://www.hmv.co.jp/store/event/56743/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -1076,7 +1011,7 @@
       "url": "https://www.village-v.co.jp/event/031642/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.458Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -1089,7 +1024,7 @@
       "url": "https://www.village-v.co.jp/event/031463/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": null
     },
     {
@@ -1107,7 +1042,7 @@
     },
     {
       "id": "vv-all:2026-11-21:15:00:https://www.village-v.co.jp/event/031633/",
-      "title": "【ALL IN & Highspec Ba【Z∞】Ka & 嘘吐Grimms。】 フリーライブ",
+      "title": "【ALL IN & Highspec Ba【Z∞】Ka & 嘘吐Grimms。 & POP HOPPER & UNCOEUR】 フリーライブ",
       "artist": "ALL IN & Highspec Ba【Z∞",
       "venue": "横浜ビブレ Niigoひろば",
       "date": "2026-11-21",
@@ -1115,7 +1050,7 @@
       "url": "https://www.village-v.co.jp/event/031633/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -1128,7 +1063,7 @@
       "url": "https://www.village-v.co.jp/event/031546/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -1141,7 +1076,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-21:17:00:https://www.hmv.co.jp/store/event/56583/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -1180,7 +1115,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-21:19:30:https://towershibuya.jp/2026/11/21/236323",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1193,7 +1128,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-22:time-unknown:https://towershibuya.jp/2026/11/22/236866",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
     },
     {
@@ -1219,7 +1154,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-22:11:30:https://www.hmv.co.jp/store/event/56289/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1232,7 +1167,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-22:11:30:https://www.hmv.co.jp/store/event/56110/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1262,6 +1197,19 @@
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
+      "title": "ミニライブ&特典会",
+      "artist": "Aproof & NEOTOKYO-TRIBE",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56768/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56768/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "特典会",
       "artist": "渡邊圭祐",
       "venue": "HMV仙台 E BeanS",
@@ -1271,7 +1219,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56359/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1284,7 +1232,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56070/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1297,7 +1245,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56267/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1310,7 +1258,7 @@
       "url": "https://www.village-v.co.jp/event/031652/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.458Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -1323,7 +1271,7 @@
       "url": "https://www.village-v.co.jp/event/031562/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1349,7 +1297,7 @@
       "url": "https://www.village-v.co.jp/event/031623/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
@@ -1362,7 +1310,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-22:13:00:https://towershibuya.jp/2026/11/22/236485",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1427,7 +1375,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:13:00:https://www.hmv.co.jp/store/event/56582/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
     },
     {
@@ -1440,20 +1388,20 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:13:00:https://www.hmv.co.jp/store/event/56702/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
       "title": "ミニライブ&特典会",
       "artist": "Ebidan Osaka",
-      "venue": "【2026年11月17日オープン】HMVららぽーと堺",
+      "venue": "HMVららぽーと堺",
       "date": "2026-11-22",
       "time": "13:00",
       "url": "https://www.hmv.co.jp/store/event/56729/",
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:13:00:https://www.hmv.co.jp/store/event/56729/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -1544,7 +1492,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-22:14:00:https://www.hmv.co.jp/store/event/56704/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -1561,6 +1509,19 @@
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
+      "title": "ミニライブ&特典会",
+      "artist": "LOVE PANIC!×わくめる！",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "15:30",
+      "url": "https://www.hmv.co.jp/store/event/56765/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:15:30:https://www.hmv.co.jp/store/event/56765/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "【私立恵比寿中学】17th Single『スーパーブルー』発売記念お渡し会開催決定のお知らせ！",
       "artist": "私立恵比寿中学",
       "venue": "タワーレコード渋谷店",
@@ -1570,7 +1531,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-22:16:30:https://towershibuya.jp/2026/11/22/236632",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1600,6 +1561,19 @@
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
+      "title": "ミニライブ&特典会",
+      "artist": "I'Rink & Anluce♡Sugar & ARLEY×EARLY & Luminous♡Paradox",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "18:30",
+      "url": "https://www.hmv.co.jp/store/event/56766/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:18:30:https://www.hmv.co.jp/store/event/56766/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "【East Of Eden 】 11/22(日)開催 『Ghost Sequence』発売記念リリースイベント",
       "artist": "East Of Eden",
       "venue": "タワーレコード渋谷店",
@@ -1609,7 +1583,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-22:19:00:https://towershibuya.jp/2026/11/22/235606",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1622,7 +1596,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-23:time-unknown:https://towershibuya.jp/2026/11/23/236871",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
     },
     {
@@ -1648,7 +1622,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:11:00:https://www.hmv.co.jp/store/event/56607/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-28T05:40:46.800Z"
     },
     {
@@ -1661,7 +1635,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:11:30:https://www.hmv.co.jp/store/event/56217/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1674,7 +1648,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:12:00:https://www.hmv.co.jp/store/event/56500/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-13T06:46:44.970Z"
     },
     {
@@ -1687,7 +1661,7 @@
       "url": "https://www.village-v.co.jp/event/031621/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
     },
     {
@@ -1700,7 +1674,7 @@
       "url": "https://www.village-v.co.jp/event/031649/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -1765,7 +1739,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:13:00:https://www.hmv.co.jp/store/event/56421/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-03T05:05:41.390Z"
     },
     {
@@ -1817,7 +1791,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:14:00:https://www.hmv.co.jp/store/event/56684/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-09T06:25:18.805Z"
     },
     {
@@ -1830,7 +1804,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-23:14:00:https://www.hmv.co.jp/store/event/56191/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -1843,7 +1817,7 @@
       "url": "https://www.village-v.co.jp/event/031559/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -1895,7 +1869,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-23:17:00:https://www.hmv.co.jp/store/event/56499/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -1908,8 +1882,21 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-23:19:00:https://towershibuya.jp/2026/11/23/236319",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "title": "【KaWang】2nd MINI ALBUM『WE GO!!!』リリースイベント@ タワーレコード渋谷店5F",
+      "artist": "KaWang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/24/237315",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-24:15:00:https://towershibuya.jp/2026/11/24/237315",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【BEYOOOOONDS】7thシングル『笑止千万／勝利のセンタク』発売記念 ミニライブ＆お見送り会＠11/24 CLUB CITTA’（神奈川）",
@@ -1973,7 +1960,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-24:19:00:https://www.hmv.co.jp/store/event/56573/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -1986,7 +1973,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-24:20:00:https://towershibuya.jp/2026/11/24/235119",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -1999,7 +1986,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-25:time-unknown:https://towershibuya.jp/2026/11/25/236932",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -2025,7 +2012,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-25:12:30:https://towershibuya.jp/2026/11/25/236219",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2038,7 +2025,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-25:12:30:https://www.hmv.co.jp/store/event/56555/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
     },
     {
@@ -2051,7 +2038,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-25:15:30:https://towershibuya.jp/2026/11/25/236214",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2064,7 +2051,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-25:18:00:https://www.hmv.co.jp/store/event/56605/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
@@ -2077,7 +2064,7 @@
       "url": "https://www.village-v.co.jp/event/031640/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -2090,7 +2077,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-25:19:00:https://towershibuya.jp/2026/11/25/236217",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2103,7 +2090,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-25:19:00:https://www.hmv.co.jp/store/event/56681/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -2116,7 +2103,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-25:19:00:https://www.hmv.co.jp/store/event/56526/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -2129,7 +2116,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-26:16:30:https://towershibuya.jp/2026/11/26/237051",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -2142,7 +2129,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-26:17:30:https://towershibuya.jp/2026/11/26/237093",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -2155,7 +2142,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-26:18:00:https://www.hmv.co.jp/store/event/56706/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -2194,7 +2181,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-26:19:00:https://www.hmv.co.jp/store/event/56284/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2207,7 +2194,7 @@
       "url": "https://www.village-v.co.jp/event/031626/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-08T05:58:59.437Z"
     },
     {
@@ -2220,7 +2207,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-27:11:30:https://www.hmv.co.jp/store/event/56750/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -2250,6 +2237,19 @@
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
+      "title": "【KaWang】 2nd MINI ALBUM『WE GO!!!』リリースイベント　@東京・タワーレコード渋谷店5F",
+      "artist": "KaWang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-27",
+      "time": "15:30",
+      "url": "https://towershibuya.jp/2026/11/27/237317",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-27:15:30:https://towershibuya.jp/2026/11/27/237317",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "ミニライブ&特典会",
       "artist": "ASC2NT",
       "venue": "HMVエソラ池袋",
@@ -2259,7 +2259,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-27:16:30:https://www.hmv.co.jp/store/event/56728/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -2285,8 +2285,21 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-27:19:00:https://towershibuya.jp/2026/11/27/237243",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
+    },
+    {
+      "title": "トークショー&特典会",
+      "artist": "坂口喜咲",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-27",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56748/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-27:19:00:https://www.hmv.co.jp/store/event/56748/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -2298,7 +2311,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-27:19:00:https://www.hmv.co.jp/store/event/56744/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -2311,7 +2324,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-27:19:00:https://www.hmv.co.jp/store/event/56667/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-08T05:58:59.437Z"
     },
     {
@@ -2324,7 +2337,7 @@
       "url": "https://www.village-v.co.jp/event/031637/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -2337,7 +2350,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-28:time-unknown:https://towershibuya.jp/2026/11/28/235083",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2363,7 +2376,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:11:30:https://www.hmv.co.jp/store/event/55949/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2376,7 +2389,7 @@
       "url": "https://www.village-v.co.jp/event/031635/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -2389,7 +2402,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-28:12:00:https://towershibuya.jp/2026/11/28/234823",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2402,7 +2415,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:12:00:https://www.hmv.co.jp/store/event/56521/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -2415,7 +2428,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:12:00:https://www.hmv.co.jp/store/event/56268/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2428,7 +2441,7 @@
       "url": "https://www.village-v.co.jp/event/031641/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.458Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -2493,7 +2506,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56441/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -2506,7 +2519,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56546/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-22T04:43:28.653Z"
     },
     {
@@ -2519,7 +2532,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56687/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -2532,8 +2545,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:13:00:https://www.hmv.co.jp/store/event/56636/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
+    },
+    {
+      "id": "vv-all:2026-11-28:13:00:https://www.village-v.co.jp/event/031644/",
+      "title": "11/28(土)@mori【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
+      "artist": "Baby’z Breath",
+      "venue": "レイクタウンPLUS+・ヴィレッジヴァンガード＋PLUS",
+      "date": "2026-11-28",
+      "time": "13:00",
+      "url": "https://www.village-v.co.jp/event/031644/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.138Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【Lumi7’s 1st Single「或る星のLuminous」リリースイベント】",
@@ -2558,7 +2584,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:14:00:https://www.hmv.co.jp/store/event/56633/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2571,7 +2597,7 @@
       "url": "https://www.village-v.co.jp/event/031647/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -2584,7 +2610,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:15:00:https://www.hmv.co.jp/store/event/56705/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -2623,7 +2649,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-28:17:00:https://www.hmv.co.jp/store/event/56663/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -2636,7 +2662,7 @@
       "url": "https://www.village-v.co.jp/event/031648/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -2649,7 +2675,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-28:18:00:https://www.hmv.co.jp/store/event/56699/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -2662,7 +2688,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-28:18:30:https://towershibuya.jp/2026/11/28/236191",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2740,7 +2766,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56584/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -2753,7 +2779,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56425/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2766,7 +2792,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56155/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2779,20 +2805,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:00:https://www.hmv.co.jp/store/event/56360/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
-      "firstSeenAt": null
-    },
-    {
-      "title": "トークショー&サイン会",
-      "artist": "君沢ユウキ・坂井翔",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-11-29",
-      "time": "12:30",
-      "url": "https://www.hmv.co.jp/store/event/56202/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56202/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -2805,8 +2818,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56506/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
+    },
+    {
+      "title": "トークショー&サイン会",
+      "artist": "君沢ユウキ・坂井翔",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-29",
+      "time": "12:30",
+      "url": "https://www.hmv.co.jp/store/event/56202/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56202/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": null
     },
     {
       "title": "ミニライブ&特典会",
@@ -2818,7 +2844,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:12:30:https://www.hmv.co.jp/store/event/56627/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -2831,7 +2857,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-29:13:00:https://towershibuya.jp/2026/11/29/236474",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -2922,7 +2948,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:13:00:https://www.hmv.co.jp/store/event/56537/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -2935,7 +2961,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-11-29:13:00:https://www.hmv.co.jp/store/event/56666/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
@@ -2948,7 +2974,7 @@
       "url": "https://www.village-v.co.jp/event/031650/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.458Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -3000,7 +3026,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-29:17:00:https://towershibuya.jp/2026/11/29/234800",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -3026,7 +3052,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-29:18:00:https://www.hmv.co.jp/store/event/56522/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -3052,7 +3078,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-29:19:00:https://towershibuya.jp/2026/11/29/235384",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -3078,7 +3104,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-29:19:30:https://towershibuya.jp/2026/11/29/236171",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -3104,7 +3130,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-30:19:00:https://towershibuya.jp/2026/11/30/236083",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -3117,7 +3143,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-11-30:19:00:https://towershibuya.jp/2026/11/30/236806",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-03T06:45:47.939Z"
     },
     {
@@ -3169,7 +3195,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-30:19:00:https://www.hmv.co.jp/store/event/56735/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -3182,7 +3208,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-11-30:19:00:https://www.hmv.co.jp/store/event/56740/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -3195,7 +3221,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-01:15:00:https://towershibuya.jp/2026/12/01/237227",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -3221,7 +3247,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-01:18:30:https://www.hmv.co.jp/store/event/56638/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -3234,7 +3260,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-01:19:00:https://www.hmv.co.jp/store/event/56592/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -3273,7 +3299,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-02:17:00:https://towershibuya.jp/2026/12/02/236716",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -3286,8 +3312,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-02:18:30:https://www.hmv.co.jp/store/event/56708/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "TYRIZ.",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-02",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56746/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-02:19:00:https://www.hmv.co.jp/store/event/56746/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【猫背のネイビーセゾン】「MEDiCiNEON」リリース記念 猫背のインストアライブ『OPEN THE CAPSULE』開催決定！",
@@ -3325,7 +3364,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-03:19:00:https://www.hmv.co.jp/store/event/56525/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-15T04:37:33.428Z"
     },
     {
@@ -3338,7 +3377,7 @@
       "url": "https://www.village-v.co.jp/event/031627/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-09T06:25:18.805Z"
     },
     {
@@ -3377,7 +3416,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-04:18:30:https://www.hmv.co.jp/store/event/56745/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -3390,7 +3429,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-04:19:00:https://towershibuya.jp/2026/12/04/236428",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
     },
     {
@@ -3442,8 +3481,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-04:19:00:https://www.hmv.co.jp/store/event/56597/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "SHY",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-05",
+      "time": "11:00",
+      "url": "https://www.hmv.co.jp/store/event/56753/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-05:11:00:https://www.hmv.co.jp/store/event/56753/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "特典会",
@@ -3455,7 +3507,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:11:30:https://www.hmv.co.jp/store/event/56613/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-03T06:45:47.939Z"
     },
     {
@@ -3468,7 +3520,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:12:00:https://www.hmv.co.jp/store/event/56333/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3481,7 +3533,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:12:00:https://www.hmv.co.jp/store/event/56269/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3533,7 +3585,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56566/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -3546,8 +3598,21 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56426/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "豆柴の大群",
+      "venue": "HMV札幌ステラプレイス",
+      "date": "2026-12-05",
+      "time": "13:00",
+      "url": "https://www.hmv.co.jp/store/event/56758/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56758/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "ミニライブ&特典会",
@@ -3559,7 +3624,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56676/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-09T06:25:18.805Z"
     },
     {
@@ -3585,7 +3650,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-05:14:00:https://towershibuya.jp/2026/12/05/236301",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -3598,7 +3663,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:14:00:https://www.hmv.co.jp/store/event/56531/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -3624,7 +3689,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:15:00:https://www.hmv.co.jp/store/event/56690/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -3637,7 +3702,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:16:45:https://www.hmv.co.jp/store/event/56703/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-12T07:08:17.530Z"
     },
     {
@@ -3650,7 +3715,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-05:17:00:https://www.hmv.co.jp/store/event/56608/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -3663,7 +3728,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-05:17:30:https://towershibuya.jp/2026/12/05/235232",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -3676,7 +3741,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-05:18:00:https://www.hmv.co.jp/store/event/56310/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3702,7 +3767,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:11:00:https://www.hmv.co.jp/store/event/56361/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3715,7 +3780,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-06:12:00:https://towershibuya.jp/2026/12/06/237120",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -3741,7 +3806,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56614/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-10T07:16:07.454Z"
     },
     {
@@ -3754,7 +3819,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56270/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3767,7 +3832,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56111/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3780,7 +3845,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56173/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -3832,7 +3897,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:13:00:https://www.hmv.co.jp/store/event/56631/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
     },
     {
@@ -3845,7 +3910,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-06:13:00:https://www.hmv.co.jp/store/event/56538/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-17T04:24:35.534Z"
     },
     {
@@ -3858,8 +3923,21 @@
       "url": "https://www.village-v.co.jp/event/031614/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-11-03T06:45:47.939Z"
+    },
+    {
+      "id": "vv-all:2026-12-06:13:30:https://www.village-v.co.jp/event/031653/",
+      "title": "11/25(水)発売 三月のパンタシア ニューシングル「風の中は走るっきゃないっ！」リリース記念イベント開催決定！",
+      "artist": "発売 三月のパンタシア ニューシングル",
+      "venue": "下北沢店",
+      "date": "2026-12-06",
+      "time": "13:30",
+      "url": "https://www.village-v.co.jp/event/031653/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【イ・スビン】「ハープ・クラシックス」CD発売記念イベント",
@@ -3871,7 +3949,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-06:14:00:https://towershibuya.jp/2026/12/06/236832",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-06T06:42:26.139Z"
     },
     {
@@ -3884,7 +3962,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-06:18:00:https://www.hmv.co.jp/store/event/56625/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-04T06:19:52.297Z"
     },
     {
@@ -3910,7 +3988,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-07:19:00:https://towershibuya.jp/2026/12/07/237044",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -3925,6 +4003,19 @@
       "id": "tower-all:2026-12-07:19:00:https://tower.jp/store/event/2026/12/055014",
       "fetchedAt": "2026-11-16T06:27:04.934Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "kijo no kuron",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-07",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56736/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-07:19:00:https://www.hmv.co.jp/store/event/56736/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【JUSTB】 LIVE IN JAPAN 2026　来日記念イベント",
@@ -3949,7 +4040,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-08:18:30:https://www.hmv.co.jp/store/event/56688/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -3962,7 +4053,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-09:12:30:https://www.hmv.co.jp/store/event/56632/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -3975,7 +4066,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-09:18:30:https://towershibuya.jp/2026/12/09/237000",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-08T05:58:59.437Z"
     },
     {
@@ -3988,7 +4079,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-09:19:00:https://towershibuya.jp/2026/12/09/235672",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4001,7 +4092,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-09:19:00:https://towershibuya.jp/2026/12/09/236027",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4014,7 +4105,7 @@
       "url": "https://www.village-v.co.jp/event/031638/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.139Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -4027,11 +4118,11 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-10:time-unknown:https://towershibuya.jp/2026/12/10/236726",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-04T06:19:52.297Z"
     },
     {
-      "title": "ミニライブ&特典会",
+      "title": "特典会",
       "artist": "私立恵比寿中学",
       "venue": "HMV&BOOKS SHIBUYA",
       "date": "2026-12-10",
@@ -4040,7 +4131,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-10:18:30:https://www.hmv.co.jp/store/event/56615/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -4079,7 +4170,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-10:19:00:https://www.hmv.co.jp/store/event/56590/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -4105,7 +4196,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-11:19:00:https://towershibuya.jp/2026/12/11/237130",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -4118,7 +4209,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-11:19:00:https://towershibuya.jp/2026/12/11/236560",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -4170,7 +4261,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-11:19:00:https://www.hmv.co.jp/store/event/56485/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -4183,7 +4274,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-11:19:30:https://www.hmv.co.jp/store/event/56488/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-10T05:51:45.948Z"
     },
     {
@@ -4209,7 +4300,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:11:00:https://www.hmv.co.jp/store/event/56461/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-07T05:58:14.107Z"
     },
     {
@@ -4222,7 +4313,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:11:00:https://www.hmv.co.jp/store/event/56069/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -4235,7 +4326,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:12:00:https://www.hmv.co.jp/store/event/56516/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-19T04:39:33.049Z"
     },
     {
@@ -4313,7 +4404,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:13:00:https://www.hmv.co.jp/store/event/56442/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -4326,7 +4417,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:13:00:https://www.hmv.co.jp/store/event/56738/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -4339,7 +4430,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-12:13:00:https://www.hmv.co.jp/store/event/56675/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-11-09T06:25:18.805Z"
     },
     {
@@ -4352,7 +4443,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:13:15:https://www.hmv.co.jp/store/event/56256/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": null
     },
     {
@@ -4365,7 +4456,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:13:30:https://www.hmv.co.jp/store/event/56563/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -4378,7 +4469,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-12:14:00:https://towershibuya.jp/2026/12/12/235578",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4391,7 +4482,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-12:14:00:https://towershibuya.jp/2026/12/12/235404",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4404,7 +4495,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-12:15:15:https://www.hmv.co.jp/store/event/56548/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -4417,7 +4508,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-12:17:00:https://towershibuya.jp/2026/12/12/237018",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-09T06:25:18.805Z"
     },
     {
@@ -4430,7 +4521,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:11:30:https://www.hmv.co.jp/store/event/56231/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -4443,7 +4534,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:12:00:https://www.hmv.co.jp/store/event/56071/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -4508,7 +4599,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-13:13:00:https://www.hmv.co.jp/store/event/56401/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -4521,7 +4612,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-13:13:00:https://www.hmv.co.jp/store/event/56581/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -4547,7 +4638,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-13:14:45:https://www.hmv.co.jp/store/event/56549/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -4560,7 +4651,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-13:16:00:https://towershibuya.jp/2026/12/13/236447",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4612,7 +4703,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-14:time-unknown:https://towershibuya.jp/2026/12/14/236250",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4625,7 +4716,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-14:15:00:https://www.hmv.co.jp/store/event/56644/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -4677,7 +4768,7 @@
       "url": "https://www.village-v.co.jp/event/031586/",
       "sourceId": "vv-all",
       "kind": "",
-      "fetchedAt": "2026-11-16T06:27:10.459Z",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4716,7 +4807,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-16:19:00:https://www.hmv.co.jp/store/event/56669/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -4729,7 +4820,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-16:19:00:https://www.hmv.co.jp/store/event/56637/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -4755,7 +4846,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-17:18:30:https://towershibuya.jp/2026/12/17/237233",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -4798,6 +4889,19 @@
       "firstSeenAt": "2026-10-09T06:07:46.067Z"
     },
     {
+      "title": "【BANGERS】　インストアフリーライブ",
+      "artist": "BANGERS",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-12-18",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/12/18/237251",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-12-18:19:30:https://towershibuya.jp/2026/12/18/237251",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "特典会",
       "artist": "関水渚",
       "venue": "HMVエソラ池袋",
@@ -4807,7 +4911,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:11:00:https://www.hmv.co.jp/store/event/56444/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-05T05:38:50.836Z"
     },
     {
@@ -4820,7 +4924,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:11:30:https://www.hmv.co.jp/store/event/56569/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -4859,7 +4963,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56645/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -4872,7 +4976,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56656/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-05T06:44:13.689Z"
     },
     {
@@ -4885,7 +4989,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:12:00:https://www.hmv.co.jp/store/event/56357/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -4950,7 +5054,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-19:13:00:https://www.hmv.co.jp/store/event/56316/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -4963,7 +5067,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-19:18:00:https://www.hmv.co.jp/store/event/56587/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-26T04:45:50.215Z"
     },
     {
@@ -4989,7 +5093,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56529/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-16T04:30:54.726Z"
     },
     {
@@ -5002,7 +5106,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56462/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-07T05:58:14.107Z"
     },
     {
@@ -5015,7 +5119,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56317/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5028,7 +5132,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:12:00:https://www.hmv.co.jp/store/event/56694/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -5058,6 +5162,19 @@
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
     },
     {
+      "id": "vv-all:2026-12-20:14:00:https://www.village-v.co.jp/event/031645/",
+      "title": "12/20(日)@mori【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
+      "artist": "Baby’z Breath",
+      "venue": "レイクタウンPLUS+・ヴィレッジヴァンガード＋PLUS",
+      "date": "2026-12-20",
+      "time": "14:00",
+      "url": "https://www.village-v.co.jp/event/031645/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.138Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "『SHY スペシャルイベント December』Day1＠イオンモール東浦（愛知）",
       "artist": "SHY",
       "venue": "東浦店",
@@ -5080,7 +5197,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-20:16:00:https://www.hmv.co.jp/store/event/56695/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -5093,7 +5210,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-20:19:00:https://towershibuya.jp/2026/12/20/237048",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-11-10T07:16:07.454Z"
     },
     {
@@ -5106,7 +5223,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-21:15:30:https://www.hmv.co.jp/store/event/56707/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-14T06:20:43.774Z"
     },
     {
@@ -5119,7 +5236,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-21:17:30:https://www.hmv.co.jp/store/event/56261/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5158,7 +5275,7 @@
       "sourceId": "tower-shibuya",
       "kind": "",
       "id": "tower-shibuya:2026-12-23:18:30:https://towershibuya.jp/2026/12/23/234369",
-      "fetchedAt": "2026-11-16T06:27:03.171Z",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5184,7 +5301,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-24:18:30:https://www.hmv.co.jp/store/event/56696/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -5210,7 +5327,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-26:11:00:https://www.hmv.co.jp/store/event/56358/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5236,7 +5353,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:12:00:https://www.hmv.co.jp/store/event/56072/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5262,7 +5379,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:13:30:https://www.hmv.co.jp/store/event/56257/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5275,7 +5392,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-26:16:30:https://www.hmv.co.jp/store/event/56447/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-09T06:07:46.067Z"
     },
     {
@@ -5314,7 +5431,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-27:12:00:https://www.hmv.co.jp/store/event/56665/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     },
     {
@@ -5353,7 +5470,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2026-12-27:13:00:https://www.hmv.co.jp/store/event/56693/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-15T06:29:29.870Z"
     },
     {
@@ -5366,7 +5483,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2026-12-27:15:00:https://www.hmv.co.jp/store/event/56646/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -5381,6 +5498,19 @@
       "id": "tower-all:2027-01-08:18:30:https://tower.jp/store/event/2027/01/015001",
       "fetchedAt": "2026-11-16T06:27:04.934Z",
       "firstSeenAt": "2026-10-26T15:48:01.494Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2027-01-09",
+      "time": "11:30",
+      "url": "https://www.hmv.co.jp/store/event/56719/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2027-01-09:11:30:https://www.hmv.co.jp/store/event/56719/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "【iLiFE!】メジャーデビューシングル『アイドルライフメガパック』 発売記念リリースイベント",
@@ -5409,6 +5539,19 @@
       "firstSeenAt": null
     },
     {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2027-01-10",
+      "time": "11:30",
+      "url": "https://www.hmv.co.jp/store/event/56720/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2027-01-10:11:30:https://www.hmv.co.jp/store/event/56720/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
       "title": "＜延期日程確定＞咲川ひなの2027年版カレンダー発売記念イベント",
       "artist": "咲川ひなの",
       "venue": "新宿店",
@@ -5431,8 +5574,21 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-10:12:30:https://www.hmv.co.jp/store/event/56701/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-16T06:26:57.629Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2027-01-11",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56718/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2027-01-11:12:00:https://www.hmv.co.jp/store/event/56718/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
     },
     {
       "title": "特典会",
@@ -5444,7 +5600,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-11:12:30:https://www.hmv.co.jp/store/event/56562/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-20T04:49:34.167Z"
     },
     {
@@ -5470,7 +5626,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-16:12:00:https://www.hmv.co.jp/store/event/56610/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -5483,7 +5639,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-16:14:00:https://www.hmv.co.jp/store/event/56586/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-25T04:40:01.969Z"
     },
     {
@@ -5496,7 +5652,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-17:13:00:https://www.hmv.co.jp/store/event/56611/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-29T05:46:51.605Z"
     },
     {
@@ -5509,7 +5665,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-17:13:00:https://www.hmv.co.jp/store/event/56507/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-18T04:32:02.925Z"
     },
     {
@@ -5535,7 +5691,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-23:12:00:https://www.hmv.co.jp/store/event/56564/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5548,7 +5704,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-23:12:00:https://www.hmv.co.jp/store/event/56232/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5561,7 +5717,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-23:12:00:https://www.hmv.co.jp/store/event/56650/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-04T06:19:52.297Z"
     },
     {
@@ -5587,7 +5743,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56233/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-08T06:02:35.378Z"
     },
     {
@@ -5600,7 +5756,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56565/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5613,7 +5769,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-24:12:00:https://www.hmv.co.jp/store/event/56350/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": null
     },
     {
@@ -5639,7 +5795,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-25:15:00:https://www.hmv.co.jp/store/event/56647/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-01T06:01:53.804Z"
     },
     {
@@ -5704,7 +5860,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-01-31:12:00:https://www.hmv.co.jp/store/event/56567/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-21T04:45:00.310Z"
     },
     {
@@ -5730,7 +5886,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-01-31:13:00:https://www.hmv.co.jp/store/event/56391/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-23T04:48:04.451Z"
     },
     {
@@ -5756,7 +5912,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-02-06:12:00:https://www.hmv.co.jp/store/event/56639/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-31T05:39:01.368Z"
     },
     {
@@ -5782,7 +5938,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-07:12:00:https://www.hmv.co.jp/store/event/56692/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-13T06:43:15.414Z"
     },
     {
@@ -5808,7 +5964,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-11:12:00:https://www.hmv.co.jp/store/event/56626/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-02T05:59:44.735Z"
     },
     {
@@ -5834,7 +5990,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-14:12:00:https://www.hmv.co.jp/store/event/56609/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-27T05:02:58.953Z"
     },
     {
@@ -5847,7 +6003,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-20:12:00:https://www.hmv.co.jp/store/event/56671/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -5886,7 +6042,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-27:12:00:https://www.hmv.co.jp/store/event/56622/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -5899,7 +6055,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-27:12:00:https://www.hmv.co.jp/store/event/56672/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
     },
     {
@@ -5925,7 +6081,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-02-28:12:00:https://www.hmv.co.jp/store/event/56624/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
       "firstSeenAt": "2026-10-30T05:47:15.380Z"
     },
     {
@@ -5938,7 +6094,7 @@
       "sourceId": "hmv-shibuya",
       "kind": "",
       "id": "hmv-shibuya:2027-03-07:12:30:https://www.hmv.co.jp/store/event/56574/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-04T06:19:52.297Z"
     },
     {
@@ -5951,7 +6107,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-03-13:12:00:https://www.hmv.co.jp/store/event/56641/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-02T05:59:44.735Z"
     },
     {
@@ -5964,7 +6120,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-03-13:12:15:https://www.hmv.co.jp/store/event/56575/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-10-24T04:35:12.977Z"
     },
     {
@@ -5977,7 +6133,7 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-03-14:12:00:https://www.hmv.co.jp/store/event/56642/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-02T05:59:44.735Z"
     },
     {
@@ -6003,11 +6159,245 @@
       "sourceId": "hmv-other",
       "kind": "",
       "id": "hmv-other:2027-11-07:13:30:https://www.hmv.co.jp/store/event/56659/",
-      "fetchedAt": "2026-11-16T06:27:13.008Z",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
       "firstSeenAt": "2026-11-07T05:56:52.047Z"
     }
   ],
   "newEvents": [
+    {
+      "title": "【LOVE PANIC!×わくめる！】ミニアルバム『Melty Panic Night!』 ミニライブ＆特典会",
+      "artist": "LOVE PANIC! / わくめる！",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-19",
+      "time": "19:00",
+      "url": "https://towershibuya.jp/2026/11/19/237312",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-19:19:00:https://towershibuya.jp/2026/11/19/237312",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "【KaWang】2nd MINI ALBUM『WE GO!!!』リリースイベント@ タワーレコード渋谷店5F",
+      "artist": "KaWang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "url": "https://towershibuya.jp/2026/11/24/237315",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-24:15:00:https://towershibuya.jp/2026/11/24/237315",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "【KaWang】 2nd MINI ALBUM『WE GO!!!』リリースイベント　@東京・タワーレコード渋谷店5F",
+      "artist": "KaWang",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-11-27",
+      "time": "15:30",
+      "url": "https://towershibuya.jp/2026/11/27/237317",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-11-27:15:30:https://towershibuya.jp/2026/11/27/237317",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "【BANGERS】　インストアフリーライブ",
+      "artist": "BANGERS",
+      "venue": "タワーレコード渋谷店",
+      "date": "2026-12-18",
+      "time": "19:30",
+      "url": "https://towershibuya.jp/2026/12/18/237251",
+      "sourceId": "tower-shibuya",
+      "kind": "",
+      "id": "tower-shibuya:2026-12-18:19:30:https://towershibuya.jp/2026/12/18/237251",
+      "fetchedAt": "2026-11-17T07:53:59.276Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "I'Rink & Anluce♡Sugar & ARLEY×EARLY & Luminous♡Paradox",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "18:30",
+      "url": "https://www.hmv.co.jp/store/event/56766/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:18:30:https://www.hmv.co.jp/store/event/56766/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "トークショー&特典会",
+      "artist": "坂口喜咲",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-27",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56748/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-27:19:00:https://www.hmv.co.jp/store/event/56748/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2027-01-09",
+      "time": "11:30",
+      "url": "https://www.hmv.co.jp/store/event/56719/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2027-01-09:11:30:https://www.hmv.co.jp/store/event/56719/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2027-01-10",
+      "time": "11:30",
+      "url": "https://www.hmv.co.jp/store/event/56720/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2027-01-10:11:30:https://www.hmv.co.jp/store/event/56720/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "Aproof & NEOTOKYO-TRIBE",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56768/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:12:00:https://www.hmv.co.jp/store/event/56768/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "kijo no kuron",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-07",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56736/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-07:19:00:https://www.hmv.co.jp/store/event/56736/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "LOVE PANIC!×わくめる！",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-11-22",
+      "time": "15:30",
+      "url": "https://www.hmv.co.jp/store/event/56765/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-11-22:15:30:https://www.hmv.co.jp/store/event/56765/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "SHY",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-05",
+      "time": "11:00",
+      "url": "https://www.hmv.co.jp/store/event/56753/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-05:11:00:https://www.hmv.co.jp/store/event/56753/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "TYRIZ.",
+      "venue": "HMV&BOOKS SHIBUYA",
+      "date": "2026-12-02",
+      "time": "19:00",
+      "url": "https://www.hmv.co.jp/store/event/56746/",
+      "sourceId": "hmv-shibuya",
+      "kind": "",
+      "id": "hmv-shibuya:2026-12-02:19:00:https://www.hmv.co.jp/store/event/56746/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "特典会",
+      "artist": "染谷俊之",
+      "venue": "HMV&BOOKS NAMBA",
+      "date": "2027-01-11",
+      "time": "12:00",
+      "url": "https://www.hmv.co.jp/store/event/56718/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2027-01-11:12:00:https://www.hmv.co.jp/store/event/56718/",
+      "fetchedAt": "2026-11-17T07:54:04.922Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "title": "ミニライブ&特典会",
+      "artist": "豆柴の大群",
+      "venue": "HMV札幌ステラプレイス",
+      "date": "2026-12-05",
+      "time": "13:00",
+      "url": "https://www.hmv.co.jp/store/event/56758/",
+      "sourceId": "hmv-other",
+      "kind": "",
+      "id": "hmv-other:2026-12-05:13:00:https://www.hmv.co.jp/store/event/56758/",
+      "fetchedAt": "2026-11-17T07:54:04.921Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "id": "vv-all:2026-12-20:14:00:https://www.village-v.co.jp/event/031645/",
+      "title": "12/20(日)@mori【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
+      "artist": "Baby’z Breath",
+      "venue": "レイクタウンPLUS+・ヴィレッジヴァンガード＋PLUS",
+      "date": "2026-12-20",
+      "time": "14:00",
+      "url": "https://www.village-v.co.jp/event/031645/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.138Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "id": "vv-all:2026-11-28:13:00:https://www.village-v.co.jp/event/031644/",
+      "title": "11/28(土)@mori【Baby’z Breath】3rdシングル「無限ドリーマー」リリースイベント",
+      "artist": "Baby’z Breath",
+      "venue": "レイクタウンPLUS+・ヴィレッジヴァンガード＋PLUS",
+      "date": "2026-11-28",
+      "time": "13:00",
+      "url": "https://www.village-v.co.jp/event/031644/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.138Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
+    {
+      "id": "vv-all:2026-12-06:13:30:https://www.village-v.co.jp/event/031653/",
+      "title": "11/25(水)発売 三月のパンタシア ニューシングル「風の中は走るっきゃないっ！」リリース記念イベント開催決定！",
+      "artist": "発売 三月のパンタシア ニューシングル",
+      "venue": "下北沢店",
+      "date": "2026-12-06",
+      "time": "13:30",
+      "url": "https://www.village-v.co.jp/event/031653/",
+      "sourceId": "vv-all",
+      "kind": "",
+      "fetchedAt": "2026-11-17T07:54:02.141Z",
+      "firstSeenAt": "2026-11-17T07:53:56.790Z"
+    },
     {
       "title": "【OHL】11/21（Sat.）インストアライブ＠タワーレコード渋谷店",
       "artist": "OHL",
@@ -7983,130 +8373,39 @@
       "kind": "",
       "fetchedAt": "2026-11-11T06:16:51.794Z",
       "firstSeenAt": "2026-11-11T06:16:42.683Z"
-    },
-    {
-      "title": "【LunaMoon】フリーライブ",
-      "artist": "LunaMoon",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-11-16",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/11/16/237028",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-11-16:19:00:https://towershibuya.jp/2026/11/16/237028",
-      "fetchedAt": "2026-11-10T07:16:10.294Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "title": "【ねぎ塩豚丼】1st AL「kiRoku」リリース記念ライブイベント",
-      "artist": "ねぎ塩豚丼",
-      "venue": "タワーレコード渋谷店",
-      "date": "2026-12-20",
-      "time": "19:00",
-      "url": "https://towershibuya.jp/2026/12/20/237048",
-      "sourceId": "tower-shibuya",
-      "kind": "",
-      "id": "tower-shibuya:2026-12-20:19:00:https://towershibuya.jp/2026/12/20/237048",
-      "fetchedAt": "2026-11-10T07:16:10.294Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "title": "特典会",
-      "artist": "中村麗乃",
-      "venue": "HMV&BOOKS SHIBUYA",
-      "date": "2026-12-06",
-      "time": "12:00",
-      "url": "https://www.hmv.co.jp/store/event/56614/",
-      "sourceId": "hmv-shibuya",
-      "kind": "",
-      "id": "hmv-shibuya:2026-12-06:12:00:https://www.hmv.co.jp/store/event/56614/",
-      "fetchedAt": "2026-11-10T07:16:15.481Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "title": "トークショー&特典会",
-      "artist": "いぎなり東北産",
-      "venue": "HMV&BOOKS NAMBA",
-      "date": "2026-11-14",
-      "time": "13:30",
-      "url": "https://www.hmv.co.jp/store/event/56689/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-11-14:13:30:https://www.hmv.co.jp/store/event/56689/",
-      "fetchedAt": "2026-11-10T07:16:15.481Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "title": "特典会",
-      "artist": "いぎなり東北産",
-      "venue": "HMV大宮アルシェ",
-      "date": "2026-11-19",
-      "time": "18:30",
-      "url": "https://www.hmv.co.jp/store/event/56691/",
-      "sourceId": "hmv-other",
-      "kind": "",
-      "id": "hmv-other:2026-11-19:18:30:https://www.hmv.co.jp/store/event/56691/",
-      "fetchedAt": "2026-11-10T07:16:15.481Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "id": "vv-all:2026-11-21:12:00:https://www.village-v.co.jp/event/031629/",
-      "title": "【selfish】フリーライブ",
-      "artist": "selfish",
-      "venue": "横浜ビブレ Niigoひろば",
-      "date": "2026-11-21",
-      "time": "12:00",
-      "url": "https://www.village-v.co.jp/event/031629/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-11-10T07:16:13.808Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
-    },
-    {
-      "id": "vv-all:2026-11-14:14:00:https://www.village-v.co.jp/event/031604/",
-      "title": "『わんわんアイドルゆりぴ〜全国おさんぽLiveツアー』＠あまがさきキューズモール 2F Q’s park（キューズパーク）",
-      "artist": "わんわんアイドルゆりぴ〜全国おさんぽLiveツアー",
-      "venue": "あまがかきキューズモール",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "url": "https://www.village-v.co.jp/event/031604/",
-      "sourceId": "vv-all",
-      "kind": "",
-      "fetchedAt": "2026-11-10T07:16:13.809Z",
-      "firstSeenAt": "2026-11-10T07:16:07.454Z"
     }
   ],
   "statuses": {
     "tower-shibuya": {
       "ok": true,
-      "count": 60,
-      "checkedAt": "2026-11-16T06:27:03.171Z",
+      "count": 62,
+      "checkedAt": "2026-11-17T07:53:59.276Z",
       "error": ""
     },
     "tower-all": {
-      "ok": true,
+      "ok": false,
       "count": 197,
-      "checkedAt": "2026-11-16T06:27:04.934Z",
-      "error": ""
+      "checkedAt": "2026-11-17T07:53:59.699Z",
+      "error": "HTTP 403"
     },
     "vv-all": {
       "ok": true,
-      "count": 30,
-      "checkedAt": "2026-11-16T06:27:10.459Z",
+      "count": 32,
+      "checkedAt": "2026-11-17T07:54:02.141Z",
       "error": ""
     },
     "hmv-shibuya": {
       "ok": true,
-      "count": 79,
-      "checkedAt": "2026-11-16T06:27:13.009Z",
+      "count": 87,
+      "checkedAt": "2026-11-17T07:54:04.923Z",
       "error": ""
     },
     "hmv-other": {
       "ok": true,
       "count": 96,
-      "checkedAt": "2026-11-16T06:27:13.009Z",
+      "checkedAt": "2026-11-17T07:54:04.923Z",
       "error": ""
     }
   },
-  "refreshedAt": "2026-11-16T06:26:57.629Z"
+  "refreshedAt": "2026-11-17T07:53:56.790Z"
 }
